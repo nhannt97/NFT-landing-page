@@ -33,28 +33,32 @@ export default function Home() {
         </div> */}
           <div class="download-content">
             <img id="second-bg" src="dynamon.png" />
-            <div id="content-left">
-              <div class="earn-sapphire-and-other-in-game-resources">
-                {t('home.earn-sapphire-and-other-in-game-resources')}
-              </div>
-              <div id="stores">
-                <div class="store">
-                  <img src="appstore.svg" />
-                  <div>Download on the <br /><span>APP STORE</span></div>
+            <div class="content">
+              <div id="content-left">
+                <div class="earn-sapphire-and-other-in-game-resources">
+                  {t('home.earn-sapphire-and-other-in-game-resources-1')}
+                  <br />{t('home.earn-sapphire-and-other-in-game-resources-2')}
                 </div>
-                <div class="store">
-                  <img src="chplay.svg" />
-                  <div>Get it on <br /><span>GOOGLE PLAY</span></div>
+                <div id="stores">
+                  <div class="store">
+                    <img src="appstore.svg" />
+                    <div>Download on the <br /><span>APP STORE</span></div>
+                  </div>
+                  <div class="store">
+                    <img src="chplay.svg" />
+                    <div>Get it on <br /><span>GOOGLE PLAY</span></div>
+                  </div>
+                </div>
+              </div>
+              <div id="content-right">
+                <div class="">
+                  Earn SAPPHIRE by winning battles, successfully defending your base, completing different challenges, climbing your way up on the leaderboards, and many more.
+                  <br />
+                  <br />Gold, Elixir, and Dark Elixir are additional in-game resources that your heroes and troops can steal from opponent&#039;s villages.
                 </div>
               </div>
             </div>
-            <div id="content-right">
-              <div class="">
-                Earn SAPPHIRE by winning battles, successfully defending your base, completing different challenges, climbing your way up on the leaderboards, and many more.
-                <br />
-                <br />Gold, Elixir, and Dark Elixir are additional in-game resources that your heroes and troops can steal from opponent&#039;s villages.
-              </div>
-            </div>
+
           </div>
         </div>
 
@@ -74,13 +78,15 @@ export default function Home() {
           </div>
         </div>
         <div id="god-game-container">
-          <div id="god-game-left">
-            <div id="god-game">
-              God game with NFTs
-            </div>
-            <div id="god-has-heard-my-call">
-              God has heard my call! Join the war of the gods conquer this battle called RISE OF IMMORTALS. Customize your army, build temples and pedestals and crush your opponents. Using the power of the gods, strike your enemy’s weaknesses and forge a legacy by conquering lands and dominating enemies.
-              God game with NFTs
+          <div id="god-game-content">
+            <div id="god-game-left">
+              <div id="god-game">
+                God game with NFTs
+              </div>
+              <div id="god-has-heard-my-call">
+                God has heard my call! Join the war of the gods conquer this battle called RISE OF IMMORTALS. Customize your army, build temples and pedestals and crush your opponents. Using the power of the gods, strike your enemy’s weaknesses and forge a legacy by conquering lands and dominating enemies.
+                God game with NFTs
+              </div>
             </div>
           </div>
         </div>

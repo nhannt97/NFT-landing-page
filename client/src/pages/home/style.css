@@ -44,7 +44,8 @@
   padding-right: 100px;
   position: relative;
   text-align: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 .homepage .download .bg-container {
@@ -74,14 +75,20 @@
   top: -105px;
   right: -60px;
   width: 210px;
+  transform: perspective(900px) rotateY(10deg) translateX(10px) skewY(2deg);
 }
 
 .homepage .download-content {
+  max-width: 1400px;
   position: relative;
-  padding: 100px 70px 70px 70px;
-  display: flex;
   background-color: rgb(23, 34, 44);
   border-radius: 30px;
+  transform: perspective(900px) rotateY(-8deg) translateX(-60px) skewY(-2deg);
+}
+.homepage .content {
+  padding: 80px 60px 60px 60px;
+  display: flex;
+  transform: perspective(900px) rotateY(10deg) translateX(60px) skewY(2deg);
 }
 
 .homepage #stores {
@@ -140,7 +147,8 @@
 }
 
 .homepage #see-the-latest-container {
-  margin: 0 100px 100px 100px;
+  margin: 0 auto 100px auto;
+  max-width: 1250px;
   border-radius: 30px;
   background-color: rgb(23, 34, 44);
   padding: 110px 70px;
@@ -169,12 +177,18 @@
 }
 
 .homepage #god-game-container {
-  margin: 100px 100px 100px 100px;
+  margin: 100px auto;
+  max-width: 1400px;
   border-radius: 30px;
   background-color: rgb(23, 34, 44);
+  transform: perspective(900px) rotateY(8deg) translateX(60px) rotateX(10deg) skewX(3deg) skewY(2deg);
+}
+
+.homepage #god-game-content {
   padding: 110px 70px;
   display: flex;
   justify-content: space-between;
+  transform: perspective(900px) rotateY(-8deg) translateX(-60px) rotateX(-8deg) skewY(-1.5deg) skewX(-5.5deg);
 }
 
 .homepage #god-game-left {
