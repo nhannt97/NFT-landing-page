@@ -1,0 +1,336 @@
+.homepage,
+.homepage * {
+  color: white;
+}
+
+.homepage {
+  background: linear-gradient(90.65deg, rgba(59, 66, 96, 1.00) 2.338569425046444%, rgba(59, 55, 85, 1.00) 30.52082061767578%, rgba(60, 46, 77, 1.00) 60.20832061767578%, rgba(61, 30, 59, 1.00) 100%);
+  backdrop-filter: blur(15px);
+  overflow: auto;
+}
+
+.background-layer {
+  background: linear-gradient(1.64deg, rgba(72, 78, 75, 1.00) 0%, rgba(0, 0, 0, 1.00) 18.54165345430374%, rgba(55, 64, 87, 1.00) 28.634896874427795%, rgba(21, 21, 21, 1.00) 39.89582061767578%, rgba(15, 31, 62, 1.00) 72.69231081008911%, rgba(0, 0, 0, 1.00) 83.85975360870361%, rgba(0, 0, 0, 0.00) 89.60002660751343%);
+  backdrop-filter: blur(15px);
+}
+
+.homepage #btn-play-to-earn {
+  height: 34px;
+  width: 154px;
+  color: #000000;
+  text-align: center;
+  font: 700 12px 'Barlow';
+}
+
+.homepage .title {
+  height: 430px;
+  color: white;
+  text-align: left;
+  padding: 100px;
+}
+
+.homepage .aaa-hero-base-strategy-game {
+  font: 700 60px/120% 'Barlow';
+}
+
+.homepage .build {
+  font: 400 18px 'Barlow';
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.homepage .download {
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative;
+  text-align: center;
+
+}
+
+.homepage .download .bg-container {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: calc(100% - 200px);
+  height: 100%;
+  z-index: -1;
+}
+
+.homepage .download .bg {
+  width: 100%;
+  height: 100%;
+}
+
+.homepage .download .bg #first-bg {
+  /* width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px; */
+}
+
+.homepage .download #second-bg {
+  position: absolute;
+  top: -105px;
+  right: -60px;
+  width: 210px;
+}
+
+.homepage .download-content {
+  position: relative;
+  padding: 100px 70px 70px 70px;
+  display: flex;
+  background-color: rgb(23, 34, 44);
+  border-radius: 30px;
+}
+
+.homepage #stores {
+  display: flex;
+}
+
+.homepage .store {
+  background: #0c0f14;
+  border-radius: 8px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 15px;
+}
+
+.homepage .store div {
+  text-align: left;
+  font: 400 12px/16px 'Barlow';
+}
+
+.homepage .store span {
+  text-align: center;
+  font: 500 14px/16px 'Barlow';
+}
+
+.homepage .earn-sapphire-and-other-in-game-resources {
+  font: 700 35px/44px 'Barlow';
+  text-align: left;
+}
+
+.homepage .download-content #content-left {
+  width: 450px;
+}
+
+.homepage .download-content #content-right {
+  flex: 1;
+  color: #c9c9c9 !important;
+  text-align: left;
+  font: 400 18px/20px 'Barlow';
+}
+
+.homepage #sponsor {
+  text-align: center;
+  font: 700 40px/44px 'Barlow';
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.homepage #up-comming {
+  text-align: center;
+  font: 400 italic 100px/44px 'Barlow';
+  margin-bottom: 200px;
+}
+
+.homepage #see-the-latest-container {
+  margin: 0 100px 100px 100px;
+  border-radius: 30px;
+  background-color: rgb(23, 34, 44);
+  padding: 110px 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homepage #see-the-latest-right {
+  width: 50%;
+  text-align: left;
+}
+
+.homepage #see-the-latest {
+  font: 700 40px/45.5px 'Barlow';
+}
+
+.homepage #to-stay-on-top {
+  color: rgba(255, 255, 255, 0.79) !important;
+  font: 400 14px/20px 'Barlow';
+  margin: 30px 0;
+}
+
+.homepage #apps-title {
+  margin-bottom: 10px;
+  font: 500 14px 'Barlow';
+}
+
+.homepage #god-game-container {
+  margin: 100px 100px 100px 100px;
+  border-radius: 30px;
+  background-color: rgb(23, 34, 44);
+  padding: 110px 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homepage #god-game-left {
+  width: 60%;
+}
+
+.homepage #god-game {
+  text-align: left;
+  font: 700 60px/60px 'Barlow';
+  margin-bottom: 30px;
+}
+
+.homepage #god-has-heard-my-call {
+  color: rgba(255, 255, 255, 0.79) !important;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+}
+
+.homepage #lead-you-container {
+  margin: 100px 100px 100px 100px;
+  display: flex;
+}
+
+.homepage #lead-you-left {
+  padding: 100px 0;
+  width: 45%;
+}
+
+.homepage #lead-you-right {
+  box-shadow: 0px 8px 10px 0px rgb(0 0 0);
+  flex: 1;
+  margin: 10px;
+  height: 327px;
+}
+
+.homepage #lead-you {
+  text-align: left;
+  font: 700 40px/120% 'Barlow';
+}
+
+.homepage #hero-has-heard {
+  color: rgba(255, 255, 255, 0.79) !important;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+}
+
+.homepage #launch-container {
+  margin: 0 100px;
+}
+
+.homepage #launch-container #first-row {
+  display: flex;
+}
+
+.homepage #launch-container #first-row #first-row-left {
+  width: 60%;
+}
+
+.homepage #launch-container #first-row #first-row-right {
+  flex: 1;
+}
+
+.homepage #launch-container #first-row #launch {
+  text-align: left;
+  font: 700 40px/120% 'Barlow';
+}
+
+.homepage #launch-container #first-row #rise-of {
+  color: rgba(255, 255, 255, 0.79) !important;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+}
+
+.homepage #calendar-container {
+  margin: 80px 100px;
+}
+
+.homepage #calendar-container #first-row,
+.homepage #calendar-container #second-row {
+  display: flex;
+  justify-content: end;
+}
+
+.homepage #calendar-container #first-row #calendar-bar {
+  background: linear-gradient(90deg, rgba(61, 48, 111, 1.00) 0%, rgba(247, 214, 42, 1.00) 51.87498927116394%, rgba(241, 130, 0, 1.00) 100%);
+  border-radius: 16px;
+  width: 864.13px;
+  min-width: 864.13px;
+  height: 18.96px;
+  position: relative;
+}
+
+.homepage #calendar-container #first-row .line {
+  position: absolute;
+  top: -10px;
+  height: 45px;
+  border: solid rgba(255, 255, 255, 0.38);
+  border-width: 0 1px 0 0;
+}
+
+.homepage #calendar-container #second-row .line {
+  position: absolute;
+  top: -10px;
+  height: 60px;
+  border: solid rgba(255, 255, 255, 0.38);
+  border-width: 0 0 0 1px;
+}
+
+.homepage #calendar-container .line#line-1 {
+  left: 17.37px;
+}
+
+.homepage #calendar-container .line#line-2 {
+  left: 152.71px;
+}
+
+.homepage #calendar-container .line#line-3 {
+  left: 295.36px;
+}
+
+.homepage #calendar-container .line#line-4 {
+  left: 429.78px;
+}
+
+.homepage #calendar-container .line#line-5 {
+  left: 574.26px;
+}
+
+.homepage #calendar-container .line#line-6 {
+  left: 714.17px;
+}
+
+.homepage #calendar-container #second-row {
+  margin-top: 80px;
+}
+
+.homepage #calendar-container #second-row #calendar {
+  border-radius: 16px;
+  width: 864.13px;
+  min-width: 864.13px;
+  height: 18.96px;
+  position: relative;
+}
+
+#calendar-container .stage-title {
+  color: #f4f4f4 !important;
+  text-align: left;
+  font: 700 13px/16px 'Barlow';
+  padding-left: 2px;
+}
+
+#calendar-container .stage {
+  padding-top: 8px;
+  color: #717171 !important;
+  text-align: left;
+  font: 700 15px/44px 'Barlow';
+  line-height: 12px;
+  padding-left: 2px;
+}

@@ -1,0 +1,21 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Barlow',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  background-color: #ff8a00; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#fdc500, #ff8a00);
+  border: 0;
+  border-radius: 6px;
+}
