@@ -19,3 +19,11 @@ button {
   border: 0;
   border-radius: 6px;
 }
+
+select {
+  background: transparent;
+}
+
+option {
+  color: black !important;
+}

@@ -1,9 +1,11 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import './style.css';
 
 export default function Home() {
+  const { t, i18n } = useTranslation();
   return (
     <div class="homepage">
       <div class="background-layer">
@@ -33,8 +35,7 @@ export default function Home() {
             <img id="second-bg" src="dynamon.png" />
             <div id="content-left">
               <div class="earn-sapphire-and-other-in-game-resources">
-                Earn SAPPHIRE and other
-                <br />IN-GAME RESOURCES
+                {t('home.earn-sapphire-and-other-in-game-resources')}
               </div>
               <div id="stores">
                 <div class="store">

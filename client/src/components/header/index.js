@@ -1,7 +1,13 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
+import { resources, defaultLng } from '../../i18n';
 import './style.css';
 
 export default function Header() {
+  const { i18n } = useTranslation();
+  const changeLanguage = (e) => {
+    i18n.changeLanguage(e.target.value);
+  }
   return (
     <div id="header">
       <div class="logo">
@@ -56,6 +62,11 @@ export default function Header() {
       <button id="btn-join-discord">
         JOIN DISCORD
       </button>
+      <select id="languages" value={i18n.language} onChange={changeLanguage}>
+        {Object.keys(resources).map((lang) => (
+          <option value={lang}>{resources[lang].label}</option>
+        ))}
+      </select>
     </div >
   );
 }
