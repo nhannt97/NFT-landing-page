@@ -7,7 +7,8 @@ import { initReactI18next } from "react-i18next";
 export const resources = {
   en: {
     translation: {
-      "home.earn-sapphire-and-other-in-game-resources": "Earn SAPPHIRE and other IN-GAME RESOURCES"
+      "home.earn-sapphire-and-other-in-game-resources-1": "Earn SAPPHIRE and other",
+      "home.earn-sapphire-and-other-in-game-resources-2": "IN-GAME RESOURCES"
     },
     label: 'English'
   },
