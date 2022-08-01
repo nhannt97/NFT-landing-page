@@ -8,3 +8,67 @@
   backdrop-filter: blur(15px);
   overflow: auto;
 }
+
+#building #title-content {
+  margin-top: 50px;
+  text-align: center;
+  font: 700 40px 'Barlow';
+  height: 100%;
+}
+
+#building #image-content {
+  padding: 0px 100px;
+}
+
+#building #image-content #image {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+}
+
+#building #building-lever {
+  display: flex;
+  margin: auto;
+  margin-top: 200px;
+  padding: 0px 100px;
+  max-width: 1200px;
+
+}
+
+#building #building-lever .lever {
+  text-align: center;
+  font: 400 14px 'Barlow';
+}
+
+#building #building-lever .arrow {
+  font-size: 20px;
+  position: relative;
+  min-width: 15px;
+  border-top: 2px solid #8d8d8d;
+  border-style: dashed;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  margin-top: 70px;
+}
+
+#building #building-lever .image {
+  padding: 10px;
+  padding-bottom: 15px;
+  max-width: calc((1200-60)/5)px;
+
+}
+
+#building #building-lever .arrow-final {
+  font-size: 20px;
+  color: #8d8d8d;
+  position: absolute;
+  right: -10px;
+  top: -16px;
+}
+
+#building #blank {
+  height: 700px;
+  width: 100%;
+}
