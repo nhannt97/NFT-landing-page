@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <div id="header">
       <div class="logo">
-        <img src="LOGO.svg" />
+        <img alt="logo" src="images/Logo 1.png" />
       </div>
       <div class="menu">
         <a class="menu-item active" href="/">

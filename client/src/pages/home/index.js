@@ -2,6 +2,8 @@ import React from "react";
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
+import Stores from '../../components/stores';
+import Socials from '../../components/socials';
 import './style.css';
 
 export default function Home() {
@@ -26,29 +28,15 @@ export default function Home() {
         </div>
 
         <div class="download">
-          {/* <div class="bg-container">
-          <img id="first-bg" src="bg-1.svg" />
-          <div class="bg">
-          </div>
-        </div> */}
           <div class="download-content">
-            <img id="second-bg" src="dynamon.png" />
+            <img id="second-bg" alt="dynamon" src="images/Dynamon.png" />
             <div class="content">
               <div id="content-left">
                 <div class="earn-sapphire-and-other-in-game-resources">
                   {t('home.earn-sapphire-and-other-in-game-resources-1')}
                   <br />{t('home.earn-sapphire-and-other-in-game-resources-2')}
                 </div>
-                <div id="stores">
-                  <div class="store">
-                    <img src="appstore.svg" />
-                    <div>Download on the <br /><span>APP STORE</span></div>
-                  </div>
-                  <div class="store">
-                    <img src="chplay.svg" />
-                    <div>Get it on <br /><span>GOOGLE PLAY</span></div>
-                  </div>
-                </div>
+                <Stores />
               </div>
               <div id="content-right">
                 <div class="">
@@ -69,16 +57,14 @@ export default function Home() {
           <div id="see-the-latest-right">
             <div id="see-the-latest">SEE THE LASTEST</div>
             <div id="to-stay-on-top">To stay on top of your game, keep an eye on the in-game News section. Follow us on social media for the latest chatter and sneak peeks on what the team is working on. Don’t be a stranger and join the conversation</div>
-            <div id="apps">
-              <div id="apps-title">Follow Rise of Immortals on</div>
-              <div>
-                <img src="apps.svg" />
-              </div>
+            <div id="socials">
+              <Socials />
             </div>
           </div>
         </div>
         <div id="god-game-container">
           <div id="god-game-content">
+            <img src="images/Six head.png" alt="" />
             <div id="god-game-left">
               <div id="god-game">
                 God game with NFTs
@@ -95,59 +81,69 @@ export default function Home() {
             <div id="lead-you">Lead you Clan to the Victory</div>
             <div id="hero-has-heard">Hero has heard our call! Join the war of the Heroes and conquer this battle through Rise of Immortals. Customize your army, build your defense, and crush your opponents. Using the power of the Heroes, strike your enemies and forge a legacy by conquering their lands and destroying their villages.</div>
           </div>
-          <div id="lead-you-right"></div>
+          <div id="lead-you-right">
+            <img src="images/Clan.png" alt="" />
+          </div>
         </div>
-        <div id="launch-container">
-          <div id="first-row">
-            <div id="first-row-left"></div>
-            <div id="first-row-right">
-              <div id="launch">Launch is just the beginning</div>
-              <div id="rise-of">
-                Rise of Immortals has been constantly evolving to offer more user-friendly, more consistent and more fun online experiences for.
+        <div id="launch-calendar">
+          <div>
+            <img src="images/Launch.png" alt="" />
+          </div>
+          <div>
+            <div id="launch-container">
+              <div id="first-row">
+                <div id="first-row-left"></div>
+                <div id="first-row-right">
+                  <div id="launch">Launch is just the beginning</div>
+                  <div id="rise-of">
+                    Rise of Immortals has been constantly evolving to offer more user-friendly, more consistent and more fun online experiences for.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="calendar-container">
+              <div id="first-row">
+                <div id="calendar-bar">
+                  <div id="line-1" class="line"></div>
+                  <div id="line-2" class="line"></div>
+                  <div id="line-3" class="line"></div>
+                  <div id="line-4" class="line"></div>
+                  <div id="line-5" class="line"></div>
+                  <div id="line-6" class="line"></div>
+                </div>
+              </div>
+              <div id="second-row">
+                <div id="calendar">
+                  <div id="line-1" class="line">
+                    <div class="stage">Q1 2022</div>
+                    <div class="stage-title">Game Concept Release</div>
+                  </div>
+                  <div id="line-2" class="line">
+                    <div class="stage">Q2 2022</div>
+                    <div class="stage-title">Community Launch</div>
+                  </div>
+                  <div id="line-3" class="line">
+                    <div class="stage">Q3 2022</div>
+                    <div class="stage-title">NFT Sale</div>
+                  </div>
+                  <div id="line-4" class="line">
+                    <div class="stage">Q4 2022</div>
+                    <div class="stage-title">Public Beta Launch</div>
+                  </div>
+                  <div id="line-5" class="line">
+                    <div class="stage">Q1 2023</div>
+                    <div class="stage-title">Game Launch</div>
+                  </div>
+                  <div id="line-6" class="line">
+                    <div class="stage">Q2 2023</div>
+                    <div class="stage-title">Tournament Esports</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div id="calendar-container">
-          <div id="first-row">
-            <div id="calendar-bar">
-              <div id="line-1" class="line"></div>
-              <div id="line-2" class="line"></div>
-              <div id="line-3" class="line"></div>
-              <div id="line-4" class="line"></div>
-              <div id="line-5" class="line"></div>
-              <div id="line-6" class="line"></div>
-            </div>
-          </div>
-          <div id="second-row">
-            <div id="calendar">
-              <div id="line-1" class="line">
-                <div class="stage">Q1 2022</div>
-                <div class="stage-title">Game Concept Release</div>
-              </div>
-              <div id="line-2" class="line">
-                <div class="stage">Q2 2022</div>
-                <div class="stage-title">Community Launch</div>
-              </div>
-              <div id="line-3" class="line">
-                <div class="stage">Q3 2022</div>
-                <div class="stage-title">NFT Sale</div>
-              </div>
-              <div id="line-4" class="line">
-                <div class="stage">Q4 2022</div>
-                <div class="stage-title">Public Beta Launch</div>
-              </div>
-              <div id="line-5" class="line">
-                <div class="stage">Q1 2023</div>
-                <div class="stage-title">Game Launch</div>
-              </div>
-              <div id="line-6" class="line">
-                <div class="stage">Q2 2023</div>
-                <div class="stage-title">Tournament Esports</div>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <Footer />
       </div>
     </div>
