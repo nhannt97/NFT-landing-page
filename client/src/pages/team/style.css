@@ -8,3 +8,9 @@
   backdrop-filter: blur(15px);
   overflow: auto;
 }
+
+#team #title{
+  color: #ffffff;
+    text-align: center;
+    font: 700 40px 'Barlow';
+}

@@ -15,43 +15,43 @@ export default function Building() {
           {t('building.title-content.2')}
         </div>
         <div id="image-content">
-          <img id="image" src="" alt="Image error"/>
+          <img id="image" src="images/Clan.png" alt="Image error"/>
         </div>
         <div id="building-lever">
-          <div>
-          <img class="image" src="" alt="Image error"/>
+          <div class="template">
+          <img class="image" src="images/Cascle/Lvl1.png" alt="Image error"/>
           <div class="lever" id="building-lever1">{t('building.building-lever1')}</div>
           </div>
           <div class="arrow">
             <div class="arrow-final">&gt;</div>
           </div>
 
-          <div>
-          <img class="image" src="" alt="Image error"/>
+          <div class="template">
+          <img class="image" src="images/Cascle/Lvl2.png" alt="Image error"/>
           <div class="lever" id="building-lever2">{t('building.building-lever2')}</div>
           </div>
           <div class="arrow">
             <div class="arrow-final">&gt;</div>
           </div>
 
-          <div>
-          <img class="image" src="" alt="Image error"/>
+          <div class="template">
+          <img class="image" src="images/Cascle/Lvl3.png" alt="Image error"/>
           <div class="lever" id="building-lever3">{t('building.building-lever3')}</div>
           </div>
           <div class="arrow">
             <div class="arrow-final">&gt;</div>
           </div>
 
-          <div>
-          <img class="image" src="" alt="Image error"/>
+          <div class="template">
+          <img class="image" src="images/Cascle/Lvl4.png" alt="Image error"/>
           <div class="lever" id="building-lever4">{t('building.building-lever4')}</div>
           </div>
           <div class="arrow">
             <div class="arrow-final">&gt;</div>
           </div>
 
-          <div>
-          <img class="image" src="" alt="Image error"/>
+          <div class="template">
+          <img class="image" src="images/Cascle/Lvl5.png" alt="Image error"/>
           <div class="lever" id="building-lever5">{t('building.building-lever5')}</div>
           </div>
         </div>
