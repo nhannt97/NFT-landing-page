@@ -8,7 +8,15 @@ export const resources = {
   en: {
     translation: {
       "home.earn-sapphire-and-other-in-game-resources-1": "Earn SAPPHIRE and other",
-      "home.earn-sapphire-and-other-in-game-resources-2": "IN-GAME RESOURCES"
+      "home.earn-sapphire-and-other-in-game-resources-2": "IN-GAME RESOURCES",
+      "building.title-content.1": "LEVELING YOUR",
+      "building.title-content.2": "VILLAGE",
+      "building.building-lever1": "Building Level 1",
+      "building.building-lever2": "Building Level 2",
+      "building.building-lever3": "Building Level 3",
+      "building.building-lever4": "Building Level 4",
+      "building.building-lever5": "Building Level 5"
+
     },
     label: 'English'
   },
@@ -35,4 +43,4 @@ i18n
     }
   });
 
-  export default i18n;
+export default i18n;
