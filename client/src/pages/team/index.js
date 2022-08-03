@@ -9,7 +9,7 @@ export default function Team() {
   return (
     <div id="team">
       <Header />
-      Team
+      <div id="title">OUR TEAM</div>
       <Footer />
     </div>
   );
