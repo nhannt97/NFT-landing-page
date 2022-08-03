@@ -55,15 +55,62 @@ export default function Team() {
       <div class="title">OUR ADVISORS</div>
       <div class="content-ourAdvisors">
         <div class="content-ourAdvisors-element">
-          <img src="images/281886969_5124306397645497_3470591421062792137_n 2.png" alt="image error" />
+          <img id="image-ourAdvisors" src="images/z3616430533416_431d5bb522ae7923d41a62023f21d7de.jpg" alt="image error" />
           <div class="content-ourAdvisors-detail">
-            <div class="name">Name</div>
-            <div class="job-title">Job titles</div>
-            <div class="description">Description</div>
+            <div class="text" >
+              <div class="name">Name</div>
+              <div class="job-title">Job titles</div>
+              <div class="description">Description</div>
+            </div>
+            <div class="icon-content">
+              <img src="images/Social/Twitter.png" alt="twitter" />
+              <img src="images/Social/Facebook.png" alt="facebook" />
+            </div>
           </div>
-          <div id="icon-content">
-          
+        </div>
+
+        <div class="content-ourAdvisors-element">
+          <img id="image-ourAdvisors" src="images/z3616430533416_431d5bb522ae7923d41a62023f21d7de.jpg" alt="image error" />
+          <div class="content-ourAdvisors-detail">
+            <div class="text" >
+              <div class="name">Name</div>
+              <div class="job-title">Job titles</div>
+              <div class="description">Description</div>
+            </div>
+            <div class="icon-content">
+              <img src="images/Social/Twitter.png" alt="twitter" />
+              <img src="images/Social/Facebook.png" alt="facebook" />
+            </div>
           </div>
+        </div>
+
+        <div class="content-ourAdvisors-element">
+          <img id="image-ourAdvisors" src="images/z3616430533416_431d5bb522ae7923d41a62023f21d7de.jpg" alt="image error" />
+          <div class="content-ourAdvisors-detail">
+            <div class="text" >
+              <div class="name">Name</div>
+              <div class="job-title">Job titles</div>
+              <div class="description">Description</div>
+            </div>
+            <div class="icon-content">
+              <img src="images/Social/Twitter.png" alt="twitter" />
+              <img src="images/Social/Facebook.png" alt="facebook" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="blank-place"></div>
+      <div id="concept-art-by">CONCEPT ART BY</div>
+      <div id="content-concept-art-by">
+        <div id="concept-art-by-image">
+          <img src="images/Ellipse 24.png" alt="image error" />
+          <div id="culu-art-station">CULU ART STATION</div>
+        </div>
+        <div id="concept-art-by-text">
+          <div>We encourage artists to use their talents where they have the most impact. In addition to helping us stay small, it means you may have the opportunity to work on a project you weren't originally supposed to work with. Of course, you will always be consulted first and take an active role in the decision. And congratulations for being one of the main Concept artists for us.
+            <br></br>
+            <br></br>
+            Your colleagues will trust you to do what makes sense and is appropriate for Rise of Immortals.</div>
         </div>
       </div>
       <Footer />

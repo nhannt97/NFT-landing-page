@@ -9,31 +9,138 @@
   overflow: auto;
 }
 
-#team .title{
+#team .title {
   margin-top: 80px;
   color: #ffffff;
-    text-align: center;
-    font: 700 40px 'Barlow';
+  text-align: center;
+  font: 700 40px 'Barlow';
 }
-#team #content-ourteam{
+
+#team #content-ourteam {
   margin-top: 90px;
-  display:flex;  
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
-#team .content-ourteam-detail{
+#team .content-ourteam-detail {
+  padding-top: 25px;
   width: 25%;
 }
-#team #name{
+
+#team #name {
   text-align: center;
-    font: 700 15px/44px 'Barlow';
+  font: 700 15px/44px 'Barlow';
 }
-#team #job-title{
+
+#team #job-title {
   text-align: center;
   font: 700 10px/44px 'Barlow';
 }
 
-#team #content-ourAdvisors #content-ourAdvisors-detail{
-background-color: ;
+
+
+#team .content-ourAdvisors .content-ourAdvisors-element {
+  max-width: calc((100%-200px-30px*6)/3);
+  padding: 50px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+}
+
+#team .content-ourAdvisors .content-ourAdvisors-element #image-ourAdvisors {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#team .content-ourAdvisors .content-ourAdvisors-detail {
+  background-color: #171d27;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#team .content-ourAdvisors .content-ourAdvisors-detail .text {
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+#team .content-ourAdvisors .content-ourAdvisors-detail .name {
+  font: 800 25px 'Barlow';
+}
+
+#team .content-ourAdvisors .content-ourAdvisors-detail .job-title {
+  color: #e4a400;
+  font: 100 12px 'Barlow';
+}
+
+#team .content-ourAdvisors .content-ourAdvisors-detail .description {
+  color: #ffffff;
+  font: 400 15px 'Barlow';
+}
+
+#team .content-ourAdvisors .content-ourAdvisors-detail .icon-content {
+  margin-top: 50px;
+}
+
+#team .content-ourAdvisors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+#team .icon-content{
+  padding: 15px 30px;
+  display: flex;
+  justify-content: left;
+}
+
+#team .icon-content img {
+  width: 18px;
+  padding: 4px;
+}
+
+#team #concept-art-by {
+  color: #ffffff;
+  text-align: center;
+  font: 700 40px 'Barlow';
+}
+
+#team #content-concept-art-by {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px 100px;
+  justify-content: center;
+  margin: 50px 0px 150px;
+
+}
+
+#team #content-concept-art-by #concept-art-by-image {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#team #content-concept-art-by #concept-art-by-image img {
+  width: 100%;
+  max-width: 350px;
+}
+
+#team #content-concept-art-by #concept-art-by-text {
+  flex: 1;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+}
+
+#team #content-concept-art-by #culu-art-station {
+  color: #ffffff;
+  text-align: center;
+  font: 800 25px 'Barlow';
+}
+
+#team #blank-place{
+  height: 800px;
 }
