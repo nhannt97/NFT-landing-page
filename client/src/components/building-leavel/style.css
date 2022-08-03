@@ -1,0 +1,51 @@
+#building-lever {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+#building-lever .template {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-left: -10px;
+}
+
+#building-lever .lever {
+  text-align: center;
+  font: 400 14px 'Barlow';
+  position: absolute;
+  top: 140px;
+  left: 50px;
+}
+
+#building-lever .arrow {
+  font-size: 20px;
+  position: relative;
+  min-width: 45px;
+  border-top: 2px solid #8d8d8d;
+  border-style: dashed;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  margin-top: 70px;
+}
+
+#building-lever .image {
+  position: absolute;
+  bottom: -55px;
+  left: 40px;
+  width: 120px;
+  padding-bottom: 15px;
+}
+
+
+
+#building-lever .arrow-final {
+  font-size: 25px;
+  color: #8d8d8d;
+  position: absolute;
+  right: -10px;
+  top: -19px;
+}
