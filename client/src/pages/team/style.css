@@ -9,8 +9,31 @@
   overflow: auto;
 }
 
-#team #title{
+#team .title{
+  margin-top: 80px;
   color: #ffffff;
     text-align: center;
     font: 700 40px 'Barlow';
+}
+#team #content-ourteam{
+  margin-top: 90px;
+  display:flex;  
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+#team .content-ourteam-detail{
+  width: 25%;
+}
+#team #name{
+  text-align: center;
+    font: 700 15px/44px 'Barlow';
+}
+#team #job-title{
+  text-align: center;
+  font: 700 10px/44px 'Barlow';
+}
+
+#team #content-ourAdvisors #content-ourAdvisors-detail{
+background-color: ;
 }
