@@ -7,7 +7,9 @@ export default function MarketPlace() {
   return (
     <div id="marketplace">
       <Header />
-      Market Place
+      <div id="img-container">
+        <img src="images/market.png" alt="" width="100%" />
+      </div>
       <Footer />
     </div>
   );

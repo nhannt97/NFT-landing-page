@@ -8,3 +8,6 @@
   backdrop-filter: blur(15px);
   overflow: auto;
 }
+#marketplace #img-container {
+  padding: 50px 100px;
+}

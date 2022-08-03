@@ -8,3 +8,228 @@
   backdrop-filter: blur(15px);
   overflow: auto;
 }
+
+#about #banner-slide {
+  padding: 0 100px;
+}
+
+#about #banner-slide .carousel-item>div {
+  top: 0;
+  left: 0;
+}
+
+#about .aaa-hero-base-strategy-game {
+  color: rgba(255, 255, 255, 0.87) !important;
+  font: 700 36px/44px 'Barlow';
+}
+
+#about .rise-of {
+  color: rgba(255, 255, 255, 0.79) !important;
+  font: 400 14px/20px 'Barlow';
+}
+
+#about #carouselAboutBanner .carousel-indicators li {
+  width: 18px !important;
+  height: 18px !important;
+  border: 0px !important;
+  border-radius: 10px !important;
+  margin: 5px;
+}
+
+#about #believe-container {
+  margin-bottom: 200px;
+}
+
+#about #believe {
+  max-width: 1400px;
+  position: relative;
+  background-color: rgb(42, 25, 48);
+  border-radius: 30px;
+  transform: perspective(900px) rotateY(-8deg) translateX(-60px) skewY(-2deg);
+}
+
+#about #believe #content {
+  padding: 30px 30px 0 30px;
+  transform: perspective(900px) rotateY(10deg) translateX(60px) skewY(2deg);
+}
+
+#about #what-we-believe {
+  font: 700 35px/44px 'Barlow';
+}
+
+#about #believe-items {
+  transform: translateY(90px);
+}
+
+#about .believe-item {
+  padding: 80px 0 30px 0;
+  border-radius: 25px;
+  background-color: #17222c;
+  height: 100%;
+  box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%)
+}
+
+#about .believe-item img {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#about .believe-item .img-title {
+  font: 700 20px/20px 'Barlow';
+}
+
+#about .believe-item .img-des {
+  color: rgba(255, 255, 255, 0.79) !important;
+  font: 400 16px/20px 'Barlow';
+}
+
+#about #why-you-might-love-it-container {
+  padding: 0 100px;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+#about #why-you-might-love-it-container img {
+  width: 55%;
+  margin-right: 20px;
+}
+
+#about #why-you-might-love-it-container #why-you-might-love-it-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about #why-you-might-love-it-container #why-you-might-love-it {
+  font: 700 36px/44px 'Barlow';
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+#about #why-you-might-love-it-container #des-1,
+#about #why-you-might-love-it-container #des-2 {
+  color: rgba(240, 240, 240, 0.79) !important;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+  margin-bottom: 15px;
+}
+
+#about #why-you-might-love-it-container #read-more {
+  color: #e7ac00 !important;
+  cursor: pointer;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+  display: flex;
+  align-items: center;
+}
+
+#about #why-you-might-love-it-container #read-more i {
+  color: #e7ac00 !important;
+  cursor: pointer;
+  text-align: left;
+  font: 400 14px/20px;
+}
+
+/*  */
+#about #market-place-container {
+  padding: 0 100px;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+#about #market-place-container #market-place-content {
+  width: 55%;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about #market-place-container img {
+  flex: 1;
+}
+
+#about #market-place-container #rise-of {
+  font: 700 36px/44px 'Barlow';
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+#about #market-place-container #des-1,
+#about #market-place-container #des-2 {
+  color: rgba(240, 240, 240, 0.79) !important;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+  margin-bottom: 15px;
+}
+
+#about #market-place-container #read-more {
+  color: #e7ac00 !important;
+  cursor: pointer;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+  display: flex;
+  align-items: center;
+}
+
+#about #market-place-container #read-more i {
+  color: #e7ac00 !important;
+  cursor: pointer;
+  text-align: left;
+  font: 400 14px/20px;
+}
+
+/* 
+ */
+
+#about #level-building-container {
+  margin: 170px auto 150px auto;
+  max-width: 1400px;
+  border-radius: 30px;
+  background-color: rgb(23, 34, 44);
+  transform: perspective(900px) rotateY(8deg) translateX(60px) rotateX(10deg) skewX(3deg) skewY(2deg);
+}
+
+#about #level-building-container #level-building-content {
+  padding: 50px 0px;
+  transform: perspective(900px) rotateY(-8deg) translateX(-60px) rotateX(-8deg) skewY(-1.5deg) skewX(-5.5deg);
+}
+
+#about #level-building-container img {
+  flex: 1;
+}
+
+#about #level-building-container #level-building {
+  font: 700 36px/44px 'Barlow';
+  text-align: cener;
+  margin-bottom: 15px;
+}
+
+#about #level-building-container #des-1 {
+  color: rgba(240, 240, 240, 0.79) !important;
+  text-align: center;
+  font: 400 14px/20px 'Barlow';
+}
+
+#about #level-building-container #read-more {
+  color: #e7ac00 !important;
+  cursor: pointer;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+  display: flex;
+  justify-content: center;
+}
+
+#about #level-building-container #read-more i {
+  color: #e7ac00 !important;
+  cursor: pointer;
+  text-align: left;
+  font: 400 14px/20px;
+}
+#about #building-level-container {
+  padding: 75px 0;
+  margin-bottom: 50px;
+}
