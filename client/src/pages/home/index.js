@@ -145,6 +145,7 @@ export default function Home() {
           </div>
         </div>
         <div id="video-slide">
+          <div id="video-title">Launch is just the beginning</div>
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
             <div class="carousel-inner">
               {[1, 2, 3].map((element, idx) => (
@@ -168,17 +169,57 @@ export default function Home() {
           </div>
         </div>
         <div id="vision-container">
-          <div class="d-flex">
-            <div>
-                <div></div>
-                <div class="text-center">
-                  <span id="vision-quote-start">"</span>
-                  <span>Are you ready to be part of our success or you'll just ignore this
-                    <br/>once in a lifetime opportunity and get left behind?</span>
-                  <span id="vision-quote-end">"</span>
+          <div class="d-flex justify-content-center">
+            <div id="vision-content">
+              <div id="vision-title">Vison</div>
+              <div id="carousel-vision-content" class="carousel slide mb-5" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active p-3">
+                    <div class="mb-3">RISE of IMMORTALS aims o catch the wave to follow the trends of
+                      <br /> tomorrow and do the right thing about P2E games.</div>
+                    <div>We aim to sick with our name and IMMORATLIZE our game to co-exist with other big names inside and outsite the crypto word.</div>
+                  </div>
+                  <div class="carousel-item p-3">
+                    <div class="mb-3">RISE of IMMORTALS aims o catch the wave to follow the trends of
+                      <br /> tomorrow and do the right thing about P2E games.</div>
+                    <div>We aim to sick with our name and IMMORATLIZE our game to co-exist with other big names inside and outsite the crypto word.</div>
+                  </div>
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-vision-content" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-vision-content" data-slide-to="1"></li>
+                  </ol>
                 </div>
+              </div>
+              <div class="text-center quote position-relative">
+                <span id="vision-quote-start">"</span>
+                <span>Are you ready to be part of our success or you'll just ignore this
+                  <br />once in a lifetime opportunity and get left behind?</span>
+                <span id="vision-quote-end">"</span>
+              </div>
             </div>
-            <img src="images/vision.png" alt="" />
+            <img class="ml-5" src="images/vision.png" alt="" />
+          </div>
+        </div>
+        <div id="register-container">
+          <div id="register-content">
+            <div id="register-left">
+              <img src="images/NicePng_coc-troops-png_3623954 1.png" alt="" />
+            </div>
+            <div id="register-right">
+              <div id="register">
+                Pre register to stay up to date
+              </div>
+              <div id="sign-up">
+                Sign up to our newsletter to reveive development updates, token,
+                <br />and NFT drops, and exclusive promotions.
+              </div>
+              <div class="input-group mb-3 rounded-2">
+                <input type="email" class="form-control bg-transparent text-white" placeholder="Enter your email" />
+                <div class="input-group-append  rounded-2">
+                  <span class="input-group-text text-dark" id="basic-addon2">Join us now</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <Footer />

@@ -344,11 +344,13 @@
   line-height: 12px;
   padding-left: 2px;
 }
-
+.homepage #video-title {
+  font: 700 40px/44px 'Barlow';
+}
 .homepage #video-slide {
   padding: 0 100px;
 }
-.homepage .carousel-indicators li {
+.homepage #video-slide .carousel-indicators li {
   width: 18px !important;
   height: 18px !important;
   border: 0px !important;
@@ -356,11 +358,103 @@
   margin: 5px;
 }
 .homepage #vision-container {
-  padding: 0 100px;
+  padding: 30px 100px;
 }
 .homepage #vision-quote-start {
-  font-size: large;
+  font-size: 40px;
+  top: -10px;
+  left: 5px;
+  position: absolute;
 }
 .homepage #vision-quote-end {
-  font-size: large;
+  font-size: 40px;
+  right: 5px;
+  bottom: -25px;
+  position: absolute;
+}
+.homepage .quote {
+  border-radius: 20px;
+  background-color: #17222c;
+  padding: 10px;
+}
+.homepage #vision-title {
+  margin: 20px;
+  font: 700 40px/44px 'Barlow';
+}
+.homepage #vision-content {
+  max-width: 460px;
+}
+.homepage #vision-container .carousel-inner {
+  border-radius: 20px;
+  background-color: #17222c;
+}
+.homepage #vision-container .carousel-item {
+  
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+  padding-bottom: 50px !important;
+}
+.homepage #vision-container .carousel-item div {
+  color: rgba(255, 255, 255, 0.79) !important;
+}
+.homepage #vision-container .carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border: 0px !important;
+  border-radius: 5px !important;
+  margin: 4px;
+}
+
+
+.homepage #register-container {
+  margin: 170px auto 150px auto;
+  max-width: 1400px;
+  border-radius: 30px;
+  background-color: rgb(23, 34, 44);
+  transform: perspective(900px) rotateY(8deg) translateX(60px) rotateX(10deg) skewX(3deg) skewY(2deg);
+}
+
+.homepage #register-content {
+  padding: 110px 70px;
+  display: flex;
+  justify-content: space-between;
+  transform: perspective(900px) rotateY(-8deg) translateX(-60px) rotateX(-8deg) skewY(-1.5deg) skewX(-5.5deg);
+}
+
+.homepage #register-content img {
+  position: absolute;
+  right: 0;
+  top: -185px;
+}
+
+.homepage #register-left {
+  width: 40%;
+  position: relative;
+}
+
+.homepage #register {
+  text-align: left;
+  font: 700 40px/44px 'Barlow';
+}
+
+.homepage #sign-up {
+  color: rgba(255, 255, 255, 0.79) !important;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+  margin: 20px 0;
+}
+.homepage #register-container input {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right: 0px;
+  outline: 0px;
+}
+.homepage #register-container input:focus{
+  box-shadow: none !important;
+  border-color: white;
+}
+
+.homepage #register-container span {
+  border-radius: 10px;
+  margin-left: -10px;
 }
