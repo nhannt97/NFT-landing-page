@@ -131,10 +131,13 @@
   margin: 0 auto 100px auto;
   max-width: 1250px;
   border-radius: 30px;
-  background-color: rgb(23, 34, 44);
+  background-color: rgb(9 10 12);
   padding: 110px 70px;
   display: flex;
   justify-content: space-between;
+  background-image: url('../../../public/images/Poseidon_BannerBack\ 4.png');
+  background-repeat: no-repeat;
+  background-position: 0;
 }
 
 .homepage #see-the-latest-right {
@@ -340,4 +343,24 @@
   font: 700 15px/44px 'Barlow';
   line-height: 12px;
   padding-left: 2px;
+}
+
+.homepage #video-slide {
+  padding: 0 100px;
+}
+.homepage .carousel-indicators li {
+  width: 18px !important;
+  height: 18px !important;
+  border: 0px !important;
+  border-radius: 10px !important;
+  margin: 5px;
+}
+.homepage #vision-container {
+  padding: 0 100px;
+}
+.homepage #vision-quote-start {
+  font-size: large;
+}
+.homepage #vision-quote-end {
+  font-size: large;
 }

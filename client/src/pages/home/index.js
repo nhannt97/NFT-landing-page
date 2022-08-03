@@ -4,6 +4,7 @@ import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Stores from '../../components/stores';
 import Socials from '../../components/socials';
+import Video from '../../components/video';
 import './style.css';
 
 export default function Home() {
@@ -143,7 +144,43 @@ export default function Home() {
             </div>
           </div>
         </div>
-
+        <div id="video-slide">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+              {[1, 2, 3].map((element, idx) => (
+                <div key="element" class={`carousel-item position-relative ${element === 1 ? 'active' : ''} `}>
+                  <div class="d-flex">
+                    <div class="w-50 p-5">
+                      <Video id={`video-${idx * 2}`} src="videos/Zeus_Clip10s.mp4" type="video/mp4" width="100%" loop />
+                    </div>
+                    <div class="w-50 p-5">
+                      <Video id={`video-${idx * 2 + 1}`} src="videos/Zeus_Clip10s.mp4" type="video/mp4" width="100%" loop />
+                    </div>
+                  </div>
+                </div>
+              ))}
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div id="vision-container">
+          <div class="d-flex">
+            <div>
+                <div></div>
+                <div class="text-center">
+                  <span id="vision-quote-start">"</span>
+                  <span>Are you ready to be part of our success or you'll just ignore this
+                    <br/>once in a lifetime opportunity and get left behind?</span>
+                  <span id="vision-quote-end">"</span>
+                </div>
+            </div>
+            <img src="images/vision.png" alt="" />
+          </div>
+        </div>
         <Footer />
       </div>
     </div>

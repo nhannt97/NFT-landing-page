@@ -1,34 +1,14 @@
 import React from "react";
+import Stores from "../stores";
+import Socials from '../socials';
 import './style.css';
 
 export default function Footer() {
   return (
     <div id="footer">
       <div id="first-row">
-        <div id="apps">
-          <div id="apps-title">Follow Rise of Immortals on</div>
-          <div>
-            <img src="apps.svg"/>
-            {/* <img src="facebook.svg" />
-            <img src="instagram.svg" />
-            <img src="twitter.svg" />
-            <img src="discord.svg" />
-            <img src="youtube.svg" />
-            <img src="telegram.svg" />
-            <img src="unknown1.svg" />
-            <img src="unknow2.svg" /> */}
-          </div>
-        </div>
-        <div id="stores">
-          <div class="store">
-            <img src="appstore.svg" />
-            <div>Download on the <br/><span>APP STORE</span></div>
-          </div>
-          <div class="store">
-            <img src="chplay.svg" />
-            <div>Get it on <br/><span>GOOGLE PLAY</span></div>
-          </div>
-        </div>
+        <Socials />
+        <Stores />
       </div>
       <div id="second-row">
         <div class="content-item">
