@@ -192,25 +192,218 @@ export default function About() {
           <button class="button" type="button">Select Now</button>
         </div>
       </div>
-      <div className="container">
-        <div id="faq">
+
+      <div class="container mb-4  ">
+        <div id="faq" class="p-4 pt-4 pb-5">
           <div class=" detail d-flex" >
             <div class="text ml-3 ">
               IMPORTANT!
             </div>
             <a href="#box-content" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
-
           </div>
-          <div class="collapse mt-4" id="box-content">
+          <div class="collapse box-content" id="box-content">
             <div class="card card-body">
-              <p class="card-text ">Nội dung hiện thị !</p>
+              <p class="card-text ">Content</p>
             </div>
+          </div>
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              When will the marketplace be available?
+            </div>
+            <a href="#box-content1" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+          </div>
+          <div class="collapse box-content" id="box-content1">
+            <div class="card card-body">
+              <p class="card-text ">Content</p>
+            </div>
+          </div>
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              What cryptocurrency will be used on the Marketplace?
+            </div>
+            <a href="#box-content2" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+          </div>
+          <div class="collapse box-content" id="box-content2">
+            <div class="card card-body">
+              <p class="card-text ">Content</p>
+            </div>
+          </div>
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              Can I get NFTs for free?
+            </div>
+            <a href="#box-content3" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+          </div>
+          <div class="collapse box-content" id="box-content3">
+            <div class="card card-body">
+              <p class="card-text ">Content</p>
+            </div>
+          </div>
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              How do I get the NFTs (Base/Heroes/Statues) first at the initial price?
+            </div>
+            <a href="#box-content4" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+          </div>
+          <div class="collapse box-content" id="box-content4">
+            <div class="card card-body">
+              <p class="card-text ">Content</p>
+            </div>
+          </div>
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              How to buy tokens?
+            </div>
+            <a href="#box-content5" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+          </div>
+          <div class="collapse box-content" id="box-content5">
+            <div class="card card-body">
+              <p class="card-text ">Content</p>
+            </div>
+          </div>
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              When will token purchase be available?
+            </div>
+            <a href="#box-content6" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+          </div>
+          <div class="collapse box-content" id="box-content6">
+            <div class="card card-body">
+              <p class="card-text ">Content</p>
+            </div>
+          </div>
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              Where and when will the ICO / IDO be held?
+            </div>
+            <a href="#box-content7" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+          </div>
+          <div class="collapse box-content" id="box-content7">
+            <div class="card card-body">
+              <p class="card-text ">Content</p>
+            </div>
+          </div>
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              Is it possible to get a token for free?
+            </div>
+            <a href="#box-content8" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+          </div>
+          <div class="collapse box-content" id="box-content8">
+            <div class="card card-body">
+              <p class="card-text ">Content</p>
+            </div>
+          </div>
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              How do I buy tokens first at the starting price?
+            </div>
+            <a href="#box-content9" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+          </div>
+          <div class="collapse box-content" id="box-content9">
+            <div class="card card-body">
+              <p class="card-text ">Content</p>
+            </div>
+          </div>
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              On which exchanges will the token be sold?
+            </div>
+            <a href="#box-content0" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+          </div>
+          <div class="collapse box-content" id="box-content0">
+            <div class="card card-body">
+              <p class="card-text ">Content</p>
+            </div>
+          </div>
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              Do you have a whitelist?
+            </div>
+            <a href="#box-content11" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+          </div>
+          <div class="collapse box-content" id="box-content11">
+            <div class="card card-body">
+              <p class="card-text ">Content</p>
+            </div>
+          </div>
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              What platforms will the app be available on?
+            </div>
+            <a href="#box-content12" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+          </div>
+          <div class="collapse box-content" id="box-content12">
+            <div class="card card-body">
+              <p class="card-text ">Content</p>
+            </div>
+          </div>
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              What languages will the app be translated into?
+            </div>
+            <a href="#box-content13" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+          </div>
+          <div class="collapse box-content" id="box-content13">
+            <div class="card card-body">
+              <p class="card-text ">Content</p>
+            </div>
+          </div>
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              How to buy our NFT
+            </div>
+            <a href="#box-content14" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+          </div>
+          <div class="collapse box-content" id="box-content14">
+            <div class="card card-body">
+              <p class="card-text ">Content</p>
+            </div>
+          </div>
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              Which Blockchain is Rise of Immortals built on?
+            </div>
+            <a href="#box-content15" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+          </div>
+          <div class="collapse box-content" id="box-content15">
+            <div class="card card-body">
+              <p class="card-text ">Content</p>
+            </div>
+          </div>
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              Do I have to own a base/land in Rise of Immortals to play?
+            </div>
+            <a href="#box-content16" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+          </div>
+          <div class="collapse box-content" id="box-content16">
+            <div class="card card-body">
+              <p class="card-text ">Content</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="news">
+        <div id="news-title">News</div>
+        <div class="news-content ">
+          <div class="news-content-slide">
+            Slides
+          </div>
+          <div class="news-content-text">
+            <button id="btn-rois">
+              New with ROIs
+            </button>
+            <div id="text1">The Rise of Immortals Art Gallery Grand Opening</div>
+            <div id="text2">
+              We are pleased to announce to our community (as an unannounced surprise) the grand opening of “ROIs Art Gallery”.
+            </div>
+            <div id="read-more">Read more </div>
           </div>
 
         </div>
-
       </div>
-
 
 
 

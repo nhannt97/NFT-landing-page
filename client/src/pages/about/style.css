@@ -309,10 +309,13 @@
 #about #faq {
   background: linear-gradient(180deg, rgba(5, 5, 5, 1.00) 0%, rgba(23, 34, 44, 1.00) 100%) !important;
   width: 725px;
+  height: auto;
+  border-radius: 20px;
 }
 
 #about #faq .detail {
   justify-content: space-between;
+  margin-top: 20px;
 
 }
 
@@ -320,17 +323,76 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font: 800 20px 'Barlow';
 }
 
 #about #faq .detail .plus {
- font-size: 26px;
+  font-size: 26px;
 }
 
 
-#about #faq .detail .card-text{
+#about #faq .detail .card-text {
   color: white;
 }
 
-#about #faq .detail .card{
+#about #faq .box-content .card {
   background: none;
+}
+
+#about #news{
+  margin-bottom: 200px;
+}
+
+#about #news #news-title {
+  font: 700 40px/44px 'Barlow';
+  margin-top: 80px;
+}
+
+#about #news .news-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+#about #news .news-content .news-content-slide {
+  width: 60%;
+}
+
+#about #news .news-content .news-content-text {
+  flex: 1;
+  text-align: start;
+}
+
+#about #news .news-content .news-content-text #text1 {
+  margin-top: 15px;
+  font: 700 36px/44px 'Barlow';
+  width: 467px;
+}
+
+#about #news .news-content .news-content-text #text2 {
+  font: 400 18px/28.5px 'Barlow';
+  width: 456px;
+}
+
+
+
+#about #news .news-content .news-content-text #btn-rois {
+  background: linear-gradient(180deg, rgba(231, 172, 0, 1.00) 0%, rgba(255, 153, 0, 1.00) 100%);
+  border-radius: 7px;
+  width: 174px;
+  height: 47px;
+  text-align: center;
+  font: 700 22px/44px 'Barlow';
+}
+
+
+#about #news #read-more {
+  color: #e7ac00 !important;
+  cursor: pointer;
+  text-align: left;
+  font: 400 18px/44px 'Barlow';
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }

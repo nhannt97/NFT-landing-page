@@ -8,3 +8,61 @@
   backdrop-filter: blur(15px);
   overflow: auto;
 }
+
+/* #staking #land-nfts{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: aqua;
+} */
+/* 
+#staking #land-nfts #land-nfts-content{
+  width: 50%;
+}
+
+#staking #land-nfts img{
+  flex: 1;
+} */
+
+#staking #land-nfts-container {
+  margin: 170px auto 150px auto;
+  max-width: 1400px;
+  border-radius: 30px;
+  background-color: rgb(23, 34, 44);
+  transform: perspective(900px) rotateY(8deg) translateX(60px) rotateX(10deg) skewX(3deg) skewY(2deg);
+
+}
+
+#staking #land-nfts-content {
+  padding: 110px 70px;
+  display: flex;
+  justify-content: space-between;
+  transform: perspective(900px) rotateY(-8deg) translateX(-60px) rotateX(-8deg) skewY(-1.5deg) skewX(-5.5deg);
+  position: relative;
+}
+
+#staking #land-nfts-content img {
+  position: absolute;
+  right: 0;
+  top: -65%;
+}
+
+#staking #land-nfts-left {
+  width: 60%;
+}
+
+#staking #land-nfts {
+  text-align: left;
+  font: 700 60px/60px 'Barlow';
+  margin-bottom: 30px;
+}
+
+#staking #god-has-heard-my-call {
+  color: rgba(255, 255, 255, 0.79) !important;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+}
+
+#staking #land-nfts-lef #land-nfts {
+  font: 700 40px 'Barlow';
+}
