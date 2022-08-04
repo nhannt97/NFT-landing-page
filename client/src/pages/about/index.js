@@ -154,9 +154,48 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div>
-        
+
+      <div id="the-gods-of-olympus">
+        <div id="the-gods-of-olympus-title"> The Gods Of Olympus</div>
+        <div id="the-gods-of-olympus-content">
+          Use RUBY to upgrade your NFTs in the game, increasing their value. Bases can
+          <br /> only be grown by upgrading the HQ level with RUBY. Heroes help your army
+          <br /> attack opponents and defend your base. Statues enhance your base
+          <br /> performance.
+        </div>
+        <button id="the-gods-of-olympus-button" type="button " >EXPLORE</button>
       </div>
+
+      <div id="zeus-hades-poseidon">
+        <div id="element">
+          <img src="images/Layer 50 Large 1.png" alt="image error"></img>
+          <div class="title">Zeus</div>
+          <div class="content">
+            Content Content Content Content Content
+          </div>
+          <button class="button" type="button">Select Now</button>
+        </div>
+        <div id="element">
+          <img src="images/Layer 50 Large 1.png" alt="image error"></img>
+          <div class="title">Hades</div>
+          <div class="content">
+            Content Content Content Content Content
+          </div>
+          <button class="button" type="button">Select Now</button>
+        </div>
+        <div id="element">
+          <img src="images/Layer 50 Large 1.png" alt="image error"></img>
+          <div class="title">Poseidon</div>
+          <div class="content">
+            Content Content Content Content Content
+          </div>
+          <button class="button" type="button">Select Now</button>
+        </div>
+      </div>
+
+
+
+
       <Footer />
     </div>
   );
