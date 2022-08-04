@@ -295,8 +295,42 @@
 #about #zeus-hades-poseidon .button {
   margin-top: 80px;
   background: #000000;
-  border-radius: 4px!important;
+  border-radius: 4px !important;
   font: 500 15px 'Barlow';
   border-radius: 0;
-  padding: 12px 30px 10px 30px ;
+  padding: 12px 30px 10px 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#about #faq {
+  background: linear-gradient(180deg, rgba(5, 5, 5, 1.00) 0%, rgba(23, 34, 44, 1.00) 100%) !important;
+  width: 725px;
+}
+
+#about #faq .detail {
+  justify-content: space-between;
+
+}
+
+#about #faq .detail .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about #faq .detail .plus {
+ font-size: 26px;
+}
+
+
+#about #faq .detail .card-text{
+  color: white;
+}
+
+#about #faq .detail .card{
+  background: none;
 }

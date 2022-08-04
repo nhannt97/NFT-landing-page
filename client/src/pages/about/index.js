@@ -192,11 +192,29 @@ export default function About() {
           <button class="button" type="button">Select Now</button>
         </div>
       </div>
+      <div className="container">
+        <div id="faq">
+          <div class=" detail d-flex" >
+            <div class="text ml-3 ">
+              IMPORTANT!
+            </div>
+            <a href="#box-content" class="text-decoration-none mr-3 plus" aria-expanded="false" data-toggle="collapse">+</a>
+
+          </div>
+          <div class="collapse mt-4" id="box-content">
+            <div class="card card-body">
+              <p class="card-text ">Nội dung hiện thị !</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
 
 
 
 
       <Footer />
-    </div>
+    </div >
   );
 }
