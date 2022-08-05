@@ -28,7 +28,7 @@
   font: 400 14px/20px 'Barlow';
 }
 
-#about #carouselAboutBanner .carousel-indicators li {
+#about .carousel-indicators li {
   width: 18px !important;
   height: 18px !important;
   border: 0px !important;

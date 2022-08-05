@@ -38,25 +38,48 @@ export default function Staking() {
         </div>
       </div>
 
-      <div id="content2" >
-        <div id="content2-img" class="brg">
-          <div id="content2-image">
-            <img src="images/281886969_5124306397645497_3470591421062792137_n 2.png" />
-            {/* <img src="images/Rectangle 63.png" alt="" /> */}
-            <div id="content-image-text">Land NFTs</div>
-          </div>
-        </div>
-        <div>
-          <div id="content2-text">
-            <div id="content2-text-detail">
+      <div class="last-content my-5">
+        <div class="d-flex w-100 align-items-center flex-row-reverse">
+          <div class="position-relative img-explain px-4 pt-4 pb-5">
+            <div class="content2-text-detail px-4 pt-4">
               Land is the primary NFT asset in Mavia, and is required in order to build a base and to train an army.
             </div>
-            <button id="content2-button" type="button " >Coming soon</button>
+            <button class="content2-button position-absolute" type="button " >Coming soon</button>
+          </div>
+          <div class="position-relative container-img d-flex flex-column align-items-center" id="last-content-1">
+            <img src="images/281886969_5124306397645497_3470591421062792137_n 2.png" alt="" />
+            <div class="position-absolute text-center last-content-image-text">Land NFTs</div>
           </div>
         </div>
-
       </div>
-
+      <div class="last-content my-5">
+        <div class="d-flex w-100 align-items-center flex-row-reverse">
+          <div class="position-relative img-explain px-4 pt-4 pb-5">
+            <div class="content2-text-detail px-4 pt-4">
+              Heroes are super-troops that help defend your base against attackers, and assist your army in offensive battles.
+            </div>
+            <button class="content2-button position-absolute" type="button " >Coming soon</button>
+          </div>
+          <div class="position-relative container-img d-flex flex-column align-items-center" id="last-content-2">
+            <img src="images/Char_Poseidon_02 2.png" alt="" />
+            <div class="position-absolute text-center last-content-image-text">Hero NFTs</div>
+          </div>
+        </div>
+      </div>
+      <div class="last-content my-5">
+        <div class="d-flex w-100 align-items-center flex-row-reverse">
+          <div class="position-relative img-explain px-4 pt-4 pb-5">
+            <div class="content2-text-detail px-4 pt-4">
+              Statues enhance your base performance by providing helpful boosts to your army and resources.
+            </div>
+            <button class="content2-button position-absolute" type="button " >Coming soon</button>
+          </div>
+          <div class="position-relative container-img d-flex flex-column align-items-center" id="last-content-3">
+            <img src="images/Decor_ZeusStatue 3.png" alt="" />
+            <div class="position-absolute text-center last-content-image-text">Statue NFTs</div>
+          </div>
+        </div>
+      </div>
 
       <Footer />
     </div>

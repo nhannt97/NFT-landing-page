@@ -389,7 +389,24 @@ export default function About() {
         <div id="news-title">News</div>
         <div class="news-content ">
           <div class="news-content-slide">
-            Slides
+            <div id="carouselBotAboutBanner" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/Frame 112.png" alt="" />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Frame 112.png" alt="" />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Frame 112.png" alt="" />
+                </div>
+              </div>
+              <ol class="carousel-indicators">
+                <li data-target="#carouselBotAboutBanner" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselBotAboutBanner" data-slide-to="1"></li>
+                <li data-target="#carouselBotAboutBanner" data-slide-to="2"></li>
+              </ol>
+            </div>
           </div>
           <div class="news-content-text">
             <button id="btn-rois">
