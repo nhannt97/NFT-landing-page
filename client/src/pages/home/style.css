@@ -9,9 +9,19 @@
   overflow: auto;
 }
 
-.background-layer {
+.homepage .background-layer {
   background: linear-gradient(1.64deg, rgba(72, 78, 75, 1.00) 0%, rgba(0, 0, 0, 1.00) 18.54165345430374%, rgba(55, 64, 87, 1.00) 28.634896874427795%, rgba(21, 21, 21, 1.00) 39.89582061767578%, rgba(15, 31, 62, 1.00) 72.69231081008911%, rgba(0, 0, 0, 1.00) 83.85975360870361%, rgba(0, 0, 0, 0.00) 89.60002660751343%);
   backdrop-filter: blur(15px);
+}
+
+.homepage #sub-background-layer {
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.88);
+  width: 100%;
+  height: 210px;
+  left: 0px;
+  bottom: 0;
+  filter: blur(88px);
 }
 
 .homepage #btn-play-to-earn {
@@ -48,53 +58,25 @@
 .homepage .download {
   padding-left: 100px;
   padding-right: 100px;
-  position: relative;
-  text-align: center;
   display: flex;
   justify-content: center;
 }
 
-.homepage .download .bg-container {
-  position: absolute;
-  top: 0;
-  left: 100px;
-  width: calc(100% - 200px);
-  height: 100%;
-  z-index: -1;
-}
-
-.homepage .download .bg {
-  width: 100%;
-  height: 100%;
-}
-
-.homepage .download .bg #first-bg {
-  /* width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px; */
-}
-
-.homepage .download #second-bg {
-  position: absolute;
-  top: -105px;
-  right: -60px;
-  width: 210px;
-  transform: perspective(900px) rotateY(10deg) translateX(10px) skewY(2deg);
-}
-
-.homepage .download-content {
+.homepage .download .download-content {
+  background-image: url('../../../public/images/Background/earn-sapphire.png');
+  background-size: cover;
   max-width: 1400px;
-  position: relative;
-  background-color: rgb(23, 34, 44);
-  border-radius: 30px;
-  transform: perspective(900px) rotateY(-8deg) translateX(-60px) skewY(-2deg);
+  border-radius: 40px;
 }
+
+.homepage .download #dynamon {
+  top: -110px;
+  right: -70px;
+}
+
 .homepage .content {
-  padding: 80px 60px 60px 60px;
+  padding: 110px 60px 70px 60px;
   display: flex;
-  transform: perspective(900px) rotateY(10deg) translateX(60px) skewY(2deg);
 }
 
 .homepage .earn-sapphire-and-other-in-game-resources {
@@ -129,7 +111,7 @@
 
 .homepage #see-the-latest-container {
   margin: 0 auto 100px auto;
-  max-width: 1250px;
+  max-width: 1062px;
   border-radius: 30px;
   background-color: rgb(9 10 12);
   padding: 110px 70px;
@@ -143,6 +125,7 @@
 .homepage #see-the-latest-right {
   width: 50%;
   text-align: left;
+  padding-left: 50px;
 }
 
 .homepage #see-the-latest {
@@ -155,39 +138,39 @@
   margin: 30px 0;
 }
 
-.homepage #god-game-container {
-  margin: 170px auto 150px auto;
-  max-width: 1400px;
-  border-radius: 30px;
-  background-color: rgb(23, 34, 44);
-  transform: perspective(900px) rotateY(8deg) translateX(60px) rotateX(10deg) skewX(3deg) skewY(2deg);
+.homepage #based-battles-container {
+  padding: 55px 70px;
+  display: flex;
+  justify-content: center;
 }
 
-.homepage #god-game-content {
-  padding: 110px 70px;
-  display: flex;
-  justify-content: space-between;
-  transform: perspective(900px) rotateY(-8deg) translateX(-60px) rotateX(-8deg) skewY(-1.5deg) skewX(-5.5deg);
+.homepage #based-battles-content {
+  background-image: url('../../../public/images/Background/god-game.png');
+  background-size: cover;
+  max-width: 909px;
+  padding: 55px 70px;
+  border-radius: 30px;
   position: relative;
 }
 
-.homepage #god-game-content img {
+.homepage #based-battles-content img {
   position: absolute;
-  right: 0;
-  top: -50%;
+  right: -50px;
+  bottom: 50px;
+  width: 415px;
 }
 
-.homepage #god-game-left {
-  width: 60%;
+.homepage #based-battles-left {
+  width: calc(100% - 365px);
 }
 
-.homepage #god-game {
+.homepage #based-battles {
   text-align: left;
-  font: 700 60px/60px 'Barlow';
-  margin-bottom: 30px;
+  font: 700 40px/40px 'Barlow';
+  margin-bottom: 25px;
 }
 
-.homepage #god-has-heard-my-call {
+.homepage #rise-to-the-top {
   color: rgba(255, 255, 255, 0.79) !important;
   text-align: left;
   font: 400 14px/20px 'Barlow';
@@ -199,7 +182,7 @@
 }
 
 .homepage #lead-you-left {
-  padding: 100px 0;
+  padding: 50px 0;
   width: 45%;
 }
 
@@ -229,11 +212,11 @@
 .homepage #launch-calendar {
   display: flex;
   margin: 0 auto;
+  padding: 50px 0;
   justify-content: center;
 }
 
-.homepage #launch-container {
-}
+.homepage #launch-container {}
 
 .homepage #launch-container #first-row {
   display: flex;
@@ -244,7 +227,8 @@
 }
 
 .homepage #launch-container #first-row #first-row-right {
-  flex: 1;
+  width: 320px;
+  margin-right: 150px;
 }
 
 .homepage #launch-container #first-row #launch {
@@ -333,7 +317,7 @@
   color: #f4f4f4 !important;
   text-align: left;
   font: 700 13px/16px 'Barlow';
-  padding-left: 2px;
+  padding: 0 6px;
 }
 
 #calendar-container .stage {
@@ -342,83 +326,141 @@
   text-align: left;
   font: 700 15px/44px 'Barlow';
   line-height: 12px;
-  padding-left: 2px;
+  padding: 6px 6px 3px 6px;
 }
+
 .homepage #video-title {
   font: 700 40px/44px 'Barlow';
 }
-.homepage #video-slide {
+
+.homepage #video-slide .carousel-item {
   padding: 0 100px;
 }
-.homepage #video-slide .carousel-indicators li {
-  width: 18px !important;
-  height: 18px !important;
-  border: 0px !important;
-  border-radius: 10px !important;
-  margin: 5px;
+.homepage #video-slide .carousel-control-next {
+  background: black;
+  height: 74px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  width: 85px;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
 }
+.homepage #video-slide .carousel-control-prev {
+  background: black;
+  height: 74px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  width: 85px;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.homepage #video-slide .carousel-indicators {
+  bottom: -20px;
+}
+
+.homepage #video-slide .carousel-indicators li {
+  width: 26px !important;
+  height: 26px !important;
+  border: 0px !important;
+  border-radius: 13px !important;
+  margin: 8px;
+}
+
+.homepage #video-slide .video-upcomming {
+  font: 400 italic 70px/44px 'Barlow';
+}
+
 .homepage #vision-container {
   padding: 30px 100px;
 }
+
 .homepage #vision-quote-start {
   font-size: 40px;
   top: -10px;
   left: 5px;
   position: absolute;
 }
+
 .homepage #vision-quote-end {
   font-size: 40px;
   right: 5px;
   bottom: -25px;
   position: absolute;
 }
+
 .homepage .quote {
   border-radius: 20px;
   background-color: #17222c;
   padding: 10px;
 }
+
 .homepage #vision-title {
   margin: 20px;
   font: 700 40px/44px 'Barlow';
 }
+
 .homepage #vision-content {
   max-width: 460px;
 }
+
 .homepage #vision-container .carousel-inner {
   border-radius: 20px;
   background-color: #17222c;
 }
+
 .homepage #vision-container .carousel-item {
-  
+
   text-align: left;
   font: 400 14px/20px 'Barlow';
   padding-bottom: 50px !important;
 }
+
 .homepage #vision-container .carousel-item div {
   color: rgba(255, 255, 255, 0.79) !important;
 }
-.homepage #vision-container .carousel-indicators li {
-  width: 10px !important;
-  height: 10px !important;
-  border: 0px !important;
-  border-radius: 5px !important;
-  margin: 4px;
+
+.homepage #vision-container .carousel-indicators {
+  bottom: -10px;
 }
 
+.homepage #vision-container .carousel-indicators li {
+  width: 14px !important;
+  height: 14px !important;
+  border: 0px !important;
+  border-radius: 7px !important;
+  margin: 4px;
+}
+.homepage #vision-container .carousel-control-next, .homepage #vision-container .carousel-control-prev {
+  background: black;
+  height: 30px;
+  border-radius: 40px;
+  width: 30px;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.homepage #vision-container .carousel-control-next-icon, .homepage #vision-container .carousel-control-prev-icon {
+  width: 15px;
+}
 
 .homepage #register-container {
   margin: 170px auto 150px auto;
-  max-width: 1400px;
-  border-radius: 30px;
-  background-color: rgb(23, 34, 44);
-  transform: perspective(900px) rotateY(8deg) translateX(60px) rotateX(10deg) skewX(3deg) skewY(2deg);
+  display: flex;
+  justify-content: center;
 }
 
 .homepage #register-content {
-  padding: 110px 70px;
+  position: relative;
+  background-image: url('../../../public/images/Background/pre-regiser.png');
+  background-size: cover;
+  width: 1043px;
+  height: 439px;
+  padding: 160px 70px 70px 70px;
   display: flex;
   justify-content: space-between;
-  transform: perspective(900px) rotateY(-8deg) translateX(-60px) rotateX(-8deg) skewY(-1.5deg) skewX(-5.5deg);
 }
 
 .homepage #register-content img {
@@ -443,13 +485,15 @@
   font: 400 14px/20px 'Barlow';
   margin: 20px 0;
 }
+
 .homepage #register-container input {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-right: 0px;
   outline: 0px;
 }
-.homepage #register-container input:focus{
+
+.homepage #register-container input:focus {
   box-shadow: none !important;
   border-color: white;
 }
@@ -457,4 +501,13 @@
 .homepage #register-container span {
   border-radius: 10px;
   margin-left: -10px;
+}
+
+.homepage #basic-addon2 {
+  color: #000000 !important;
+  text-align: left;
+  font: 700 14px/20px 'Barlow'
+}
+.homepage #input-container {
+  width: 360px;
 }

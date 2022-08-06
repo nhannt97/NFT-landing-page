@@ -51,8 +51,9 @@
   margin-left: 5px;
 }
 
-#header .menu-item.active, #header .menu-item.active * {
-  color: #e7ac00;
+#header .menu-item.active, #header .menu-item.active *, .menu-item:hover * {
+  color: #e7ac00 !important;
+  stroke: #e7ac00 !important;
 }
 
 #header #btn-join-discord {

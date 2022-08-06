@@ -41,7 +41,7 @@
 
 
 #team .content-ourAdvisors .content-ourAdvisors-element {
-  max-width: calc((100%-200px-30px*6)/3);
+  max-width: 380px;
   padding: 50px;
   margin-bottom: 100px;
   border-radius: 20px;

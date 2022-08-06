@@ -10,6 +10,7 @@ export default function Footer() {
         <Socials />
         <Stores />
       </div>
+      <div id="divider"></div>
       <div id="second-row" class="d-flex justify-content-between">
         <div class="d-flex">
           <div class="content-item">

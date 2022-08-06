@@ -13,7 +13,9 @@ export default function Home() {
     <div class="homepage">
       <div class="background-layer">
         <Header />
-        <div class="title">
+        <div class="title position-relative">
+          <div class="position-absolute" id="sub-background-layer">
+          </div>
           <div class="aaa-hero-base-strategy-game">
             AAA HERO-BASE
             <br />STRATEGY
@@ -24,13 +26,13 @@ export default function Home() {
             <br />conquering enemy bases throughout Rise of Immortals.
           </div>
           <button id="btn-play-to-earn">
-            Play to Earn
+            Join Discord
           </button>
         </div>
 
         <div class="download">
-          <div class="download-content">
-            <img id="second-bg" alt="dynamon" src="images/Dynamon.png" />
+          <div class="download-content position-relative w-100">
+            <img id="dynamon" class="position-absolute" alt="dynamon" src="images/Dynamon.png" />
             <div class="content">
               <div id="content-left">
                 <div class="earn-sapphire-and-other-in-game-resources">
@@ -63,16 +65,18 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div id="god-game-container">
-          <div id="god-game-content">
+        <div id="based-battles-container">
+          <div id="based-battles-content">
             <img src="images/Six head.png" alt="" />
-            <div id="god-game-left">
-              <div id="god-game">
-                God game with NFTs
+            <div id="based-battles-left">
+              <div id="based-battles">
+                NFT-based Battles: Heroes and Land NFTs
               </div>
-              <div id="god-has-heard-my-call">
-                God has heard my call! Join the war of the gods conquer this battle called RISE OF IMMORTALS. Customize your army, build temples and pedestals and crush your opponents. Using the power of the gods, strike your enemy’s weaknesses and forge a legacy by conquering lands and dominating enemies.
-                God game with NFTs
+              <div id="rise-to-the-top">
+                Rise to the top with your NFTs and dominate the Leaderboards. As your climb up
+                the Leaderboard and your village improves, the stronger the enemies become. Build
+                and upgrade your village, customize and strengthen your troops, and build and improve
+                statues to become a strong contender and a force to be reckoned with.
               </div>
             </div>
           </div>
@@ -92,8 +96,7 @@ export default function Home() {
           </div>
           <div>
             <div id="launch-container">
-              <div id="first-row">
-                <div id="first-row-left"></div>
+              <div id="first-row" class="d-flex justify-content-end">
                 <div id="first-row-right">
                   <div id="launch">Launch is just the beginning</div>
                   <div id="rise-of">
@@ -117,15 +120,15 @@ export default function Home() {
                 <div id="calendar">
                   <div id="line-1" class="line">
                     <div class="stage">Q1 2022</div>
-                    <div class="stage-title">Game Concept Release</div>
+                    <div class="stage-title">Game Concept<br /> Release</div>
                   </div>
                   <div id="line-2" class="line">
                     <div class="stage">Q2 2022</div>
-                    <div class="stage-title">Community Launch</div>
+                    <div class="stage-title">Gamrt & Graphics<br /> Released</div>
                   </div>
                   <div id="line-3" class="line">
                     <div class="stage">Q3 2022</div>
-                    <div class="stage-title">NFT Sale</div>
+                    <div class="stage-title">Community Launch</div>
                   </div>
                   <div id="line-4" class="line">
                     <div class="stage">Q4 2022</div>
@@ -145,21 +148,47 @@ export default function Home() {
           </div>
         </div>
         <div id="video-slide">
-          <div id="video-title">Launch is just the beginning</div>
+          <div id="video-title">Videos</div>
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
             <div class="carousel-inner">
-              {[1, 2, 3].map((element, idx) => (
-                <div key="element" class={`carousel-item position-relative ${element === 1 ? 'active' : ''} `}>
-                  <div class="d-flex">
-                    <div class="w-50 p-5">
-                      <Video id={`video-${idx * 2}`} src="videos/Zeus_Clip10s.mp4" type="video/mp4" width="100%" loop />
-                    </div>
-                    <div class="w-50 p-5">
-                      <Video id={`video-${idx * 2 + 1}`} src="videos/Zeus_Clip10s.mp4" type="video/mp4" width="100%" loop />
-                    </div>
+              <div key="element" class={`carousel-item position-relative active`}>
+                <div class="d-flex">
+                  <div class="w-50 p-5">
+                    <Video id="video-1" src="videos/Zeus_Clip10s.mp4" type="video/mp4" width="100%" loop />
+                  </div>
+                  <div class="w-50 p-5 d-flex align-items-center">
+                    <div class="video-upcomming text-center">UP COMMING</div>
                   </div>
                 </div>
-              ))}
+              </div>
+              <div key="element" class={`carousel-item position-relative`}>
+                <div class="d-flex">
+                  <div class="w-50 p-5">
+                    <div class=" d-flex align-items-center video-upcomming text-center" style={{ height: 438.4 }}>UP COMMING</div>
+                  </div>
+                  <div class="w-50 p-5">
+                    <div class=" d-flex align-items-center video-upcomming text-center" style={{ height: 438.4 }}>UP COMMING</div>
+                  </div>
+                </div>
+              </div>
+              <div key="element" class={`carousel-item position-relative`}>
+                <div class="d-flex">
+                  <div class="w-50 p-5">
+                    <div class=" d-flex align-items-center video-upcomming text-center" style={{ height: 438.4 }}>UP COMMING</div>
+                  </div>
+                  <div class="w-50 p-5">
+                    <div class=" d-flex align-items-center video-upcomming text-center" style={{ height: 438.4 }}>UP COMMING</div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -184,6 +213,14 @@ export default function Home() {
                       <br /> tomorrow and do the right thing about P2E games.</div>
                     <div>We aim to sick with our name and IMMORATLIZE our game to co-exist with other big names inside and outsite the crypto word.</div>
                   </div>
+                  <a class="carousel-control-prev" href="#carousel-vision-content" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel-vision-content" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
                   <ol class="carousel-indicators">
                     <li data-target="#carousel-vision-content" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-vision-content" data-slide-to="1"></li>
@@ -213,10 +250,12 @@ export default function Home() {
                 Sign up to our newsletter to reveive development updates, token,
                 <br />and NFT drops, and exclusive promotions.
               </div>
-              <div class="input-group mb-3 rounded-2">
-                <input type="email" class="form-control bg-transparent text-white" placeholder="Enter your email" />
-                <div class="input-group-append  rounded-2">
-                  <span class="input-group-text text-dark" id="basic-addon2">Join us now</span>
+              <div class="mb-3">
+                <div id="input-container" class="input-group  rounded-2">
+                  <input type="email" class="form-control bg-transparent text-white" placeholder="Enter your email" />
+                  <div class="input-group-append  rounded-2">
+                    <span class="input-group-text" id="basic-addon2">Join us now</span>
+                  </div>
                 </div>
               </div>
             </div>
