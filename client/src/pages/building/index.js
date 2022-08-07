@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
-import BuildingLevel from '../../components/building-leavel';
+import BuildingLevel from '../../components/building-level';
 import './style.css';
 
 export default function Building() {

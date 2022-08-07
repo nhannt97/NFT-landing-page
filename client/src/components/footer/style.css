@@ -44,3 +44,6 @@
 #footer #third-row .text{
   opacity: 0.6000000238418579;
 }
+#footer a:hover {
+  text-decoration: none;
+}

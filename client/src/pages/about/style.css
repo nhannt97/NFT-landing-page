@@ -8,12 +8,53 @@
   backdrop-filter: blur(15px);
   overflow: auto;
 }
-
+#about .background-layer {
+  background: linear-gradient(1.64deg, rgba(26, 27, 30, 1.00) 0%, rgba(32, 21, 22, 1.00) 16.481849551200867%, rgba(79, 52, 92, 1.00) 28.634896874427795%, rgba(28, 38, 65, 1.00) 45.10415494441986%, rgba(33, 28, 41, 1.00) 60.20832061767578%, rgba(0, 0, 0, 0.34) 74.79165196418762%);
+  width: 100%;
+  backdrop-filter: blur(15px);
+}
+#about #banner-slide .sub-bg {
+  background: radial-gradient(closest-side, rgba(0, 0, 0, 1.00) 0%, rgba(1, 1, 1, 0.00) 100%);
+  border-radius: 50%;
+  width: 496.07px;
+  height: 520.63px;
+  position: absolute;
+  right: 270px;
+  top: 126.75px;
+  z-index: -1;
+}
 #about #banner-slide {
+  width: 100%;
+  margin-top: -80px;
+}
+#about #banner-slide .carousel-inner {
   padding: 0 100px;
 }
 
-#about #banner-slide .carousel-item>div {
+#about #banner-slide .carousel-control-next {
+  background: black;
+  height: 74px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  width: 85px;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#about #banner-slide .carousel-control-prev {
+  background: black;
+  height: 74px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  width: 85px;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#about .banner-text-container {
+  width: 403px;
+}
+#about #banner-slide .carousel-item>div.banner-text-container {
   top: 0;
   left: 0;
 }
@@ -23,34 +64,36 @@
   font: 700 36px/44px 'Barlow';
 }
 
-#about .rise-of {
+#about .rise-of * {
   color: rgba(255, 255, 255, 0.79) !important;
-  font: 400 14px/20px 'Barlow';
+  font: 500 14px/20px 'Barlow';
 }
 
 #about .carousel-indicators li {
-  width: 18px !important;
-  height: 18px !important;
+  width: 26px !important;
+  height: 26px !important;
   border: 0px !important;
-  border-radius: 10px !important;
-  margin: 5px;
+  border-radius: 13px !important;
+  margin: 8px;
 }
 
 #about #believe-container {
   margin-bottom: 200px;
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  padding: 0 100px;
 }
 
 #about #believe {
-  max-width: 1400px;
   position: relative;
-  background-color: rgb(42, 25, 48);
   border-radius: 30px;
-  transform: perspective(900px) rotateY(-8deg) translateX(-60px) skewY(-2deg);
+  background-image: url('../../../public/images/Background/Rectangle\ tím.png');
+  background-size: cover;
 }
 
 #about #believe #content {
-  padding: 30px 30px 0 30px;
-  transform: perspective(900px) rotateY(10deg) translateX(60px) skewY(2deg);
+  padding: 60px 30px 0 30px;
 }
 
 #about #what-we-believe {
@@ -93,7 +136,7 @@
 
 #about #why-you-might-love-it-container img {
   width: 55%;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 #about #why-you-might-love-it-container #why-you-might-love-it-content {
@@ -139,23 +182,29 @@
   display: flex;
   margin-bottom: 100px;
 }
+#about #market-expand-icon {
+  color: rgba(240, 240, 240, 0.79) !important;
+  font-size: 50px;
+  cursor: pointer;
+}
 
 #about #market-place-container #market-place-content {
-  width: 55%;
+  width: 418px;
   margin-right: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
-#about #market-place-container img {
+#about #market-place-container #market-img {
   flex: 1;
 }
 
-#about #market-place-container #rise-of {
+
+#about #market-place-container #market-place {
   font: 700 36px/44px 'Barlow';
   text-align: left;
   margin-bottom: 15px;
+  display: flex;
 }
 
 #about #market-place-container #des-1,
@@ -174,6 +223,9 @@
   display: flex;
   align-items: center;
 }
+#about a:hover {
+  text-decoration: none;
+}
 
 #about #market-place-container #read-more i {
   color: #e7ac00 !important;
@@ -187,19 +239,16 @@
 
 #about #level-building-container {
   margin: 170px auto 150px auto;
-  max-width: 1400px;
-  border-radius: 30px;
-  background-color: rgb(23, 34, 44);
-  transform: perspective(900px) rotateY(8deg) translateX(60px) rotateX(10deg) skewX(3deg) skewY(2deg);
+  display: flex;
+  justify-content: center;
 }
 
 #about #level-building-container #level-building-content {
   padding: 50px 0px;
-  transform: perspective(900px) rotateY(-8deg) translateX(-60px) rotateX(-8deg) skewY(-1.5deg) skewX(-5.5deg);
-}
-
-#about #level-building-container img {
-  flex: 1;
+  width: 1208px;
+  background-image: url('../../../public/images/Background/level-building.png');
+  background-size: cover;
+  height: 479px;
 }
 
 #about #level-building-container #level-building {
@@ -231,8 +280,8 @@
 }
 
 #about #building-level-container {
-  padding: 75px 0;
-  margin-bottom: 50px;
+  padding: 30px 50px;
+  margin-bottom: 10px;
 }
 
 #about #the-gods-of-olympus #the-gods-of-olympus-title {
@@ -240,15 +289,17 @@
 }
 
 #about #the-gods-of-olympus #the-gods-of-olympus-content {
-  margin-top: 15px;
+  padding: 15px 0 30px 0;
   font: 400 14px/20px 'Barlow';
+  width: 445px;
+  margin: auto;
 }
 
 #about #the-gods-of-olympus #the-gods-of-olympus-button {
   background-color: #000000 !important;
   padding: 18px 34px 18px 34px;
   background-image: none;
-  margin-top: 50px;
+  margin-top: 20px;
   border-radius: 0;
   font: 500 14px 'Barlow';
 }
@@ -293,7 +344,7 @@
 }
 
 #about #zeus-hades-poseidon .button {
-  margin-top: 80px;
+  margin-top: 60px;
   background: #000000;
   border-radius: 4px !important;
   font: 500 15px 'Barlow';
@@ -366,8 +417,11 @@
 
 #about #news .news-content .news-content-text #text1 {
   margin-top: 15px;
-  font: 700 36px/44px 'Barlow';
+  font: 400 italic 60px/44px 'Barlow';
   width: 467px;
+  display: flex;
+  flex: 1;
+  align-items: center;
 }
 
 #about #news .news-content .news-content-text #text2 {
@@ -380,9 +434,9 @@
 #about #news .news-content .news-content-text #btn-rois {
   background: linear-gradient(180deg, rgba(231, 172, 0, 1.00) 0%, rgba(255, 153, 0, 1.00) 100%);
   border-radius: 7px;
-  width: 174px;
   height: 47px;
   text-align: center;
+  padding: 0 10px;
   font: 700 22px/44px 'Barlow';
 }
 
@@ -395,4 +449,22 @@
   display: flex;
   align-items: center;
   margin-top: 10px;
+}
+#about #news .carousel-control-next {
+  background: black;
+  height: 50px;
+  border-radius: 25px;
+  width: 50px;
+  color: white;
+  left: 378px;
+  top: calc(100% - 56px);
+}
+#about #news .carousel-control-prev {
+  background: black;
+  height: 50px;
+  border-radius: 25px;
+  width: 50px;
+  color: white;
+  left: 275px;
+  top: calc(100% - 56px);
 }

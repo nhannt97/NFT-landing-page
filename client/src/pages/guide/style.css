@@ -1,0 +1,13 @@
+#marketplace,
+#marketplace * {
+  color: white;
+}
+
+#marketplace {
+  background: linear-gradient(90.65deg, rgba(59, 66, 96, 1.00) 2.338569425046444%, rgba(59, 55, 85, 1.00) 30.52082061767578%, rgba(60, 46, 77, 1.00) 60.20832061767578%, rgba(61, 30, 59, 1.00) 100%);
+  backdrop-filter: blur(15px);
+  overflow: auto;
+}
+#marketplace #img-container {
+  padding: 50px 100px;
+}

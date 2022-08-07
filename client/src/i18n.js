@@ -11,11 +11,12 @@ export const resources = {
       "home.earn-sapphire-and-other-in-game-resources-2": "IN-GAME RESOURCES",
       "building.title-content.1": "LEVELING YOUR",
       "building.title-content.2": "VILLAGE",
-      "building.building-lever1": "Building Level 1",
-      "building.building-lever2": "Building Level 2",
-      "building.building-lever3": "Building Level 3",
-      "building.building-lever4": "Building Level 4",
-      "building.building-lever5": "Building Level 5"
+      "building.clan-castle": "Clan Castle",
+      "building.building-lever1": "Level 1",
+      "building.building-lever2": "Level 2",
+      "building.building-lever3": "Level 3",
+      "building.building-lever4": "Level 4",
+      "building.building-lever5": "Level 5"
 
     },
     label: 'English'

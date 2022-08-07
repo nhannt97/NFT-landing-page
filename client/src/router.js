@@ -10,6 +10,7 @@ import About from './pages/about/index';
 import Staking from './pages/staking/index';
 import Building from './pages/building/index';
 import Team from './pages/team/index';
+import Guide from './pages/guide/index';
 
 export const routers = [{
   path: '/',
@@ -29,6 +30,9 @@ export const routers = [{
 }, {
   path: '/team',
   component: <Team />,
+}, {
+  path: '/guide',
+  component: <Guide />,
 }];
 
 export default function routerRender() {
