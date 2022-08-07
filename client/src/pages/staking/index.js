@@ -8,9 +8,8 @@ export default function Staking() {
   const { t } = useTranslation();
   return (
     <div id="staking">
+      <div id="background-layer">
       <Header />
-
-
       <div id="land-nfts-container">
         <div id="land-nfts-content">
           <img src="images/Asset 8 2.png" alt="" />
@@ -82,6 +81,7 @@ export default function Staking() {
       </div>
 
       <Footer />
+      </div>
     </div>
   );
 }

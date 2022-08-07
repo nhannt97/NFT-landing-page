@@ -8,6 +8,10 @@
   backdrop-filter: blur(15px);
   overflow: auto;
 }
+#staking #background-layer {
+  background: linear-gradient(1.64deg, rgba(26, 27, 30, 1.00) 0%, rgba(0, 0, 0, 1.00) 23.25628399848938%, rgba(1, 9, 31, 1.00) 45.10415494441986%, rgba(61, 52, 74, 1.00) 60.20832061767578%, rgba(0, 0, 0, 0.34) 74.79165196418762%);
+  backdrop-filter: blur(15px);
+}
 
 #staking #land-nfts-container {
   margin: 170px auto 150px auto;

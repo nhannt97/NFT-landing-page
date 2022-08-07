@@ -6,11 +6,10 @@ import './style.css';
 export default function MarketPlace() {
   return (
     <div id="marketplace">
-      <Header />
-      <div id="img-container">
-        <img src="images/market.png" alt="" width="100%" />
+      <div id="background-layer">
+        <Header />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }
