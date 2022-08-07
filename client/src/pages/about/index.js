@@ -456,14 +456,16 @@ export default function About() {
                     <img src="images/Frame 112.png" alt="" />
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselBotAboutBanner" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselBotAboutBanner" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+                <div class="position-relative m-auto" style={{ width: 565 }}>
+                  <a class="carousel-control-prev" href="#carouselBotAboutBanner" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselBotAboutBanner" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
               </div>
             </div>
             <div class="news-content-text d-flex flex-column py-5">

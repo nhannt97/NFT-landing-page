@@ -25,7 +25,6 @@
 }
 #about #banner-slide {
   width: 100%;
-  margin-top: -80px;
 }
 #about #banner-slide .carousel-inner {
   padding: 0 100px;
@@ -456,8 +455,8 @@
   border-radius: 25px;
   width: 50px;
   color: white;
-  left: 378px;
-  top: calc(100% - 56px);
+  left: 286px;
+  top: -57px;
 }
 #about #news .carousel-control-prev {
   background: black;
@@ -465,6 +464,6 @@
   border-radius: 25px;
   width: 50px;
   color: white;
-  left: 275px;
-  top: calc(100% - 56px);
+  left: 186px;
+  top: -57px;
 }
