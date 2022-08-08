@@ -38,39 +38,39 @@ export default function MarketPlace() {
           <div class="village-title">Village Building</div>
           <div id="village-content" class="row m-0 m-auto">
             <div class="building-detail col-2 ">
-              <img src="images/Build_BayXuong 4.png" class="w-100" alt="img error" />
+              <img src="images/guide/Frame 299.png" class="w-100" alt="img error" />
               <div id="name">Town Hall</div>
             </div>
             <div class="building-detail col-2 ">
-              <img src="images/Build_BayXuong 4.png" class="w-100" alt="img error" />
+              <img src="images/guide/Frame 300.png" class="w-100" alt="img error" />
               <div id="name">Clan Cascle</div>
             </div>
             <div class="building-detail col-2 ">
-              <img src="images/Build_BayXuong 4.png" class="w-100" alt="img error" />
+              <img src="images/guide/Frame 301.png" class="w-100" alt="img error" />
               <div id="name">Dark Elixir Storage</div>
             </div>
             <div class="building-detail col-2 ">
-              <img src="images/Build_BayXuong 4.png" class="w-100" alt="img error" />
+              <img src="images/guide/Frame 302.png" class="w-100" alt="img error" />
               <div id="name">Elixir Storage</div>
             </div>
             <div class="building-detail col-2 ">
-              <img src="images/Build_BayXuong 4.png" class="w-100" alt="img error" />
+              <img src="images/guide/Frame 303.png" class="w-100" alt="img error" />
               <div id="name">Gold Storage</div>
             </div>
             <div class="building-detail col-2 ">
-              <img src="images/Build_BayXuong 4.png" class="w-100" alt="img error" />
+              <img src="images/guide/" class="w-100" alt="img error" />
               <div id="name">Gold Mine</div>
             </div>
             <div class="building-detail col-2 ">
-              <img src="images/Build_BayXuong 4.png" class="w-100" alt="img error" />
+              <img src="images/guide/" class="w-100" alt="img error" />
               <div id="name">Elixir Collector</div>
             </div>
             <div class="building-detail col-2 ">
-              <img src="images/Build_BayXuong 4.png" class="w-100" alt="img error" />
+              <img src="images/guide/" class="w-100" alt="img error" />
               <div id="name">Spell Factory</div>
             </div>
             <div class="building-detail col-2 ">
-              <img src="images/Build_BayXuong 4.png" class="w-100" alt="img error" />
+              <img src="images/guide/" class="w-100" alt="img error" />
               <div id="name">Barracks</div>
             </div>
           </div>
@@ -80,31 +80,31 @@ export default function MarketPlace() {
           <div class="village-title">Village Defenders</div>
           <div id="village-content" class="row m-0 m-auto">
             <div class="building-detail col-2 ">
-              <img src="images/Build_BayXuong 4.png" class="w-100" alt="img error" />
+              <img src="images/guide/" class="w-100" alt="img error" />
               <div id="name">Scattershot</div>
             </div>
             <div class="building-detail col-2 ">
-              <img src="images/Build_BayXuong 4.png" class="w-100" alt="img error" />
+              <img src="images/guide/" class="w-100" alt="img error" />
               <div id="name">Army Camp</div>
             </div>
             <div class="building-detail col-2 ">
-              <img src="images/Build_BayXuong 4.png" class="w-100" alt="img error" />
+              <img src="images/guide/" class="w-100" alt="img error" />
               <div id="name">Archer Machine</div>
             </div>
             <div class="building-detail col-2 ">
-              <img src="images/Build_BayXuong 4.png" class="w-100" alt="img error" />
+              <img src="images/guide/" class="w-100" alt="img error" />
               <div id="name">Archer Tower</div>
             </div>
             <div class="building-detail col-2 ">
-              <img src="images/Build_BayXuong 4.png" class="w-100" alt="img error" />
+              <img src="images/guide/" class="w-100" alt="img error" />
               <div id="name">Hidden Electric</div>
             </div>
             <div class="building-detail col-2 ">
-              <img src="images/Build_BayXuong 4.png" class="w-100" alt="img error" />
+              <img src="images/guide/" class="w-100" alt="img error" />
               <div id="name">Wizard Tower</div>
             </div>
             <div class="building-detail col-2 ">
-              <img src="images/Build_BayXuong 4.png" class="w-100" alt="img error" />
+              <img src="images/guide/" class="w-100" alt="img error" />
               <div id="name">Fragments</div>
             </div>
           </div>
