@@ -145,7 +145,7 @@ export default function Team() {
                 Your colleagues will trust you to do what makes sense and is appropriate for Rise of Immortals.
               </div>
               <br />
-              <a id="some-of-the-products" href="#">Some of the products we have made.</a>
+              <a id="some-of-the-products" href="https://www.artstation.com/tichvi">Some of the products we have made.</a>
             </div>
           </div>
           <div id="graphic-engineer-container" class="d-flex">

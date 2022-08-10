@@ -124,7 +124,7 @@ export default function About() {
               <div class="row m-0" id="believe-items">
                 <div class="col-3 text-centerposition-relative">
                   <div class=" believe-item px-3">
-                    <img src="images/Build_BayXuong 1.png" alt="" />
+                    <img src="images/Build_BayXuong.png" alt="" />
                     <div class="img-title mb-3">Responsibility</div>
                     <div class="img-des">Own your project, collaborate
                       <br />and share. See an issue? Speak
@@ -133,7 +133,7 @@ export default function About() {
                 </div>
                 <div class="col-3 text-center position-relative">
                   <div class=" believe-item px-3">
-                    <img src="images/Build_BayXuong 2.png" alt="" />
+                    <img src="images/Char_HeliusHorse.png" alt="" />
                     <div class="img-title mb-3">Independence</div>
                     <div class="img-des">You decide how you can
                       <br />have the biggest impact, and then you
@@ -142,7 +142,7 @@ export default function About() {
                 </div>
                 <div class="col-3 text-center position-relative">
                   <div class=" believe-item px-3">
-                    <img src="images/Build_BayXuong 3.png" alt="" />
+                    <img src="images/Build_Doanhtraiquandoi.png" alt="" />
                     <div class="img-title mb-3">Quality</div>
                     <div class="img-des">We do a few things, extremely
                       <br />well. There is no quality bar,
@@ -151,7 +151,7 @@ export default function About() {
                 </div>
                 <div class="col-3 text-center position-relative">
                   <div class=" believe-item px-3">
-                    <img src="images/Build_BayXuong 4.png" alt="" />
+                    <img src="images/Build_BayBang.png" alt="" />
                     <div class="img-title mb-3">Learning</div>
                     <div class="img-des">For us, quality comes from
                       <br />learning, and learning comes
