@@ -53,6 +53,9 @@
 #about .banner-text-container {
   width: 403px;
 }
+#about #carouselAboutBanner .carousel-inner {
+  padding-left: 95px;
+}
 #about #banner-slide .carousel-item>div.banner-text-container {
   top: 0;
   left: 0;
