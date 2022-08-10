@@ -7,11 +7,11 @@ export default function MarketPlace() {
   return (
     <div id="marketplace">
       <div id="background-layer">
-      <Header />
-      <div id="img-container">
-        <img src="images/market.png" alt="" width="100%" />
-      </div>
-      <Footer />
+        <Header />
+        <div id="img-container">
+          <div id="up-comming">UP COMMING</div>
+        </div>
+        <Footer />
       </div>
     </div>
   );
