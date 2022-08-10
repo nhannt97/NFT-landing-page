@@ -101,6 +101,7 @@
   flex-direction: column;
   justify-content: end;
   align-items: center;
+  cursor: pointer;
 }
 
 #guide .building-detail img{

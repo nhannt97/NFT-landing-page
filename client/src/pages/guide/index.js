@@ -2,6 +2,10 @@ import React from "react";
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import './style.css';
+import ListBuilding from "./ListBuilding";
+
+import { data } from './data';
+console.log(data);
 
 export default function MarketPlace() {
   return (
@@ -35,7 +39,11 @@ export default function MarketPlace() {
             <input type="text" placeholder="Search" class="border-0 text-dark w-100 h-100"></input>
           </div>
 
-          <div>
+          {data.map((listItem) => (
+            <ListBuilding listItem={listItem} />
+          ))}
+
+          {/* <div>
             <div class="village-title">Village Building</div>
             <div id="village-content" class="row m-0 m-auto">
               <div class="building-detail col-2 ">
@@ -78,7 +86,7 @@ export default function MarketPlace() {
                 <div id="andMore">AND MORE...</div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div class="mb-5">
             <div class="village-title">Village Defenders</div>
