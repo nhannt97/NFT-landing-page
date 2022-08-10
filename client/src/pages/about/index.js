@@ -9,6 +9,8 @@ export default function About() {
     <div id="about">
       <div class="background-layer">
         <Header />
+        <div class="container d-block">
+
         <div id="banner-slide">
           <div id="carouselAboutBanner" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -479,6 +481,7 @@ export default function About() {
             </div>
 
           </div>
+        </div>
         </div>
         <Footer />
       </div>

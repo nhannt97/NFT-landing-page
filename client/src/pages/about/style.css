@@ -27,7 +27,7 @@
   width: 100%;
 }
 #about #banner-slide .carousel-inner {
-  padding: 0 100px;
+  padding: 0 0px;
 }
 
 #about #banner-slide .carousel-control-next {
@@ -81,7 +81,7 @@
   margin-top: -30px;
   display: flex;
   justify-content: center;
-  padding: 0 100px;
+  padding: 0px;
 }
 
 #about #believe {
@@ -128,7 +128,7 @@
 }
 
 #about #why-you-might-love-it-container {
-  padding: 0 100px;
+  padding: 0px;
   display: flex;
   margin-bottom: 100px;
 }
@@ -177,7 +177,7 @@
 
 /*  */
 #about #market-place-container {
-  padding: 0 100px;
+  padding: 0px;
   display: flex;
   margin-bottom: 100px;
 }
@@ -314,7 +314,7 @@
 #about #zeus-hades-poseidon #element {
   position: relative;
   /* width: calc((100% - 60px)/3); */
-  width: 350px;
+  width: 335px;
   margin: 0px 15px 100px;
   padding: 80px 0 30px 0;
   border-radius: 25px;
@@ -400,8 +400,6 @@
 
 #about #news .news-content {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   margin-top: 80px;
 }
 

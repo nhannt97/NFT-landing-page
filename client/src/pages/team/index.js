@@ -9,77 +9,80 @@ export default function Team() {
   return (
     <div id="team">
       <div id="background-layer">
-        {/* <Header /> */}
+        <Header />
         <div id="banner" class="w-100  ">
           <div id="banner-content" class="w-100 h-100 d-flex flex-column justify-content-center">
-            <div id="banner-header" class="text-center mb-4">WHY YOU MIGHT LOVE IT HERE</div>
-            <div id="banner-text" class="text-center">Best teams. Biggest impact. Nothing in your way.</div>
-          </div>
-        </div>
-        <div class="title">OUR TEAM</div>
-        <div id="content-ourteam">
-          <div class="content-ourteam-detail">
-            <img src="images/Rectangle 143.png" alt="img error" />
-            <div id="name">Anika Curtis</div>
-            <div id="job-title">Job Title</div>
-          </div>
-          <div class="content-ourteam-detail">
-            <img src="images/Rectangle 143-1.png" alt="img error" />
-            <div id="name">Jaylon Dokidis</div>
-            <div id="job-title">Job Title</div>
-          </div>
-          <div class="content-ourteam-detail">
-            <img src="images/Rectangle 143-2.png" alt="img error" />
-            <div id="name">Kaiya Siphron</div>
-            <div id="job-title">Job Title</div>
-          </div>
-          <div class="content-ourteam-detail">
-            <img src="images/Rectangle 143-3.png" alt="img error" />
-            <div id="name">Kadin Schleifer</div>
-            <div id="job-title">Job Title</div>
-          </div>
-          <div class="content-ourteam-detail">
-            <img src="images/Rectangle 143-4.png" alt="img error" />
-            <div id="name">Phillip Torff</div>
-            <div id="job-title">Job Title</div>
-          </div>
-          <div class="content-ourteam-detail">
-            <img src="images/Rectangle 143-5.png" alt="img error" />
-            <div id="name">Zaire Donin</div>
-            <div id="job-title">Job Title</div>
-          </div>
-          <div class="content-ourteam-detail">
-            <img src="images/Rectangle 143-6.png" alt="img error" />
-            <div id="name">Corey Westervelt</div>
-            <div id="job-title">Job Title</div>
-          </div>
-          <div class="content-ourteam-detail">
-            <img src="images/Rectangle 143-7.png" alt="img error" />
-            <div id="name">Desirae Bator</div>
-            <div id="job-title">Job Title</div>
-          </div>
-        </div>
-        <div class="title">OUR ADVISORS</div>
-        <div class="content-ourAdvisors">
-          <div id="carousel-advisor" class="carousel slide mb-5" data-ride="carousel" data-interval="false">
-            <div class="carousel-inner text-center">
-              <div class="carousel-item  text-center active">
-                UP COMMING
-              </div>
-              <div class="carousel-item text-center ">
-                UP COMMING
-              </div>
-              <div class="carousel-item text-center ">
-                UP COMMING
-              </div>
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-advisor" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-advisor" data-slide-to="1"></li>
-                <li data-target="#carousel-advisor" data-slide-to="2"></li>
-              </ol>
+            <div class="container d-block">
+              <div id="banner-header" class="text-center mb-4">WHY YOU MIGHT LOVE IT HERE</div>
+              <div id="banner-text" class="text-center">Best teams. Biggest impact. Nothing in your way.</div>
             </div>
           </div>
-          {/* <div class="content-ourAdvisors-element">
+        </div>
+        <div class="container d-block">
+          <div class="title">OUR TEAM</div>
+          <div id="content-ourteam">
+            <div class="content-ourteam-detail">
+              <img src="images/Rectangle 143.png" alt="img error" />
+              <div id="name">Anika Curtis</div>
+              <div id="job-title">Job Title</div>
+            </div>
+            <div class="content-ourteam-detail">
+              <img src="images/Rectangle 143-1.png" alt="img error" />
+              <div id="name">Jaylon Dokidis</div>
+              <div id="job-title">Job Title</div>
+            </div>
+            <div class="content-ourteam-detail">
+              <img src="images/Rectangle 143-2.png" alt="img error" />
+              <div id="name">Kaiya Siphron</div>
+              <div id="job-title">Job Title</div>
+            </div>
+            <div class="content-ourteam-detail">
+              <img src="images/Rectangle 143-3.png" alt="img error" />
+              <div id="name">Kadin Schleifer</div>
+              <div id="job-title">Job Title</div>
+            </div>
+            <div class="content-ourteam-detail">
+              <img src="images/Rectangle 143-4.png" alt="img error" />
+              <div id="name">Phillip Torff</div>
+              <div id="job-title">Job Title</div>
+            </div>
+            <div class="content-ourteam-detail">
+              <img src="images/Rectangle 143-5.png" alt="img error" />
+              <div id="name">Zaire Donin</div>
+              <div id="job-title">Job Title</div>
+            </div>
+            <div class="content-ourteam-detail">
+              <img src="images/Rectangle 143-6.png" alt="img error" />
+              <div id="name">Corey Westervelt</div>
+              <div id="job-title">Job Title</div>
+            </div>
+            <div class="content-ourteam-detail">
+              <img src="images/Rectangle 143-7.png" alt="img error" />
+              <div id="name">Desirae Bator</div>
+              <div id="job-title">Job Title</div>
+            </div>
+          </div>
+          <div class="title">OUR ADVISORS</div>
+          <div class="content-ourAdvisors">
+            <div id="carousel-advisor" class="carousel slide mb-5" data-ride="carousel" data-interval="false">
+              <div class="carousel-inner text-center">
+                <div class="carousel-item  text-center active">
+                  UP COMMING
+                </div>
+                <div class="carousel-item text-center ">
+                  UP COMMING
+                </div>
+                <div class="carousel-item text-center ">
+                  UP COMMING
+                </div>
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-advisor" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-advisor" data-slide-to="1"></li>
+                  <li data-target="#carousel-advisor" data-slide-to="2"></li>
+                </ol>
+              </div>
+            </div>
+            {/* <div class="content-ourAdvisors-element">
             <img id="image-ourAdvisors" src="images/z3616430533416_431d5bb522ae7923d41a62023f21d7de.jpg" alt="img error" />
             <div class="content-ourAdvisors-detail">
               <div class="text" >
@@ -123,108 +126,109 @@ export default function Team() {
               </div>
             </div>
           </div> */}
-        </div>
-        <div id="concept-art-by">CONCEPT ART BY</div>
-        <div id="content-concept-art-by">
-          <div id="concept-art-by-image">
-            <img src="images/Ellipse 24.png" alt="img error" />
-            <div id="culu-art-station">CULU ART STATION</div>
           </div>
-          <div id="concept-art-by-text">
-            <div>We encourage artists to use their talents where they have the most impact.
-              In addition to helping us stay small, they may have the opportunity to
-              work on a project they weren't originally supposed to work with. Of course,
-              our artists always are consulted first and will take an active role in the decision-making processes.
-              As port of our main Concept artists, congratulations. We thank you for your invaluable contribution.
-              May these contributions pave the way for our game's success.
-              <br></br>
-              <br></br>
-              Your colleagues will trust you to do what makes sense and is appropriate for Rise of Immortals.
+          <div id="concept-art-by">CONCEPT ART BY</div>
+          <div id="content-concept-art-by">
+            <div id="concept-art-by-image">
+              <img src="images/Ellipse 24.png" alt="img error" />
+              <div id="culu-art-station">CULU ART STATION</div>
             </div>
-            <br />
-            <a id="some-of-the-products" href="#">Some of the products we have made.</a>
+            <div id="concept-art-by-text">
+              <div>We encourage artists to use their talents where they have the most impact.
+                In addition to helping us stay small, they may have the opportunity to
+                work on a project they weren't originally supposed to work with. Of course,
+                our artists always are consulted first and will take an active role in the decision-making processes.
+                As port of our main Concept artists, congratulations. We thank you for your invaluable contribution.
+                May these contributions pave the way for our game's success.
+                <br></br>
+                <br></br>
+                Your colleagues will trust you to do what makes sense and is appropriate for Rise of Immortals.
+              </div>
+              <br />
+              <a id="some-of-the-products" href="#">Some of the products we have made.</a>
+            </div>
           </div>
-        </div>
-        <div id="graphic-engineer-container" class="d-flex">
-          <div id="graphic-engineer-title" class="text-left d-flex align-items-center">
-            A GRAPHICS
-            <br /> ENGINEER'S STORY
+          <div id="graphic-engineer-container" class="d-flex">
+            <div id="graphic-engineer-title" class="text-left d-flex align-items-center">
+              A GRAPHICS
+              <br /> ENGINEER'S STORY
+            </div>
+            <div id="graphic-engineer-img"></div>
           </div>
-          <div id="graphic-engineer-img"></div>
-        </div>
-        <div id="cg3d-container" class="mb-5 pb-5">
-          <div id="carousel-cg3d" class="carousel slide mb-5" data-ride="carousel" data-interval="false">
-            <div class="carousel-inner text-center pb-5">
-              <div class="carousel-item active">
-                <div id="cg3d" class="mb-4">CG3D</div>
-                <div class="d-flex">
-                  <div id="content-left" class="pr-4">
-                    <p class="cg3d-text">
-                      We believe that fun and beautiful games will become a source of income
-                      for anyone, anywhere.
-                      <br />
-                      Our mission at CG3D Studios is to bring Rise of Immortals, other Blockchain
-                      games, and 3D system art at the top for emerging technologies and global
-                      adoption.
-                      <br />
-                      CG3D Studios was founded by people with vast experience in the industry
-                      and are comprised of people from different fields of expertise.
-                    </p>
-                    <p class="cg3d-text">
-                      Our team focuses on work efficiency, and optimum performance while also
-                      promoting creativity and growth through a professional working
-                      environment.
-                    </p>
-                    <p class="cg3d-text">
-                      CG3D Studios was established in Vietnam and quickly had members in
-                      France and Finland
-                    </p>
-                  </div>
-                  <div id="content-right" class="pl-4">
-                    <p class="cg3d-text">
-                      First-class Game Design and Development
-                    </p>
-                    <p class="cg3d-text">
-                      All of our game content is designed and developed from scratch, i.e., from
-                      conceptual designs to 3D character modeling and animations.
-                    </p>
-                    <p class="cg3d-text">
-                      We believe that focusing on the smallest details will help players to have a great experience.
-                    </p>
-                    <p class="cg3d-text">
-                      Our 3 design criteria: Good image quality, financial balance and crosschain-platform.
-                    </p>
-                    <p class="cg3d-text">
-                      We built the game around these fundamental values which we believe is
-                      the next generation, the next era.
-                    </p>
-                    <p class="cg3d-text">
-                      The future is already here and it's not just even distributed yet. We need
-                      more adventurers, builders, thinkers and missionaries to make it well known
-                      around the world
-                    </p>
+          <div id="cg3d-container" class="mb-5 pb-5">
+            <div id="carousel-cg3d" class="carousel slide mb-5" data-ride="carousel" data-interval="false">
+              <div class="carousel-inner text-center pb-5">
+                <div class="carousel-item active">
+                  <div id="cg3d" class="mb-4">CG3D</div>
+                  <div class="d-flex">
+                    <div id="content-left" class="pr-4">
+                      <p class="cg3d-text">
+                        We believe that fun and beautiful games will become a source of income
+                        for anyone, anywhere.
+                        <br />
+                        Our mission at CG3D Studios is to bring Rise of Immortals, other Blockchain
+                        games, and 3D system art at the top for emerging technologies and global
+                        adoption.
+                        <br />
+                        CG3D Studios was founded by people with vast experience in the industry
+                        and are comprised of people from different fields of expertise.
+                      </p>
+                      <p class="cg3d-text">
+                        Our team focuses on work efficiency, and optimum performance while also
+                        promoting creativity and growth through a professional working
+                        environment.
+                      </p>
+                      <p class="cg3d-text">
+                        CG3D Studios was established in Vietnam and quickly had members in
+                        France and Finland
+                      </p>
+                    </div>
+                    <div id="content-right" class="pl-4">
+                      <p class="cg3d-text">
+                        First-class Game Design and Development
+                      </p>
+                      <p class="cg3d-text">
+                        All of our game content is designed and developed from scratch, i.e., from
+                        conceptual designs to 3D character modeling and animations.
+                      </p>
+                      <p class="cg3d-text">
+                        We believe that focusing on the smallest details will help players to have a great experience.
+                      </p>
+                      <p class="cg3d-text">
+                        Our 3 design criteria: Good image quality, financial balance and crosschain-platform.
+                      </p>
+                      <p class="cg3d-text">
+                        We built the game around these fundamental values which we believe is
+                        the next generation, the next era.
+                      </p>
+                      <p class="cg3d-text">
+                        The future is already here and it's not just even distributed yet. We need
+                        more adventurers, builders, thinkers and missionaries to make it well known
+                        around the world
+                      </p>
+                    </div>
                   </div>
                 </div>
+                <div class="carousel-item  text-center">
+                  UP COMMING
+                </div>
+                <div class="carousel-item  text-center">
+                  UP COMMING
+                </div>
+                <a class="carousel-control-prev" href="#carousel-cg3d" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-cg3d" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-cg3d" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-cg3d" data-slide-to="1"></li>
+                  <li data-target="#carousel-cg3d" data-slide-to="2"></li>
+                </ol>
               </div>
-              <div class="carousel-item  text-center">
-                UP COMMING
-              </div>
-              <div class="carousel-item  text-center">
-                UP COMMING
-              </div>
-              <a class="carousel-control-prev" href="#carousel-cg3d" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carousel-cg3d" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-cg3d" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-cg3d" data-slide-to="1"></li>
-                <li data-target="#carousel-cg3d" data-slide-to="2"></li>
-              </ol>
             </div>
           </div>
         </div>

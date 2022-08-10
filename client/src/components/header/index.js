@@ -12,7 +12,7 @@ export default function Header() {
     return window.location.pathname === path;
   };
   return (
-    <div id="header">
+    <div id="header" class="container">
       <div class="logo">
         <img alt="logo" src="images/Logo 1.png" />
       </div>

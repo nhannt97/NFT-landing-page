@@ -6,6 +6,7 @@ import './style.css';
 export default function Footer() {
   return (
     <div id="footer">
+      <div  class="container d-block">
       <div id="first-row">
         <Socials />
         <Stores />
@@ -46,6 +47,7 @@ export default function Footer() {
           <div class="text text-right">@ Copyright CG3D Studio</div>
         </div>
       </div >
+      </div>
     </div >
   );
 }
