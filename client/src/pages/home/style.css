@@ -376,8 +376,9 @@
 }
 
 .homepage #vision-quote-start {
+  transform: rotate(180deg) skewX(-15deg);
   font-size: 40px;
-  top: -10px;
+  top: -15px;
   left: 5px;
   position: absolute;
 }
@@ -385,14 +386,16 @@
 .homepage #vision-quote-end {
   font-size: 40px;
   right: 5px;
-  bottom: -25px;
+  bottom: -2px;
   position: absolute;
+  transform: rotate(180deg) skewX(-15deg);
 }
 
 .homepage .quote {
+  font: 700 15px 'Barlow';
   border-radius: 20px;
   background-color: #17222c;
-  padding: 10px;
+  padding: 15px;
 }
 
 .homepage #vision-title {

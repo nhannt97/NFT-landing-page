@@ -67,13 +67,13 @@ export default function Team() {
             <div id="carousel-advisor" class="carousel slide mb-5" data-ride="carousel" data-interval="false">
               <div class="carousel-inner text-center">
                 <div class="carousel-item  text-center active">
-                  UP COMMING
+                  COMING SOON 
                 </div>
                 <div class="carousel-item text-center ">
-                  UP COMMING
+                  COMING SOON 
                 </div>
                 <div class="carousel-item text-center ">
-                  UP COMMING
+                  COMING SOON 
                 </div>
                 <ol class="carousel-indicators">
                   <li data-target="#carousel-advisor" data-slide-to="0" class="active"></li>
@@ -210,10 +210,10 @@ export default function Team() {
                   </div>
                 </div>
                 <div class="carousel-item  text-center">
-                  UP COMMING
+                  COMING SOON 
                 </div>
                 <div class="carousel-item  text-center">
-                  UP COMMING
+                  COMING SOON 
                 </div>
                 <a class="carousel-control-prev" href="#carousel-cg3d" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>

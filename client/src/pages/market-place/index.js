@@ -9,7 +9,7 @@ export default function MarketPlace() {
       <div id="background-layer">
         <Header />
         <div id="img-container">
-          <div id="up-comming">UP COMMING</div>
+          <div id="up-comming">COMING SOON </div>
         </div>
         <Footer />
       </div>

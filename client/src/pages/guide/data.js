@@ -346,7 +346,7 @@ export const data = [{
     id: 'Hidden Electric',
     title: 'Hidden Electric',
     img: 'images/Guide/Build_Khodauden 10.png',
-    description:'up comming',
+    description:'COMING SOON ',
     items: [{
       title1: 'Hidden Electric',
       title2: 'Level 1',
@@ -372,13 +372,13 @@ export const data = [{
     id: 'Wizard Tower',
     title: 'Wizard Tower',
     img: 'images/Guide/Build_Khodauden 8.png',
-    description:'up comming',
+    description:'COMING SOON ',
     items: []
   },{
     id: 'Wall',
     title: 'Wall',
     img: 'images/Guide/Build_Khodauden 8-1.png',
-    description:'up comming',
+    description:'COMING SOON ',
     items: []
   },{
     id: 'Fragments',
@@ -414,63 +414,63 @@ export const data = [{
     id: 'Air Bomb',
     title: 'Air Bomb',
     img: 'images/Guide/Group 229-1.png',
-    description:'up comming',
+    description:'COMING SOON ',
     items: []
   },
   {
     id: 'Hide Trap',
     title: 'Hide Trap',
     img: 'images/Guide/Build_Khodauden 1-2.png',
-    description:'up comming',
+    description:'COMING SOON ',
     items: []
   },
   {
     id: 'Bomb',
     title: 'Bomb',
     img: 'images/Guide/Build_Khodauden 6-1.png',
-    description:'up comming',
+    description:'COMING SOON ',
     items: []
   },
   {
     id: 'Destructive Flying Mines',
     title: 'Destructive Flying Mines',
     img: 'images/Guide/Build_Khodauden 7-1.png',
-    description:'up comming',
+    description:'COMING SOON ',
     items: []
   },
   {
     id: 'Giant Bomb',
     title: 'Giant Bomb',
     img: 'images/Guide/Build_Khodauden 10-1.png',
-    description:'up comming',
+    description:'COMING SOON ',
     items: []
   },
   {
     id: 'Skeleton Trap',
     title: 'Skeleton Trap',
     img: 'images/Guide/Build_Khodauden 8-3.png',
-    description:'up comming',
+    description:'COMING SOON ',
     items: []
   },
   {
     id: 'Freeze Trap',
     title: 'Freeze Trap',
     img: 'images/Guide/Build_Khodauden 8-4.png',
-    description:'up comming',
+    description:'COMING SOON ',
     items: []
   },
   {
     id: 'Push Trap',
     title: 'Push Trap',
     img: 'images/Guide/Build_Khodauden 8-5.png',
-    description:'up comming',
+    description:'COMING SOON ',
     items: []
   },
   {
     id: 'Tornado Trap',
     title: 'Tornado Trap',
     img: 'images/Guide/Build_Khodauden 8-6.png',
-    description:'up comming',
+    description:'COMING SOON ',
     items: []
   }]
 }];
