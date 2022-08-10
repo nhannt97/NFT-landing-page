@@ -22,6 +22,13 @@ export default function SlidePopup({ id, title, description, items, onClose }) {
                     <div class="img-title">{item.title2}</div>
                   </div>
                 ))}
+                {!items?.length && (
+                  <div class="align-items-center justify-content-center inner-ct">
+                    <h3>
+                      UPCOMMING
+                    </h3>
+                  </div>
+                )}
               </div>
               <div class="img-description">{description}</div>
             </div>
