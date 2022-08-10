@@ -8,10 +8,12 @@ import Home from './pages/home/index';
 import MarketPlace from './pages/market-place/index';
 import About from './pages/about/index';
 import Staking from './pages/staking/index';
-import Building from './pages/building/index';
+import Term from './pages/term/index';
 import Team from './pages/team/index';
 import Guide from './pages/guide/index';
 import LoadingScreen from "./layouts/loading-screen";
+import DisClaim from "./pages/dis-claim";
+import Privacy from "./pages/privacy";
 
 export const routers = [{
   path: '/',
@@ -20,27 +22,27 @@ export const routers = [{
 }, {
   path: '/market-place',
   component: <MarketPlace />,
-  loadTime: 2
 }, {
   path: 'about',
   component: <About />,
-  loadTime: 2
 }, {
-  path: '/building',
-  component: <Building />,
-  loadTime: 2
+  path: '/term',
+  component: <Term />,
+}, {
+  path: '/dis-claim',
+  component: <DisClaim />,
+}, {
+  path: '/privacy',
+  component: <Privacy />,
 }, {
   path: '/staking',
   component: <Staking />,
-  loadTime: 2
 }, {
   path: '/team',
   component: <Team />,
-  loadTime: 2
 }, {
   path: '/guide',
   component: <Guide />,
-  loadTime: 2
 }];
 
 export default function routerRender() {
@@ -52,9 +54,9 @@ export default function routerRender() {
             path={router.path}
             key={router.path}
             element={(
-              <LoadingScreen time={router.loadTime}>
+              router.loadTime ? (<LoadingScreen time={router.loadTime}>
                 {router.component}
-              </LoadingScreen>
+              </LoadingScreen>) : (router.component)
             )}
           >
           </Route>
