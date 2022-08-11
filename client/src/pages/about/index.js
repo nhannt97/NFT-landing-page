@@ -191,9 +191,9 @@ export default function About() {
             <div id="market-place-content">
               <div id="market-place">
                 Marketplace
-                <i class="material-icons" data-toggle="collapse" data-target="#collapseMarket" aria-expanded="true" aria-controls="collapseMarket" id="market-expand-icon">expand_more</i>
+                {/* <i class="material-icons" data-toggle="collapse" data-target="#collapseMarket" aria-expanded="true" aria-controls="collapseMarket" id="market-expand-icon">expand_more</i> */}
               </div>
-              <div id="collapseMarket" class="collapse">
+              <div id="collapseMarket">
                 <div id="des-1">
                   RISE OF IMMORTALS marketplace is designed to provide a smooth, beginner-friendly, and seamless experience. The one-stop-shop Marketplace.
                 </div>
@@ -215,8 +215,8 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div id="market-img">
-              <img src="images/market.png" alt="" class="w-100" />
+            <div id="market-img" class="ml-2">
+              <img src="images/clan.svg" alt="" class="w-100" />
             </div>
           </div>
           <div id="level-building-container">
@@ -307,7 +307,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content">
                 <div class="card card-body">
-                  <p class="card-text ">The launch of the marketplace is scheduled for Q4 2022. Subscribe to our social networks and stay tuned for announcements so you don't miss anything.</p>
+                  <p class="card-text">The launch of the marketplace is scheduled for Q4 2022. Subscribe to our social networks and stay tuned for announcements so you don't miss anything.</p>
                 </div>
               </div>
               <div class=" detail d-flex" >
@@ -318,7 +318,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content1">
                 <div class="card card-body">
-                  <p class="card-text ">The launch of the marketplace is scheduled for Q4 2022. Subscribe to our social networks and stay tuned for announcements so you don't miss anything.</p>
+                  <p class="card-text">The launch of the marketplace is scheduled for Q4 2022. Subscribe to our social networks and stay tuned for announcements so you don't miss anything.</p>
                 </div>
               </div>
               <div class=" detail d-flex" >
@@ -329,7 +329,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content2">
                 <div class="card card-body">
-                  <p class="card-text ">The main network of the marketplace is Ethereum Chain. The main cryptocurrency on the marketplace is ETH.</p>
+                  <p class="card-text">The main network of the marketplace is Ethereum Chain. The main cryptocurrency on the marketplace is ETH.</p>
                 </div>
               </div>
               <div class=" detail d-flex" >
@@ -340,7 +340,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content3">
                 <div class="card card-body">
-                  <p class="card-text ">Yes, there is a big NFTs giveaway for our subscribers right now. Hurry up, take part & get lucky!</p>
+                  <p class="card-text">Yes, there is a big NFTs giveaway for our subscribers right now. Hurry up, take part & get lucky!</p>
                 </div>
               </div>
               <div class=" detail d-flex" >
@@ -351,7 +351,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content4">
                 <div class="card card-body">
-                  <p class="card-text ">The safest way is to follow the announcements and make your purchase quicker than everyone else after the sale starts. To have guaranteed access to the starting price sale, you need to get on the Whitelist.</p>
+                  <p class="card-text">The safest way is to follow the announcements and make your purchase quicker than everyone else after the sale starts. To have guaranteed access to the starting price sale, you need to get on the Whitelist.</p>
                 </div>
               </div>
               <div class=" detail d-flex" >
@@ -362,7 +362,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content5">
                 <div class="card card-body">
-                  <p class="card-text ">Tokens can be bought on decentralized and centralized exchanges after listing. The only way to buy a token before listing is to participate in an ICO / IDO public sale round.</p>
+                  <p class="card-text">Tokens can be bought on decentralized and centralized exchanges after listing. The only way to buy a token before listing is to participate in an ICO / IDO public sale round.</p>
                 </div>
               </div>
               <div class=" detail d-flex" >
@@ -373,7 +373,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content6">
                 <div class="card card-body">
-                  <p class="card-text ">Public Sale of tokens and listing on exchanges is scheduled on Q4/2022.</p>
+                  <p class="card-text">Public Sale of tokens and listing on exchanges is scheduled on Q4/2022.</p>
                 </div>
               </div>
               <div class=" detail d-flex" >
@@ -384,7 +384,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content7">
                 <div class="card card-body">
-                  <p class="card-text ">CFor now, we can't disclose any information regarding the time and location of the public round. Stay tuned for updates.</p>
+                  <p class="card-text">CFor now, we can't disclose any information regarding the time and location of the public round. Stay tuned for updates.</p>
                 </div>
               </div>
               <div class=" detail d-flex" >
@@ -395,7 +395,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content8">
                 <div class="card card-body">
-                  <p class="card-text ">No, there are no such mechanics in the project at this moment.</p>
+                  <p class="card-text">No, there are no such mechanics in the project at this moment.</p>
                 </div>
               </div>
               <div class=" detail d-flex" >
@@ -406,7 +406,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content9">
                 <div class="card card-body">
-                  <p class="card-text ">We plan to list part of the tokens on IDO platforms and the conditions of participation will be set forth by these platforms. The other part of the tokens will be sold via our own platform and participants that are on the Whitelist are prioritized.</p>
+                  <p class="card-text">We plan to list part of the tokens on IDO platforms and the conditions of participation will be set forth by these platforms. The other part of the tokens will be sold via our own platform and participants that are on the Whitelist are prioritized.</p>
                 </div>
               </div>
               <div class=" detail d-flex" >
@@ -417,7 +417,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content0">
                 <div class="card card-body">
-                  <p class="card-text ">We are unable to disclose this information in advance — follow the announcements.</p>
+                  <p class="card-text">We are unable to disclose this information in advance — follow the announcements.</p>
                 </div>
               </div>
               <div class=" detail d-flex" >
@@ -428,7 +428,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content11">
                 <div class="card card-body">
-                  <p class="card-text ">
+                  <p class="card-text">
                     Yes, being whitelisted gives you the priority right to buy NFTs or tokens at the start of sales.
                     Ways to get on Rise of Immortals Whitelist:
                     <br />
@@ -451,7 +451,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content12">
                 <div class="card card-body">
-                  <p class="card-text ">We plan to launch on iOS/Android & Web applications.</p>
+                  <p class="card-text">We plan to launch on iOS/Android & Web applications.</p>
                 </div>
               </div>
               <div class=" detail d-flex" >
@@ -462,7 +462,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content13">
                 <div class="card card-body">
-                  <p class="card-text ">We will have 12 to 18 different languages for the convenience of players worldwide.</p>
+                  <p class="card-text">We will have 12 to 18 different languages for the convenience of players worldwide.</p>
                 </div>
               </div>
               <div class=" detail d-flex" >
@@ -473,7 +473,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content14">
                 <div class="card card-body">
-                  <p class="card-text ">NFTs can only be bought on our marketplace after our official announcement. All information will be provided on our social channels.</p>
+                  <p class="card-text">NFTs can only be bought on our marketplace after our official announcement. All information will be provided on our social channels.</p>
                 </div>
               </div>
               <div class=" detail d-flex" >
@@ -484,7 +484,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content15">
                 <div class="card card-body">
-                  <p class="card-text ">Rise of Immortals is built on the Ethereum blockchain, utilizing Immutable X as an L2 scaling solution. Polygon & Binance Smart Chain support will be coming to the Rise of Immortals Bridge in the near future.</p>
+                  <p class="card-text">Rise of Immortals is built on the Ethereum blockchain, utilizing Immutable X as an L2 scaling solution. Polygon & Binance Smart Chain support will be coming to the Rise of Immortals Bridge in the near future.</p>
                 </div>
               </div>
               <div class=" detail d-flex" >
@@ -495,7 +495,7 @@ export default function About() {
               </div>
               <div class="collapse box-content" id="box-content16">
                 <div class="card card-body">
-                  <p class="card-text ">You do not need to own land outright to be able to play in Rise of Immortals, but you do need to have access to a land NFT. There are three ways you can control land in Rise of Immortals, Ownership, Renting, or Partnerships. Renting is a great option for new users looking to try out the game and earn SAPPHIRE while playing. Partnerships require no upfront payment but involve Sapphire (SAP) fee-sharing agreement with the land owner.</p>
+                  <p class="card-text">You do not need to own land outright to be able to play in Rise of Immortals, but you do need to have access to a land NFT. There are three ways you can control land in Rise of Immortals, Ownership, Renting, or Partnerships. Renting is a great option for new users looking to try out the game and earn SAPPHIRE while playing. Partnerships require no upfront payment but involve Sapphire (SAP) fee-sharing agreement with the land owner.</p>
                 </div>
               </div>
             </div>
