@@ -13,24 +13,28 @@ export default function Home() {
     <div class="homepage">
       <div class="background-layer">
         <Header />
-        <div class="container d-block">
-          <div class="title position-relative">
-            <div class="position-absolute" id="sub-background-layer">
+        <div id="hero-background">
+          <div class="container">
+            <div class="title position-relative">
+              <div class="position-absolute" id="sub-background-layer">
+              </div>
+              <div class="aaa-hero-base-strategy-game">
+                AAA HERO-BASED
+                <br />STRATEGY GAME
+              </div>
+              <div id="aaa-hero-base-strategy-game-detail">Powered by NFTs on the Ethereum blockchain</div>
+              <div class="build">
+                Build your base, expand your army, and earn Sapphire by
+                <br />conquering enemy bases throughout Rise of Immortals.
+              </div>
+              <button id="btn-play-to-earn">
+                Join Discord
+              </button>
             </div>
-            <div class="aaa-hero-base-strategy-game">
-              AAA HERO-BASED
-              <br />STRATEGY
-              <br />GAME
-            </div>
-            <div class="build">
-              Build your base, expand your army, and earn Sapphire by
-              <br />conquering enemy bases throughout Rise of Immortals.
-            </div>
-            <button id="btn-play-to-earn">
-              Join Discord
-            </button>
           </div>
+        </div>
 
+        <div class="container d-block">
           <div class="download">
             <div class="download-content position-relative w-100">
               <img id="dynamon" class="position-absolute" alt="dynamon" src="images/Dynamon.png" />
@@ -68,7 +72,7 @@ export default function Home() {
           </div>
           <div id="based-battles-container">
             <div id="based-battles-content">
-              <img src="images/Six head.png" alt=""  style={{ transform: 'rotateY(180deg)' }} />
+              <img src="images/Six head.png" alt="" style={{ transform: 'rotateY(180deg)' }} />
               <div id="based-battles-left">
                 <div id="based-battles">
                   NFT-based Battles: Heroes and Land NFTs
@@ -84,7 +88,7 @@ export default function Home() {
           </div>
           <div id="lead-you-container">
             <div id="lead-you-left">
-              <div id="lead-you">Lead you Clan to the Victory</div>
+              <div id="lead-you">Lead you Clan to the <br/> Victory</div>
               <div id="hero-has-heard">Hero has heard our call! Join the war of the Heroes and conquer this battle through Rise of Immortals. Customize your army, build your defense, and crush your opponents. Using the power of the Heroes, strike your enemies and forge a legacy by conquering their lands and destroying their villages.</div>
             </div>
             <div id="lead-you-right">
@@ -235,7 +239,7 @@ export default function Home() {
                   <span id="vision-quote-end">"</span>
                 </div>
               </div>
-              <img class= "ml-5" src="images/Char_Builder_041.png" width="400px" height="auto"  alt="" />
+              <img class="ml-5" src="images/Char_Builder_041.png" width="400px" height="auto" alt="" />
             </div>
           </div>
           <div id="register-container">

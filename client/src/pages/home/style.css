@@ -32,27 +32,40 @@
   font: 700 12px 'Barlow';
 }
 
+.homepage #hero-background .container{
+  justify-content: left;
+}
+
+.homepage #hero-background {
+  background-image: url('../../../public/images/Home\ banner.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+
 .homepage .title {
   height: 570px;
   color: white;
   text-align: left;
   padding: 100px 0;
-  background-image: url('../../../public/images/Home\ banner.png');
-  background-size: 70%;
-  background-repeat: no-repeat;
-  background-position: right;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .homepage .aaa-hero-base-strategy-game {
-  font: 700 60px/120% 'Barlow';
+  font: 700 44px/120% 'Barlow';
+}
+
+.homepage #aaa-hero-base-strategy-game-detail {
+  margin-top: 20px;
+  font: 700 18px 'Barlow';
 }
 
 .homepage .build {
   font: 400 18px 'Barlow';
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -181,7 +194,7 @@
 }
 
 .homepage #lead-you-left {
-  padding: 50px 0;
+  padding: 50px 60px 0 0;
   width: 45%;
 }
 
@@ -335,6 +348,7 @@
 .homepage #video-slide .carousel-item {
   padding: 0 100px;
 }
+
 .homepage #video-slide .carousel-control-next {
   background: black;
   height: 74px;
@@ -345,6 +359,7 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
 .homepage #video-slide .carousel-control-prev {
   background: black;
   height: 74px;
@@ -370,6 +385,7 @@
 
 .homepage #video-slide .video-upcomming {
   font: 400 italic 70px/44px 'Barlow';
+  line-height: 80px;
 }
 
 .homepage #vision-container {
@@ -400,6 +416,8 @@
 }
 
 .homepage #vision-title {
+  text-align: initial;
+  padding-left: 10px;
   margin: 20px;
   font: 700 40px/44px 'Barlow';
 }
@@ -435,7 +453,9 @@
   border-radius: 7px !important;
   margin: 4px;
 }
-.homepage #vision-container .carousel-control-next, .homepage #vision-container .carousel-control-prev {
+
+.homepage #vision-container .carousel-control-next,
+.homepage #vision-container .carousel-control-prev {
   background: black;
   height: 30px;
   border-radius: 40px;
@@ -444,7 +464,9 @@
   top: 50%;
   transform: translateY(-50%);
 }
-.homepage #vision-container .carousel-control-next-icon, .homepage #vision-container .carousel-control-prev-icon {
+
+.homepage #vision-container .carousel-control-next-icon,
+.homepage #vision-container .carousel-control-prev-icon {
   width: 15px;
 }
 
@@ -510,6 +532,7 @@
   text-align: left;
   font: 700 14px/20px 'Barlow'
 }
+
 .homepage #input-container {
   width: 360px;
 }
