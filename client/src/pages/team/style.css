@@ -216,6 +216,7 @@ a:hover {
 }
 
 #team #graphic-engineer-title {
+  margin: auto;
   font: 700 40px/48px 'Barlow';
 }
 
@@ -281,5 +282,5 @@ a:hover {
   bottom: -15px;
 }
 #team #content-left {
-  width: 45%;
+  /* width: 45%; */
 }

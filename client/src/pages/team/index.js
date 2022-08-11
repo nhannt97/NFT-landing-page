@@ -67,13 +67,13 @@ export default function Team() {
             <div id="carousel-advisor" class="carousel slide mb-5" data-ride="carousel" data-interval="false">
               <div class="carousel-inner text-center">
                 <div class="carousel-item  text-center active">
-                  COMING SOON 
+                  COMING SOON
                 </div>
                 <div class="carousel-item text-center ">
-                  COMING SOON 
+                  COMING SOON
                 </div>
                 <div class="carousel-item text-center ">
-                  COMING SOON 
+                  COMING SOON
                 </div>
                 <ol class="carousel-indicators">
                   <li data-target="#carousel-advisor" data-slide-to="0" class="active"></li>
@@ -150,8 +150,7 @@ export default function Team() {
           </div>
           <div id="graphic-engineer-container" class="d-flex">
             <div id="graphic-engineer-title" class="text-left d-flex align-items-center">
-              A GRAPHICS
-              <br /> ENGINEER'S STORY
+              CD3G STORY
             </div>
             <div id="graphic-engineer-img"></div>
           </div>
@@ -159,7 +158,6 @@ export default function Team() {
             <div id="carousel-cg3d" class="carousel slide mb-5" data-ride="carousel" data-interval="false">
               <div class="carousel-inner text-center pb-5">
                 <div class="carousel-item active">
-                  <div id="cg3d" class="mb-4">CG3D</div>
                   <div class="d-flex">
                     <div id="content-left" class="pr-4">
                       <p class="cg3d-text">
@@ -182,8 +180,6 @@ export default function Team() {
                         CG3D Studios was established in Vietnam and quickly had members in
                         France and Finland
                       </p>
-                    </div>
-                    <div id="content-right" class="pl-4">
                       <p class="cg3d-text">
                         First-class Game Design and Development
                       </p>
@@ -194,6 +190,8 @@ export default function Team() {
                       <p class="cg3d-text">
                         We believe that focusing on the smallest details will help players to have a great experience.
                       </p>
+                    </div>
+                    <div id="content-right" class="pl-4">
                       <p class="cg3d-text">
                         Our 3 design criteria: Good image quality, financial balance and crosschain-platform.
                       </p>
@@ -206,14 +204,25 @@ export default function Team() {
                         more adventurers, builders, thinkers and missionaries to make it well known
                         around the world
                       </p>
+                      <p class="cg3d-text">
+                        We believe that the best teams are comprised of diverse individuals all working towards a single goal.
+                      </p>
+                      <p class="cg3d-text">
+                        Our journey won’t be easy. It’s going to be dark. It’ll be cold. But eternal glory and recognition await for those that walk the road with us.
+                      </p>
+                      <p class="cg3d-text">
+                        At Rise of Immortals you’ll help build things the world has never seen and conduct experiments that blend gaming, economics, and even political science.
+                        We have been tirelessly building Rise of Immortals and our goal is to make it the #1 Blockchain game. Now it's time to make it one of the best games
+                        in the virtual world.
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item  text-center">
-                  COMING SOON 
+                  COMING SOON
                 </div>
                 <div class="carousel-item  text-center">
-                  COMING SOON 
+                  COMING SOON
                 </div>
                 <a class="carousel-control-prev" href="#carousel-cg3d" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
