@@ -24,17 +24,19 @@
 }
 
 #guide #vision-quote-start {
+  transform: rotate(180deg) skewX(-15deg);
   font-size: 40px;
-  top: -10px;
+  top: -30px;
   left: 5px;
   position: absolute;
 }
 
 
 #guide #vision-quote-end {
+  transform: rotate(180deg) skewX(-15deg);
   font-size: 40px;
   right: 5px;
-  bottom: -25px;
+  bottom: -12px;
   position: absolute;
 }
 
