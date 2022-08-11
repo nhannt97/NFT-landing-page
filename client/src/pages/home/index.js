@@ -68,7 +68,7 @@ export default function Home() {
           </div>
           <div id="based-battles-container">
             <div id="based-battles-content">
-              <img src="images/Six head.png" alt="" />
+              <img src="images/Six head.png" alt=""  style={{ transform: 'rotateY(180deg)' }} />
               <div id="based-battles-left">
                 <div id="based-battles">
                   NFT-based Battles: Heroes and Land NFTs
@@ -93,7 +93,7 @@ export default function Home() {
           </div>
           <div id="launch-calendar">
             <div>
-              <img src="images/Launch.png" alt="" />
+              <img src="images/Launch.png" alt="" style={{ transform: 'rotateY(180deg) translateY(78px)' }} />
             </div>
             <div>
               <div id="launch-container">
