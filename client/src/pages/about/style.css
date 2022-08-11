@@ -71,6 +71,10 @@
   font: 500 14px/20px 'Barlow';
 }
 
+#about .rise-of .title-detail{
+  font: 700 20px 'Barlow';
+}
+
 #about .carousel-indicators li {
   width: 26px !important;
   height: 26px !important;
@@ -116,7 +120,7 @@
 
 #about .believe-item img {
   position: absolute;
-  top: -30%;
+  top: -53%;
   left: 50%;
   width: 100%;
   transform: translateX(-50%);
@@ -331,7 +335,7 @@
   position: absolute;
   width: 300px;
   top: -20%;
-  left: 10%;
+  left: 5%;
 }
 
 #about #zeus-hades-poseidon .title {
@@ -365,6 +369,11 @@
   width: 725px;
   height: auto;
   border-radius: 20px;
+}
+
+#about #faq-title{
+  font: 700 36px/44px 'Barlow';
+  margin-bottom: 50px;
 }
 
 #about #faq .detail {

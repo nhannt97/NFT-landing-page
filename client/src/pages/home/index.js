@@ -18,7 +18,7 @@ export default function Home() {
             <div class="position-absolute" id="sub-background-layer">
             </div>
             <div class="aaa-hero-base-strategy-game">
-              AAA HERO-BASE
+              AAA HERO-BASED
               <br />STRATEGY
               <br />GAME
             </div>
@@ -55,7 +55,7 @@ export default function Home() {
           </div>
 
           <div id="sponsor">Sponsor</div>
-          <div id="up-comming">UP COMMING</div>
+          <div id="up-comming">COMING SOON </div>
           <div id="see-the-latest-container">
             <div></div>
             <div id="see-the-latest-right">
@@ -158,27 +158,27 @@ export default function Home() {
                       <Video id="video-1" src="videos/Zeus_Clip10s.mp4" type="video/mp4" width="100%" loop />
                     </div>
                     <div class="w-50 p-5 d-flex align-items-center">
-                      <div class="video-upcomming text-center">UP COMMING</div>
+                      <div class="video-upcomming text-center">COMING SOON </div>
                     </div>
                   </div>
                 </div>
                 <div key="element" class={`carousel-item position-relative`}>
                   <div class="d-flex">
                     <div class="w-50 p-5">
-                      <div class=" d-flex align-items-center video-upcomming text-center" style={{ height: 438.4 }}>UP COMMING</div>
+                      <div class=" d-flex align-items-center video-upcomming text-center" style={{ height: 438.4 }}>COMING SOON </div>
                     </div>
                     <div class="w-50 p-5">
-                      <div class=" d-flex align-items-center video-upcomming text-center" style={{ height: 438.4 }}>UP COMMING</div>
+                      <div class=" d-flex align-items-center video-upcomming text-center" style={{ height: 438.4 }}>COMING SOON </div>
                     </div>
                   </div>
                 </div>
                 <div key="element" class={`carousel-item position-relative`}>
                   <div class="d-flex">
                     <div class="w-50 p-5">
-                      <div class=" d-flex align-items-center video-upcomming text-center" style={{ height: 438.4 }}>UP COMMING</div>
+                      <div class=" d-flex align-items-center video-upcomming text-center" style={{ height: 438.4 }}>COMING SOON </div>
                     </div>
                     <div class="w-50 p-5">
-                      <div class=" d-flex align-items-center video-upcomming text-center" style={{ height: 438.4 }}>UP COMMING</div>
+                      <div class=" d-flex align-items-center video-upcomming text-center" style={{ height: 438.4 }}>COMING SOON </div>
                     </div>
                   </div>
                 </div>
@@ -199,7 +199,7 @@ export default function Home() {
             </div>
           </div>
           <div id="vision-container">
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center align-items-center">
               <div id="vision-content">
                 <div id="vision-title">Vison</div>
                 <div id="carousel-vision-content" class="carousel slide mb-5" data-ride="carousel" data-interval="false">
@@ -214,14 +214,14 @@ export default function Home() {
                         <br /> tomorrow and do the right thing about P2E games.</div>
                       <div>We aim to sick with our name and IMMORATLIZE our game to co-exist with other big names inside and outsite the crypto word.</div>
                     </div>
-                    <a class="carousel-control-prev" href="#carousel-vision-content" role="button" data-slide="prev">
+                    {/* <a class="carousel-control-prev" href="#carousel-vision-content" role="button" data-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next" href="#carousel-vision-content" role="button" data-slide="next">
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="sr-only">Next</span>
-                    </a>
+                    </a> */}
                     <ol class="carousel-indicators">
                       <li data-target="#carousel-vision-content" data-slide-to="0" class="active"></li>
                       <li data-target="#carousel-vision-content" data-slide-to="1"></li>
@@ -235,7 +235,7 @@ export default function Home() {
                   <span id="vision-quote-end">"</span>
                 </div>
               </div>
-              <img class="ml-5" src="images/vision.png" alt="" />
+              <img class= "ml-5" src="images/Char_Builder_041.png" width="400px" height="auto"  alt="" />
             </div>
           </div>
           <div id="register-container">

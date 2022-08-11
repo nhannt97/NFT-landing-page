@@ -235,4 +235,242 @@ export const data = [{
       img: 'images/Slide-Popup/soldier base-05.png'
     }]
   }]
+},{
+  // khoi 2
+  title: 'Village Defender',
+  items: [{
+    id: 'Scattershot',
+    title: 'Scattershot',
+    img: 'images/Guide/Group 229.png',
+    description:'The Scattershot heaves very heavy bundles of poorly tied together rocks at whoever happens to be closest. The bundles break apart on impact and deal additional damage to the troops behind.',
+    items: [{
+      title1: 'Catapult',
+      title2: 'Level 1',
+      img: 'images/Slide-Popup/Catapult-01.png'
+    }, {
+      title1: 'Catapult',
+      title2: 'Level 2',
+      img: 'images/Slide-Popup/Catapult-02.png'
+    }, {
+      title1: 'Catapult',
+      title2: 'Level 3',
+      img: 'images/Slide-Popup/Catapult-03.png'
+    }, {
+      title1: 'Catapult',
+      title2: 'Level 4',
+      img: 'images/Slide-Popup/Catapult-04.png'
+    }, {
+      title1: 'Catapult',
+      title2: 'Level 5',
+      img: 'images/Slide-Popup/Catapult-05.png'
+    }]
+  },{
+    id: 'Army Camps',
+    title: 'Army Camps',
+    img: 'images/Guide/Build_Khodauden 1-1.png',
+    escription:'Your troops are stationed in Army Camps. Build more camps and upgrade them to muster a powerful army',
+    items: [{
+      title1: 'Army Camps',
+      title2: 'Level 1',
+      img: 'images/Slide-Popup/armycamp-01.png'
+    }, {
+      title1: 'Army Camps',
+      title2: 'Level 2',
+      img: 'images/Slide-Popup/armycamp-02.png'
+    }, {
+      title1: 'Army Camps',
+      title2: 'Level 3',
+      img: 'images/Slide-Popup/armycamp-03.png'
+    }, {
+      title1: 'Army Camps',
+      title2: 'Level 4',
+      img: 'images/Slide-Popup/armycamp-04.png'
+    }, {
+      title1: 'Army Camps',
+      title2: 'Level 5',
+      img: 'images/Slide-Popup/armycamp-05.png'
+    }]
+  },{
+    id: 'Archer machine',
+    title: 'Archer machine',
+    img: 'images/Guide/Dark_elixir_storage.png',
+    description:'The Archer machineshoots mystical bolts with terrifying power. Load it with Elixir and the Archer machine works automagically. You can set it to target ground units at long ranges, or all targets at reduced range.',
+    items: [{
+      title1: 'Archer machine',
+      title2: 'Level 1',
+      img: 'images/Slide-Popup/Crossbow-01.png'
+    }, {
+      title1: 'Archer machine',
+      title2: 'Level 2',
+      img: 'images/Slide-Popup/Crossbow-02.png'
+    }, {
+      title1: 'Archer machine',
+      title2: 'Level 3',
+      img: 'images/Slide-Popup/Crossbow-03.png'
+    }, {
+      title1: 'Archer machine',
+      title2: 'Level 4',
+      img: 'images/Slide-Popup/Crossbow-04.png'
+    }, {
+      title1: 'Archer machine',
+      title2: 'Level 5',
+      img: 'images/Slide-Popup/Crossbow-05.png'
+    }]
+  },{
+    id: 'Archer Tower',
+    title: 'Archer Tower',
+    img: 'images/Guide/Build_Khodauden 7.png',
+    description:'Archer Towers have longer range than cannons, and unlike cannons they can attack flying enemies.',
+    items: [{
+      title1: 'Archer Tower',
+      title2: 'Level 1',
+      img: 'images/Slide-Popup/archer tower-01.png'
+    }, {
+      title1: 'Archer Tower',
+      title2: 'Level 2',
+      img: 'images/Slide-Popup/archer tower-02.png'
+    }, {
+      title1: 'Archer Tower',
+      title2: 'Level 3',
+      img: 'images/Slide-Popup/archer tower-03.png'
+    }, {
+      title1: 'Archer Tower',
+      title2: 'Level 4',
+      img: 'images/Slide-Popup/archer tower-04.png'
+    }, {
+      title1: 'Archer Tower',
+      title2: 'Level 5',
+      img: 'images/Slide-Popup/archer tower-05.png'
+    }]
+  },{
+    id: 'Hidden Electric',
+    title: 'Hidden Electric',
+    img: 'images/Guide/Build_Khodauden 10.png',
+    description:'COMING SOON ',
+    items: [{
+      title1: 'Hidden Electric',
+      title2: 'Level 1',
+      img: 'images/Slide-Popup/electric tower-01.png'
+    }, {
+      title1: 'Hidden Electric',
+      title2: 'Level 2',
+      img: 'images/Slide-Popup/electric tower-02.png'
+    }, {
+      title1: 'Hidden Electric',
+      title2: 'Level 3',
+      img: 'images/Slide-Popup/electric tower-03.png'
+    }, {
+      title1: 'Hidden Electric',
+      title2: 'Level 4',
+      img: 'images/Slide-Popup/electric tower-04.png'
+    }, {
+      title1: 'Hidden Electric',
+      title2: 'Level 5',
+      img: 'images/Slide-Popup/electric tower-05.png'
+    }]
+  },{
+    id: 'Wizard Tower',
+    title: 'Wizard Tower',
+    img: 'images/Guide/Build_Khodauden 8.png',
+    description:'COMING SOON ',
+    items: []
+  },{
+    id: 'Wall',
+    title: 'Wall',
+    img: 'images/Guide/Build_Khodauden 8-1.png',
+    description:'COMING SOON ',
+    items: []
+  },{
+    id: 'Fragments',
+    title: 'Fragments',
+    img: 'images/Guide/Build_Khodauden 8-2.png',
+    description:'',
+    items: [{
+      title1: 'Fragments',
+      title2: 'Level 1',
+      img: 'images/Slide-Popup/Fragment-01.png'
+    }, {
+      title1: 'Fragments',
+      title2: 'Level 2',
+      img: 'images/Slide-Popup/Fragment-02.png'
+    }, {
+      title1: 'Fragments',
+      title2: 'Level 3',
+      img: 'images/Slide-Popup/Fragment-03.png'
+    }, {
+      title1: 'Fragments',
+      title2: 'Level 4',
+      img: 'images/Slide-Popup/Fragment-04.png'
+    }, {
+      title1: 'Fragments',
+      title2: 'Level 5',
+      img: 'images/Slide-Popup/Fragment-05.png'
+    }]
+  }]
+},{
+  //  khoi 3
+  title: 'Traps',
+  items: [{
+    id: 'Air Bomb',
+    title: 'Air Bomb',
+    img: 'images/Guide/Group 229-1.png',
+    description:'COMING SOON ',
+    items: []
+  },
+  {
+    id: 'Hide Trap',
+    title: 'Hide Trap',
+    img: 'images/Guide/Build_Khodauden 1-2.png',
+    description:'COMING SOON ',
+    items: []
+  },
+  {
+    id: 'Bomb',
+    title: 'Bomb',
+    img: 'images/Guide/Build_Khodauden 6-1.png',
+    description:'COMING SOON ',
+    items: []
+  },
+  {
+    id: 'Destructive Flying Mines',
+    title: 'Destructive Flying Mines',
+    img: 'images/Guide/Build_Khodauden 7-1.png',
+    description:'COMING SOON ',
+    items: []
+  },
+  {
+    id: 'Giant Bomb',
+    title: 'Giant Bomb',
+    img: 'images/Guide/Build_Khodauden 10-1.png',
+    description:'COMING SOON ',
+    items: []
+  },
+  {
+    id: 'Skeleton Trap',
+    title: 'Skeleton Trap',
+    img: 'images/Guide/Build_Khodauden 8-3.png',
+    description:'COMING SOON ',
+    items: []
+  },
+  {
+    id: 'Freeze Trap',
+    title: 'Freeze Trap',
+    img: 'images/Guide/Build_Khodauden 8-4.png',
+    description:'COMING SOON ',
+    items: []
+  },
+  {
+    id: 'Push Trap',
+    title: 'Push Trap',
+    img: 'images/Guide/Build_Khodauden 8-5.png',
+    description:'COMING SOON ',
+    items: []
+  },
+  {
+    id: 'Tornado Trap',
+    title: 'Tornado Trap',
+    img: 'images/Guide/Build_Khodauden 8-6.png',
+    description:'COMING SOON ',
+    items: []
+  }]
 }];
