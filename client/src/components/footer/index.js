@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import Stores from "../stores";
 import Socials from '../socials';
 import './style.css';
@@ -16,11 +17,11 @@ export default function Footer() {
         <div class="d-flex">
           <div class="content-item">
             <h5>Main</h5>
-            <a href="/"><div>Home</div></a>
-            <a href="/about"><div>About Us</div></a>
-            <a href="/team"><div>Our Team</div></a>
-            <a href="/guide"><div>Guide</div></a>
-            <a href="/market-place"><div>Marketplace</div></a>
+            <Link to="/"><div>Home</div></Link>
+            <Link to="/about"><div>About Us</div></Link>
+            <Link to="/team"><div>Our Team</div></Link>
+            <Link to="/guide"><div>Guide</div></Link>
+            <Link to="/market-place"><div>Marketplace</div></Link>
           </div>
           <div class="content-item">
             <h5>Explore</h5>
@@ -33,16 +34,16 @@ export default function Footer() {
           <div class="content-item">
             <h5>Token</h5>
             <div class="empty">Mint NFTs</div>
-            <a href="/staking"><div>Staking</div></a>
+            <Link to="/staking"><div>Staking</div></Link>
             <div class="empty">Learn more</div>
             <div class="empty">Sapphire Bridge</div>
             <div class="empty">Governance</div>
           </div>
           <div class="content-item">
-            <a href="/about"><h5>About</h5></a>
-            <a href="/privacy"><div>Privacy Policy</div></a>
-            <a href="/term"><div>Term and Conditions</div></a>
-            <a href="/dis-claim"><div>Disclaimer</div></a>
+            <Link to="/about"><h5>About</h5></Link>
+            <Link to="/privacy"><div>Privacy Policy</div></Link>
+            <Link to="/term"><div>Term and Conditions</div></Link>
+            <Link to="/dis-claim"><div>Disclaimer</div></Link>
             <div class="empty">Help & Support</div>
             <div class="empty">Art Gallery</div>
           </div >

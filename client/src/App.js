@@ -1,12 +1,17 @@
 import { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import renderRouter from './router';
+import RenderRouter from './router';
+import jQueryLib from 'jquery';
 
 function App() {
+  useEffect(() => {
+    window.$ = window.jQuery = jQueryLib;
+  }, []);
+
   return (
     <div className="App">
-      {renderRouter()}
+      <RenderRouter />
     </div>
   );
 }
