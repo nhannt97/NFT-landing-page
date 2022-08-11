@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import { resources, defaultLng } from '../../i18n';
 import './style.css';
@@ -17,16 +18,16 @@ export default function Header() {
         <img alt="logo" src="images/Logo 1.png" />
       </div>
       <div class="menu">
-        <a class={'menu-item ' + (checkIfActivePage('/') ? 'active' : '')} href="/">
+        <Link class={'menu-item ' + (checkIfActivePage('/') ? 'active' : '')} to="/">
           <div class="text">Home</div>
-        </a>
-        <a class={'menu-item ' + (checkIfActivePage('/about') ? 'active' : '')} href="/about">
+        </Link>
+        <Link class={'menu-item ' + (checkIfActivePage('/about') ? 'active' : '')} to="/about">
           <div class="text">About</div>
           <svg class="arrow-down" width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0.285156 0.800049L4.31592 5.00005L8.34668 0.800049" />
           </svg>
-        </a>
-        <a class={'menu-item ' + (checkIfActivePage('/team') ? 'active' : '')} href="/team">
+        </Link>
+        <Link class={'menu-item ' + (checkIfActivePage('/team') ? 'active' : '')} to="/team">
           <div class="text">
             Team
             {/* <div class="soon">
@@ -36,8 +37,8 @@ export default function Header() {
           <svg class="arrow-down" width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0.353516 0.800293L4.38428 5.00029L8.41505 0.800293" />
           </svg>
-        </a>
-        <a class={'menu-item ' + (checkIfActivePage('/staking') ? 'active' : '')} href="/staking">
+        </Link>
+        <Link class={'menu-item ' + (checkIfActivePage('/staking') ? 'active' : '')} to="/staking">
           <div class="text">
             Staking
             <div class="soon">
@@ -47,21 +48,21 @@ export default function Header() {
           <svg class="arrow-down" width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0.353516 0.800293L4.38428 5.00029L8.41505 0.800293" />
           </svg>
-        </a>
-        <a class={'menu-item ' + (checkIfActivePage('/market-place') ? 'active' : '')} href="/market-place">
+        </Link>
+        <Link class={'menu-item ' + (checkIfActivePage('/market-place') ? 'active' : '')} to="/market-place">
           <div class="text">Marketplace
             <div class="soon">
               SOON!
             </div>
           </div>
-        </a>
-        <a class={'menu-item ' + (checkIfActivePage('/token') ? 'active' : '')} href="/token">
+        </Link>
+        <Link class={'menu-item ' + (checkIfActivePage('/token') ? 'active' : '')} to="/token">
           <div class="text">Token</div>
           <svg class="arrow-down" width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0.292969 0.800293L3.81989 5.00029L7.34682 0.800293" />
           </svg>
-        </a>
-        <a class={'menu-item ' + (checkIfActivePage('/whitePaper') ? 'active' : '')} href="/whitePaper">
+        </Link>
+        <Link class={'menu-item ' + (checkIfActivePage('/whitePaper') ? 'active' : '')} to="/whitePaper">
           <div class="text">
           WhitePaper
             <div class="soon">
@@ -71,7 +72,7 @@ export default function Header() {
           <svg class="arrow-down" width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0.53125 0.800049L4.05817 5.00005L7.58508 0.800049" />
           </svg>
-        </a>
+        </Link>
       </div>
       <button id="btn-join-discord">
         Connect to Wallet

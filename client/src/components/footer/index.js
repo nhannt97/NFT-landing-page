@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import Stores from "../stores";
 import Socials from '../socials';
 import './style.css';
@@ -16,8 +17,8 @@ export default function Footer() {
         <div class="d-flex">
           <div class="content-item">
             <h5>Main</h5>
-            <a href="/"><div>Home</div></a>
-            <a href="/market-place"><div>Marketplace</div></a>
+            <Link to="/"><div>Home</div></Link>
+            <Link to="/market-place"><div>Marketplace</div></Link>
             <div>Sitemap</div>
             <div>Creator Program</div>
           </div>
@@ -31,12 +32,12 @@ export default function Footer() {
           <div class="content-item">
             <h5>Token</h5>
             <div>Mint NFTs</div>
-            <a href="/staking"><div>Staking</div></a>
+            <Link to="/staking"><div>Staking</div></Link>
             <div>Learn more</div>
             <div>Sapphire Bridge</div>
           </div>
           <div class="content-item">
-            <a href="/about"><h5>About</h5></a>
+            <Link to="/about"><h5>About</h5></Link>
             <div>Privacy Policy</div>
             <div>Term and Conditions</div>
             <div>Help & Support</div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import BuildingLevel from '../../components/building-level';
@@ -180,7 +181,7 @@ export default function About() {
                 for you. We've built a company of proactive and independent teams
                 with the freedom to do what they think is best for their players,
                 our games and the company at large.</div>
-              <a id="read-more" href="/team">Read more <i class="material-icons">chevron_right</i></a>
+              <Link id="read-more" to="/team">Read more <i class="material-icons">chevron_right</i></Link>
             </div>
           </div>
           <div id="market-place-container">
@@ -225,7 +226,7 @@ export default function About() {
                 <div id="building-level-container">
                   <BuildingLevel />
                 </div>
-                <a id="read-more" href="/guide">Read more</a>
+                <Link id="read-more" to="/guide">Read more</Link>
               </div>
             </div>
           </div>
@@ -238,7 +239,7 @@ export default function About() {
               value. Village upgrades like Statues also use SAP as the main resource.
               Statues help enhace your village's performance.
             </div>
-            <a id="the-gods-of-olympus-button" href="/guide">EXPLORE</a>
+            <Link id="the-gods-of-olympus-button" to="/guide">EXPLORE</Link>
           </div>
           <div id="zeus-hades-poseidon">
             <div id="element">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
@@ -6,9 +6,17 @@ import Stores from '../../components/stores';
 import Socials from '../../components/socials';
 import Video from '../../components/video';
 import './style.css';
+import { useDispatch, useSelector } from "react-redux";
+import { setFirstLoad } from "../../slices/app";
 
 export default function Home() {
+  const dispatch = useDispatch();
+  const firstLoad = useSelector((state) => state.app.firstLoad);
   const { t, i18n } = useTranslation();
+  useEffect(() => {
+    if (firstLoad) dispatch(setFirstLoad(false))
+  }, [dispatch]);
+
   return (
     <div class="homepage">
       <div class="background-layer">

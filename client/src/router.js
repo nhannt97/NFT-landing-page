@@ -14,6 +14,7 @@ import Guide from './pages/guide/index';
 import LoadingScreen from "./layouts/loading-screen";
 import DisClaim from "./pages/dis-claim";
 import Privacy from "./pages/privacy";
+import { useSelector } from "react-redux";
 
 export const routers = [{
   path: '/',
@@ -45,7 +46,8 @@ export const routers = [{
   component: <Guide />,
 }];
 
-export default function routerRender() {
+export default function RouterRender() {
+  const { firstLoad } = useSelector((state) => state.app);
   return (
     <Router>
       <Routes>
@@ -54,7 +56,7 @@ export default function routerRender() {
             path={router.path}
             key={router.path}
             element={(
-              router.loadTime ? (<LoadingScreen time={router.loadTime}>
+              router.loadTime && firstLoad ? (<LoadingScreen time={router.loadTime}>
                 {router.component}
               </LoadingScreen>) : (router.component)
             )}
