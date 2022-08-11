@@ -25,7 +25,7 @@ export default function SlidePopup({ id, title, description, items, onClose }) {
                 {!items?.length && (
                   <div class="align-items-center justify-content-center inner-ct">
                     <h3>
-                      UPCOMMING
+                      COMING SOON
                     </h3>
                   </div>
                 )}
@@ -35,14 +35,14 @@ export default function SlidePopup({ id, title, description, items, onClose }) {
             <div class="carousel-item">
               <div class="align-items-center justify-content-center inner-ct">
                 <h3>
-                  UPCOMMING
+                  COMING SOON
                 </h3>
               </div>
             </div>
             <div class="carousel-item">
               <div class="align-items-center justify-content-center inner-ct">
                 <h3>
-                  UPCOMMING
+                  COMING SOON
                 </h3>
               </div>
             </div>
