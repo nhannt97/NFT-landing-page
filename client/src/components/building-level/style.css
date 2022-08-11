@@ -8,7 +8,7 @@
 #building-lever .template {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
 }
 
 #building-lever .lever {

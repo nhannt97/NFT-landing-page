@@ -115,8 +115,8 @@
   font: 400 15px 'Barlow';
 }
 
-#guide .building-detail #andMore{
+#guide #andMore{
   display: inline;
   text-align: center;
-  font: 400 italic 35px 'Barlow';
+  font: 400 italic 80px 'Barlow';
 }
