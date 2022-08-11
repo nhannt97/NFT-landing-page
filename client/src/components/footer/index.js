@@ -17,29 +17,34 @@ export default function Footer() {
           <div class="content-item">
             <h5>Main</h5>
             <a href="/"><div>Home</div></a>
+            <a href="/about"><div>About Us</div></a>
+            <a href="/team"><div>Our Team</div></a>
+            <a href="/guide"><div>Guide</div></a>
             <a href="/market-place"><div>Marketplace</div></a>
-            <div>Sitemap</div>
-            <div>Creator Program</div>
           </div>
           <div class="content-item">
             <h5>Explore</h5>
-            <div>Players</div>
-            <div>Alloances</div>
-            <div>Analytics</div>
-            <div>Leaderboards</div>
+            <div class="empty">Players</div>
+            <div class="empty">Clan Castle</div>
+            <div class="empty">Analytics</div>
+            <div class="empty">Leaderboards</div>
+            <div class="empty">IMS Pass</div>
           </div>
           <div class="content-item">
             <h5>Token</h5>
-            <div>Mint NFTs</div>
+            <div class="empty">Mint NFTs</div>
             <a href="/staking"><div>Staking</div></a>
-            <div>Learn more</div>
-            <div>Sapphire Bridge</div>
+            <div class="empty">Learn more</div>
+            <div class="empty">Sapphire Bridge</div>
+            <div class="empty">Governance</div>
           </div>
           <div class="content-item">
             <a href="/about"><h5>About</h5></a>
-            <div>Privacy Policy</div>
-            <div>Term and Conditions</div>
-            <div>Help & Support</div>
+            <a href="/privacy"><div>Privacy Policy</div></a>
+            <a href="/term"><div>Term and Conditions</div></a>
+            <a href="/dis-claim"><div>Disclaimer</div></a>
+            <div class="empty">Help & Support</div>
+            <div class="empty">Art Gallery</div>
           </div >
         </div >
         <div id="third-row" class="d-flex flex-column justify-content-end">
