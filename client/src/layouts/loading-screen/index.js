@@ -16,6 +16,7 @@ export default function LoadingScreen({ time, children }) { // time in seconds
         <div id="loading-screen" class="position-fixed">
           <div id="background-layer" class="w-100 h-100 d-flex justify-content-center align-items-center flex-column">
             <img src="images/loading_img.png" alt="" width="228" />
+            <div id="aaa">AAA HERO-BASED STRATEGY GAME</div>
             <div id="loading-bar-container" class="position-relative mt-5">
               <div id="loading-bar-bg" class="position-absolute"></div>
               <div id="loading-bar" class="position-absolute" style={{ animation: `loading-bar ${time}s` }}></div >

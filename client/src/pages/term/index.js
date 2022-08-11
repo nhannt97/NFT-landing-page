@@ -260,9 +260,12 @@ export default function Term() {
             </div>
           </div>
 
-
-
-
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </div>
       </div>
       <Footer />

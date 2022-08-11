@@ -38,6 +38,7 @@
   text-align: left;
   padding: 100px 0;
   background-image: url('../../../public/images/Home\ banner.png');
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: right;
   display: flex;

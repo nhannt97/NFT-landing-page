@@ -20,7 +20,8 @@ export default function Staking() {
                   OWN YOUR <br></br> OLYMPUS LAND NFTs
                 </div>
                 <div id="land-nfts-text">
-                  Own your Olympus Land, Hero and Statue NFTs <br></br> which can be played in the game once ROI is <br></br> launched.
+                  Own your Land, Hero and Statue NFTs <br></br> which can be played in the game once Rise of Immortals is
+    launched.
                 </div>
                 <button id="land-nfts-button" type="button " >Owning Tutorial</button>
               </div>
@@ -43,7 +44,9 @@ export default function Staking() {
             <div class="d-flex w-100 align-items-center flex-row-reverse">
               <div class="position-relative img-explain px-4 pt-4 pb-5">
                 <div class="content2-text-detail px-4 pt-4">
-                  Land is the primary NFT asset in Mavia, and is required in order to build a base and to train an army.
+                Land NFTs – Land is the primary NFT asset in Rise of Immortals.
+It is the primary requirement in building a village and training an
+army.
                 </div>
                 <button class="content2-button position-absolute" type="button " >Coming soon</button>
               </div>
@@ -57,7 +60,8 @@ export default function Staking() {
             <div class="d-flex w-100 align-items-center flex-row-reverse">
               <div class="position-relative img-explain px-4 pt-4 pb-5">
                 <div class="content2-text-detail px-4 pt-4">
-                  Heroes are super-troops that help defend your base against attackers, and assist your army in offensive battles.
+                Hero NFTs – Heroes are super-troops that support your army in
+offensive fights and help protect your village from assaults.
                 </div>
                 <button class="content2-button position-absolute" type="button " >Coming soon</button>
               </div>
@@ -71,7 +75,7 @@ export default function Staking() {
             <div class="d-flex w-100 align-items-center flex-row-reverse">
               <div class="position-relative img-explain px-4 pt-4 pb-5">
                 <div class="content2-text-detail px-4 pt-4">
-                  Statues enhance your base performance by providing helpful boosts to your army and resources.
+                Statue NFTs – Statues enhance the efficiency of your settlement by giving your troops and resources beneficial boosts.
                 </div>
                 <button class="content2-button position-absolute" type="button " >Coming soon</button>
               </div>
@@ -83,6 +87,9 @@ export default function Staking() {
           </div>
           <div class="py-5"></div>
         </div>
+        <br/>
+        <br/>
+        <br/>
         <Footer />
       </div>
     </div>
