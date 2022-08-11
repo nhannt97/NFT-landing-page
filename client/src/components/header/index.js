@@ -26,6 +26,17 @@ export default function Header() {
             <path d="M0.285156 0.800049L4.31592 5.00005L8.34668 0.800049" />
           </svg>
         </a>
+        <a class={'menu-item ' + (checkIfActivePage('/team') ? 'active' : '')} href="/team">
+          <div class="text">
+            Team
+            {/* <div class="soon">
+              SOON!
+            </div> */}
+          </div>
+          <svg class="arrow-down" width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.353516 0.800293L4.38428 5.00029L8.41505 0.800293" />
+          </svg>
+        </a>
         <a class={'menu-item ' + (checkIfActivePage('/staking') ? 'active' : '')} href="/staking">
           <div class="text">
             Staking
@@ -50,9 +61,9 @@ export default function Header() {
             <path d="M0.292969 0.800293L3.81989 5.00029L7.34682 0.800293" />
           </svg>
         </a>
-        <a class={'menu-item ' + (checkIfActivePage('/community') ? 'active' : '')} href="/community">
+        <a class={'menu-item ' + (checkIfActivePage('/whitePaper') ? 'active' : '')} href="/whitePaper">
           <div class="text">
-            Community
+          WhitePaper
             <div class="soon">
               SOON!
             </div>
