@@ -310,13 +310,11 @@
   border-radius: 0;
   font: 500 14px 'Barlow';
 }
-
 #about #zeus-hades-poseidon {
   margin-top: 100px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+}
+#about #zeus-hades-poseidon .owl-stage {
+  padding-top: 100px;
 }
 
 #about #zeus-hades-poseidon #element {

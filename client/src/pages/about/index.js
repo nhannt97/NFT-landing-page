@@ -4,6 +4,9 @@ import Header from '../../components/header';
 import Footer from '../../components/footer';
 import BuildingLevel from '../../components/building-level';
 import './style.css';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 export default function About() {
   return (
@@ -242,30 +245,56 @@ export default function About() {
             <Link id="the-gods-of-olympus-button" to="/guide">EXPLORE</Link>
           </div>
           <div id="zeus-hades-poseidon">
-            <div id="element">
-              <img src="images/Char_Zeus_front.png" alt="image error"></img>
-              <div class="title">Zeus</div>
-              <div class="content">
-                God of All Gods
+            <OwlCarousel className='owl-theme' loop>
+              <div id="element" class='item'>
+                <img src="images/Char_Zeus_front.png" alt="image error"></img>
+                <div class="title">Zeus</div>
+                <div class="content">
+                  God of All Gods
+                </div>
+                <button class="button" type="button">COMING SOON </button>
               </div>
-              <button class="button" type="button">COMING SOON </button>
-            </div>
-            <div id="element">
-              <img src="images/Char_Hades_front.png" alt="image error"></img>
-              <div class="title">Hades</div>
-              <div class="content">
-                God of the Underworld
+              <div id="element" class='item'>
+                <img src="images/Char_Hades_front.png" alt="image error"></img>
+                <div class="title">Hades</div>
+                <div class="content">
+                  God of the Underworld
+                </div>
+                <button class="button" type="button">COMING SOON </button>
               </div>
-              <button class="button" type="button">COMING SOON </button>
-            </div>
-            <div id="element">
-              <img src="images/Char_Poseidon_front.png" alt="image error"></img>
-              <div class="title">Poseidon</div>
-              <div class="content">
-                The God of the SEA
+              <div id="element" class='item'>
+                <img src="images/Char_Poseidon_front.png" alt="image error"></img>
+                <div class="title">Poseidon</div>
+                <div class="content">
+                  The God of the SEA
+                </div>
+                <button class="button" type="button">COMING SOON </button>
               </div>
-              <button class="button" type="button">COMING SOON </button>
-            </div>
+              <div id="element" class='item'>
+                <img src="images/Char_Zeus_front.png" alt="image error"></img>
+                <div class="title">Zeus</div>
+                <div class="content">
+                  God of All Gods
+                </div>
+                <button class="button" type="button">COMING SOON </button>
+              </div>
+              <div id="element" class='item'>
+                <img src="images/Char_Hades_front.png" alt="image error"></img>
+                <div class="title">Hades</div>
+                <div class="content">
+                  God of the Underworld
+                </div>
+                <button class="button" type="button">COMING SOON </button>
+              </div>
+              <div id="element" class='item'>
+                <img src="images/Char_Poseidon_front.png" alt="image error"></img>
+                <div class="title">Poseidon</div>
+                <div class="content">
+                  The God of the SEA
+                </div>
+                <button class="button" type="button">COMING SOON </button>
+              </div>
+            </OwlCarousel>
           </div>
           <div class="container mb-4 d-block justify-content-center ">
             <div id="faq-title">FAQ</div>
