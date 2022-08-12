@@ -63,38 +63,38 @@ export default function Team() {
             </div>
             <div class="content-ourteam-detail">
               <img src="images/team/Rectangle 143-8.png" alt="img error" />
-              <div id="name">Long Ng.</div>
-              <div id="job-title">Lead UI/UX</div>
+              <div id="name">Dung H.</div>
+              <div id="job-title">FX</div>
             </div>
             <div class="content-ourteam-detail">
               <img src="images/team/Group 128.png" alt="img error" />
-              <div id="name">Long Ng.</div>
-              <div id="job-title">Lead UI/UX</div>
+              <div id="name">Uyen V.</div>
+              <div id="job-title">Concept Artist</div>
             </div>
             <div class="content-ourteam-detail">
               <img src="images/team/Group 127.png" alt="img error" />
-              <div id="name">Long Ng.</div>
-              <div id="job-title">Lead UI/UX</div>
+              <div id="name">Nhung T.</div>
+              <div id="job-title">Producer</div>
             </div>
             <div class="content-ourteam-detail">
               <img src="images/team/Group 129.png" alt="img error" />
-              <div id="name">Long Ng.</div>
-              <div id="job-title">Lead UI/UX</div>
+              <div id="name">Dung Ng.</div>
+              <div id="job-title">Layout</div>
             </div>
             <div class="content-ourteam-detail">
               <img src="images/team/Rectangle 143-9.png" alt="img error" />
-              <div id="name">Long Ng.</div>
-              <div id="job-title">Lead UI/UX</div>
+              <div id="name">Thuan Ng.</div>
+              <div id="job-title">Animator</div>
             </div>
             <div class="content-ourteam-detail">
               <img src="images/team/Rectangle 143-10.png" alt="img error" />
-              <div id="name">Long Ng.</div>
-              <div id="job-title">Lead UI/UX</div>
+              <div id="name">Nhut Ng.</div>
+              <div id="job-title">Enviroment Artist</div>
             </div>
             <div class="content-ourteam-detail">
               <img src="images/team/Rectangle 143-11.png" alt="img error" />
-              <div id="name">Long Ng.</div>
-              <div id="job-title">Lead UI/UX</div>
+              <div id="name">Thang Duong</div>
+              <div id="job-title">Character Artist</div>
             </div>
             <div id="andMore">AND MORE...</div>
           </div>
@@ -170,7 +170,7 @@ export default function Team() {
               <div id="culu-art-station">CULU ARTWORK</div>
             </div>
             <div id="concept-art-by-text">
-              <div class="px-5 text-left">We encourage artists to use their talents where they have the most impact. In addition to helping us stay small, they may have the opportunity to work on a project they weren't originally supposed to work with. Of course, our artists always are consulted first and w ill take an active role in the decision-making processes. As part of our main Concept artists, congratulations. We thank you for your invaluable contribution. May these contributions pave the way for our game’s success.
+              <div class="px-5 text-left">We encourage artists to use their talents where they have the most impact. In addition to helping us stay small, they may have the opportunity to work on a project they weren't originally supposed to work with. Of course, our artists always are consulted first and will take an active role in the decision-making processes. As part of our main Concept artists, congratulations. We thank you for your invaluable contribution. May these contributions pave the way for our game’s success.
                 <br></br>
                 <br></br>
                 Your colleagues trust you to do what is best and appropriate for our promising game, Rise of Immortals.

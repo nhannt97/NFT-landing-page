@@ -132,6 +132,7 @@
   font: 400 italic 35px 'Barlow';
   display: flex;
   align-items: center;
+  padding-left: 30px;
 }
 
 #team .content-ourAdvisors {
