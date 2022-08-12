@@ -63,8 +63,21 @@
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 
+#team .text-transparent *{
+  color: transparent!important;
+}
+
 #team  .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+#team .last-comming-soon {
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
 }
 
 #team .carousel-control-prev {
@@ -272,8 +285,11 @@ a:hover {
   font: 700 36px/44px 'Barlow';
 }
 
-#team .cg3d-text {
+#team .first .cg3d-text {
   color: rgba(255, 255, 255, 0.87) !important;
+
+}
+#team .cg3d-text {
   text-align: left;
   font: 400 15px/20px 'Barlow';
 }

@@ -21,7 +21,7 @@ export default function Team() {
 
         <div class="title">OUR TEAM</div>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
+          <div class="carousel-inner container d-block">
             <div class="carousel-item active">
               <div class="content-ourteam">
                 <div class="content-ourteam-detail">
@@ -208,7 +208,7 @@ export default function Team() {
           <div id="cg3d-container" class="mb-5 pb-5">
             <div id="carousel-cg3d" class="carousel slide mb-5" data-ride="carousel" data-interval="false">
               <div class="carousel-inner text-center pb-5">
-                <div class="carousel-item active">
+                <div class="carousel-item first active">
                   <div class="d-flex">
                     <div id="content-left" class="pr-4">
                       <p class="cg3d-text">
@@ -270,12 +270,134 @@ export default function Team() {
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item  text-center">
-                  COMING SOON
+                <div class="carousel-item position-relative">
+                  <div class="d-flex text-transparent">
+                    <div id="content-left" class="pr-4">
+                      <p class="cg3d-text">
+                        We believe that fun and beautiful games will become a source of income
+                        for anyone, anywhere.
+                        <br />
+                        Our mission at CG3D Studios is to bring Rise of Immortals, other Blockchain
+                        games, and 3D system art at the top for emerging technologies and global
+                        adoption.
+                        <br />
+                        CG3D Studios was founded by people with vast experience in the industry
+                        and are comprised of people from different fields of expertise.
+                      </p>
+                      <p class="cg3d-text">
+                        Our team focuses on work efficiency, and optimum performance while also
+                        promoting creativity and growth through a professional working
+                        environment.
+                      </p>
+                      <p class="cg3d-text">
+                        CG3D Studios was established in Vietnam and quickly had members in
+                        France and Finland
+                      </p>
+                      <p class="cg3d-text">
+                        First-class Game Design and Development
+                      </p>
+                      <p class="cg3d-text">
+                        All of our game content is designed and developed from scratch, i.e., from
+                        conceptual designs to 3D character modeling and animations.
+                      </p>
+                      <p class="cg3d-text">
+                        We believe that focusing on the smallest details will help players to have a great experience.
+                      </p>
+                    </div>
+                    <div id="content-right" class="pl-4">
+                      <p class="cg3d-text">
+                        Our 3 design criteria: Good image quality, financial balance and
+                        crosschain-platform.
+                      </p>
+                      <p class="cg3d-text">
+                        We built the game around these fundamental values which we believe is
+                        the next generation, the next era.
+                      </p>
+                      <p class="cg3d-text">
+                        The future is already here and it's not just even distributed yet. We need
+                        more adventurers, builders, thinkers and missionaries to make it well known
+                        around the world
+                      </p>
+                      <p class="cg3d-text">
+                        We believe that the best teams are comprised of diverse individuals all working towards a single goal.
+                      </p>
+                      <p class="cg3d-text">
+                        Our journey won’t be easy. It’s going to be dark. It’ll be cold. But eternal glory and recognition await for those that walk the road with us.
+                      </p>
+                      <p class="cg3d-text">
+                        At Rise of Immortals you’ll help build things the world has never seen and conduct experiments that blend gaming, economics, and even political science.
+                        We have been tirelessly building Rise of Immortals and our goal is to make it the #1 Blockchain game. Now it's time to make it one of the best games
+                        in the virtual world.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="last-comming-soon position-absolute w-100 h-100">COMMING SOON</div>
                 </div>
-                <div class="carousel-item  text-center">
-                  COMING SOON
+                <div class="carousel-item position-relative">
+                  <div class="d-flex text-transparent">
+                    <div id="content-left" class="pr-4">
+                      <p class="cg3d-text">
+                        We believe that fun and beautiful games will become a source of income
+                        for anyone, anywhere.
+                        <br />
+                        Our mission at CG3D Studios is to bring Rise of Immortals, other Blockchain
+                        games, and 3D system art at the top for emerging technologies and global
+                        adoption.
+                        <br />
+                        CG3D Studios was founded by people with vast experience in the industry
+                        and are comprised of people from different fields of expertise.
+                      </p>
+                      <p class="cg3d-text">
+                        Our team focuses on work efficiency, and optimum performance while also
+                        promoting creativity and growth through a professional working
+                        environment.
+                      </p>
+                      <p class="cg3d-text">
+                        CG3D Studios was established in Vietnam and quickly had members in
+                        France and Finland
+                      </p>
+                      <p class="cg3d-text">
+                        First-class Game Design and Development
+                      </p>
+                      <p class="cg3d-text">
+                        All of our game content is designed and developed from scratch, i.e., from
+                        conceptual designs to 3D character modeling and animations.
+                      </p>
+                      <p class="cg3d-text">
+                        We believe that focusing on the smallest details will help players to have a great experience.
+                      </p>
+                    </div>
+                    <div id="content-right" class="pl-4">
+                      <p class="cg3d-text">
+                        Our 3 design criteria: Good image quality, financial balance and
+                        crosschain-platform.
+                      </p>
+                      <p class="cg3d-text">
+                        We built the game around these fundamental values which we believe is
+                        the next generation, the next era.
+                      </p>
+                      <p class="cg3d-text">
+                        The future is already here and it's not just even distributed yet. We need
+                        more adventurers, builders, thinkers and missionaries to make it well known
+                        around the world
+                      </p>
+                      <p class="cg3d-text">
+                        We believe that the best teams are comprised of diverse individuals all working towards a single goal.
+                      </p>
+                      <p class="cg3d-text">
+                        Our journey won’t be easy. It’s going to be dark. It’ll be cold. But eternal glory and recognition await for those that walk the road with us.
+                      </p>
+                      <p class="cg3d-text">
+                        At Rise of Immortals you’ll help build things the world has never seen and conduct experiments that blend gaming, economics, and even political science.
+                        We have been tirelessly building Rise of Immortals and our goal is to make it the #1 Blockchain game. Now it's time to make it one of the best games
+                        in the virtual world.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="last-comming-soon position-absolute w-100 h-100">COMMING SOON</div>
                 </div>
+                
+                
                 <a class="carousel-control-prev" href="#carousel-cg3d" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
