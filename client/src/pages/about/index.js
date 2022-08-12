@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from 'react-router-dom';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
@@ -9,6 +9,51 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 export default function About() {
+  useEffect(() => {
+    setTimeout(() => {
+      const container = document.querySelector(".hero-container");
+      const slides = document.querySelector(".slides");
+
+      /* keep track of user's mouse down and up */
+      let isPressedDown = false;
+      /* x horizontal space of cursor from inner container */
+      let cursorXSpace;
+
+      container.addEventListener("mousedown", (e) => {
+        isPressedDown = true;
+        cursorXSpace = e.offsetX - slides.offsetLeft;
+        container.style.cursor = "grabbing";
+      });
+
+      container.addEventListener("mouseup", () => {
+        container.style.cursor = "grab";
+      });
+
+      window.addEventListener("mouseup", () => {
+        isPressedDown = false;
+      });
+
+      container.addEventListener("mousemove", (e) => {
+        if (!isPressedDown) return;
+        e.preventDefault();
+        slides.style.left = `${e.offsetX - cursorXSpace}px`;
+        boundCards();
+      });
+
+      function boundCards() {
+        const container_rect = container.getBoundingClientRect();
+        const cards_rect = slides.getBoundingClientRect();
+
+        if (parseInt(slides.style.left) > 0) {
+          slides.style.left = 0;
+        } else if (cards_rect.right < container_rect.right) {
+          slides.style.left = `-${cards_rect.width - container_rect.width}px`;
+        }
+      }
+    }, 1000);
+  }, []);
+
+
   return (
     <div id="about">
       <div class="background-layer">
@@ -232,60 +277,73 @@ export default function About() {
             </div>
             <Link id="the-gods-of-olympus-button" to="/guide">EXPLORE</Link>
           </div>
-          <div id="zeus-hades-poseidon">
-            <OwlCarousel className='owl-theme' loop pullDrag={false}>
-              <div id="element" class='item'>
-                <img src="images/Char_Zeus_front.png" alt="image error"></img>
-                <div class="title">Zeus</div>
-                <div class="content">
-                  God of All Gods
+          <div id="zeus-hades-poseidon" class="mb-5 pb-5 hero-container">
+            <div class="slides">
+              <div id="element" class='slide'>
+                <div class="ele">
+                  <img src="images/Char_Zeus_front.png" alt="error" />
+                  <div class="title">Zeus</div>
+                  <div class="content">
+                    God of All Gods
+                  </div>
+                  <button class="button" type="button">COMING SOON </button>
                 </div>
-                <button class="button" type="button">COMING SOON </button>
               </div>
-              <div id="element" class='item'>
-                <img src="images/Char_Hades_front.png" alt="image error"></img>
-                <div class="title">Hades</div>
-                <div class="content">
-                  God of the Underworld
+              <div id="element" class='slide'>
+                <div class="ele">
+                  <img src="images/Char_Hades_front.png" alt="error" />
+                  <div class="title">Hades</div>
+                  <div class="content">
+                    God of the Underworld
+                  </div>
+                  <button class="button" type="button">COMING SOON </button>
                 </div>
-                <button class="button" type="button">COMING SOON </button>
               </div>
-              <div id="element" class='item'>
-                <img src="images/Char_Poseidon_front.png" alt="image error"></img>
-                <div class="title">Poseidon</div>
-                <div class="content">
-                  The God of the SEA
+              <div id="element" class='slide'>
+                <div class="ele">
+                  <img src="images/Char_Poseidon_front.png" alt="error" />
+                  <div class="title">Poseidon</div>
+                  <div class="content">
+                    The God of the SEA
+                  </div>
+                  <button class="button" type="button">COMING SOON </button>
                 </div>
-                <button class="button" type="button">COMING SOON </button>
               </div>
-              <div id="element" class='item'>
-                <img src="images/Char_Perseus_front.png" alt="image error"></img>
-                <div class="title">Perseus</div>
-                <div class="content">
-                  Warrior and rescuer of Andromeda
+              <div id="element" class='slide'>
+                <div class="ele">
+                  <img src="images/Char_Perseus_front.png" alt="error" />
+                  <div class="title">Perseus</div>
+                  <div class="content">
+                    Warrior and rescuer of Andromeda
+                  </div>
+                  <button class="button" type="button">COMING SOON </button>
                 </div>
-                <button class="button" type="button">COMING SOON </button>
               </div>
-              <div id="element" class='item'>
-                <img src="images/Char_Phobos_front.png" alt="image error"></img>
-                <div class="title">Thanatos</div>
-                <div class="content">
-                  God of death
-                </div>
-                <button class="button" type="button">COMING SOON </button>
+              <div id="element" class='slide'>
+                <div class="ele">
+                  <img src="images/Char_Phobos_front.png" alt="error" />
+                  <div class="title">Thanatos</div>
+                  <div class="content">
+                    God of death
+                  </div>
+                  <button class="button" type="button">COMING SOON </button>
+                  </div>
               </div>
-              <div id="element" class='item'>
-                <img src="images/Char_Thanatos_front.png" alt="image error"></img>
-                <div class="title">Phobos</div>
-                <div class="content">
-                  God of Fear
-                </div>
-                <button class="button" type="button">COMING SOON </button>
+              <div id="element" class='slide'>
+                <div class="ele">
+                  <img src="images/Char_Thanatos_front.png" alt="error" />
+                  <div class="title">Phobos</div>
+                  <div class="content">
+                    God of Fear
+                  </div>
+                  <button class="button" type="button">COMING SOON </button>
+                  </div>
               </div>
-              <div id="element" style={{ height: 406 }} class='item'>
-                <div class="title">COMING SOON</div>
+              <div id="element" style={{ height: 404 }} class='item'>
+                <div class="ele h-100" id="cms" >
+                  <div class="title">COMING SOON</div></div>
               </div>
-            </OwlCarousel>
+            </div>
           </div>
           <div class="container mb-4 d-block justify-content-center ">
             <div id="faq-title">FAQ</div>
