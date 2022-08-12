@@ -42,11 +42,52 @@
   font: 700 40px 'Barlow';
 }
 
-#team #content-ourteam {
+#team .content-ourteam {
   margin-top: 90px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+#team .carousel-control-next {
+  background: white;
+  height: 74px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  width: 85px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#team  .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+#team .text-transparent *{
+  color: transparent!important;
+}
+
+#team  .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+#team .last-comming-soon {
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+#team .carousel-control-prev {
+  background: white;
+  height: 74px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  width: 85px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #team .content-ourteam-detail {
@@ -62,6 +103,7 @@
 #team #job-title {
   text-align: center;
   font: 700 10px/44px 'Barlow';
+  margin-top: -25px;
 }
 
 #team #carousel-advisor .carousel-inner {
@@ -124,6 +166,15 @@
 
 #team .content-ourAdvisors .content-ourAdvisors-detail .icon-content {
   margin-top: 50px;
+}
+
+#team #andMore {
+  display: inline;
+  text-align: center;
+  font: 400 italic 35px 'Barlow';
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
 }
 
 #team .content-ourAdvisors {
@@ -225,6 +276,7 @@ a:hover {
   background-image: url('../../../public/images/graphic_engineer.png');
   width: 677px;
   height: 420px;
+  background-position: 50%;
 }
 
 #team #cg3d {
@@ -233,8 +285,11 @@ a:hover {
   font: 700 36px/44px 'Barlow';
 }
 
-#team .cg3d-text {
+#team .first .cg3d-text {
   color: rgba(255, 255, 255, 0.87) !important;
+
+}
+#team .cg3d-text {
   text-align: left;
   font: 400 15px/20px 'Barlow';
 }
@@ -278,9 +333,15 @@ a:hover {
   top: 50%;
   transform: translateY(-50%);
 }
+
 #team #cg3d-container .carousel-indicators {
   bottom: -15px;
 }
+
 #team #content-left {
-  /* width: 45%; */
+  width: 50%;
+}
+
+#team #content-right {
+  flex: 1;
 }
