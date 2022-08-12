@@ -21,6 +21,7 @@
 }
 .modal-content .level-build img {
   max-width: 100%;
+  padding: 15px;
 }
 .modal-content {
   color: white;

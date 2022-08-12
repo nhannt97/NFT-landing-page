@@ -12,7 +12,7 @@ export default function LoadingScreen({ time, children }) { // time in seconds
 
   return (
     <>
-      {showLoading && (
+      {showLoading ? (
         <div id="loading-screen" class="position-fixed">
           <div id="background-layer" class="w-100 h-100 d-flex justify-content-center align-items-center flex-column">
             <img src="images/loading_img.png" alt="" width="228" />
@@ -23,9 +23,8 @@ export default function LoadingScreen({ time, children }) { // time in seconds
             </div >
           </div >
         </div >
-      )
+      ) : children
       }
-      {children}
     </>
   );
 };
