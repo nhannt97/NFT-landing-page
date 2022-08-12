@@ -118,6 +118,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              {/* <img src="images/Component 4.png" alt="error"/> */}
               <div id="calendar-container">
                 <div id="first-row">
                   <div id="calendar-bar">
