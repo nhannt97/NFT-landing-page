@@ -402,6 +402,9 @@
   margin-top: 20px;
 
 }
+#about #zeus-hades-poseidon .owl-dots {
+  display: none;
+}
 
 #about #faq .detail .text {
   display: flex;
@@ -415,8 +418,10 @@
 }
 
 
-#about #faq .detail .card-text {
+#about #faq .card-text {
   color: white;
+  text-align: left;
+  margin-left: -5px;
 }
 
 #about #faq .box-content .card {
