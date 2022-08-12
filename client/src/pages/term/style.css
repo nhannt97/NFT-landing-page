@@ -14,8 +14,9 @@
 }
 #term #title {
   font: 700 60px 'Barlow';
-  margin: 20px 0 10px 0;
+  margin: 20px 0 0 0;
 }
+
 #term #content {
   font: 500 20px 'Barlow';
 }

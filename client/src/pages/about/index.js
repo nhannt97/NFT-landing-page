@@ -20,7 +20,7 @@ export default function About() {
               <div class="carousel-inner">
                 <div class="carousel-item position-relative active text-right">
                   <div class="sub-bg"></div>
-                  <img width="55%" src="images/about-banner.png" alt="" />
+                  <img width="55%" src="images/Zeus.png" alt="" />
                   <div class="banner-text-container position-absolute d-flex flex-column justify-content-center text-left h-100">
                     <div class="aaa-hero-base-strategy-game mb-2">
                       Welcome to
@@ -50,52 +50,29 @@ export default function About() {
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item position-relative text-right">
+                <div class="carousel-item position-relative text-right ">
                   <div class="sub-bg"></div>
-                  <img width="55%" src="images/about-banner.png" alt="" />
+                  <img width="55%" src="images/Hades.png" alt="" />
                   <div class="banner-text-container position-absolute d-flex flex-column justify-content-center text-left h-100">
                     <div class="aaa-hero-base-strategy-game mb-2">
                       Welcome to
                       <br />Rise of Immortals
                     </div>
                     <div class="rise-of">
+                      <div class="title-detail">
+                      Basics:
+                      </div>
                       <p>
-                        Rise of Immortals
-                        <br />AAA hero-based strategy game powered by NFTs on the Ethereum blockchain.
-                      </p>
-                      <p>
-                        Introduction
-                        <br />Rise of Immortals is an online massive multiplayer blockchain-integrated
-                        strategy game where players use their village and army units to grow stronger
-                        and conquer other players to earn cryptocurrency.
-                      </p>
-                      <p>
-                        Players earn thru various in-game activities such as completing challenges,
-                        winning a village attack, successful village defense, removing obstavles,
-                        wagered matches, collaborating bases with clan mates or in-game friends,
-                        staking, and most of all, achieving the highest rank on the leaderboards.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item position-relative text-right">
-                  <div class="sub-bg"></div>
-                  <img width="55%" src="images/about-banner.png" alt="" />
-                  <div class="banner-text-container position-absolute d-flex flex-column justify-content-center text-left h-100">
-                    <div class="aaa-hero-base-strategy-game mb-2">
-                      Welcome to
-                      <br />Rise of Immortals
-                    </div>
-                    <div class="rise-of">
-                      <p>
-                        Rise of Immortals
-                        <br />AAA hero-based strategy game powered by NFTs on the Ethereum blockchain.
-                      </p>
-                      <p>
-                        Introduction
-                        <br />Rise of Immortals is an online massive multiplayer blockchain-integrated
-                        strategy game where players use their village and army units to grow stronger
-                        and conquer other players to earn cryptocurrency.
+                        The game starts with Ancient Greece and evolves to Worldwide as players progress.
+                        <br />
+                        <br />
+                        As the Village Chief, the objective is to expand the village and upskill your army by using in-game resources gained from pillaging other players' villages.
+                        <br />
+                        <br />
+                        There are three main resources: Gold, Elixir, and Sapphire with Sapphire (SAP) as the main resource for every micro transaction. 
+                        <br />
+                        <br />
+                        SAP's use cases are TownHall/Hero/Statue NFT upgrades; Gold, Elixir, Skins & decoration purchases and speeding up upgrades.
                       </p>
                       <p>
                         Players earn thru various in-game activities such as completing challenges,
@@ -135,17 +112,18 @@ export default function About() {
                       <img src="images/Build_BayXuong.png" alt="" />
                       <div class="img-title mb-3">Responsibility</div>
                       <div class="img-des">Own your project, collaborate
-                        <br />and share. See an issue? Speak
-                        <br />up. We're all in this together.</div>
+                        <br />and share. See an issue?
+                        <br />Speak up. We're all in this
+                        <br />together.</div>
                     </div>
                   </div>
                   <div class="col-3 text-center position-relative">
                     <div class=" believe-item px-3">
                       <img src="images/Char_HeliusHorse.png" alt="" />
                       <div class="img-title mb-3">Independence</div>
-                      <div class="img-des">You decide how you can
-                        <br />have the biggest impact, and then you
-                        <br />do it.</div>
+                      <div class="img-des">You decide how you can have
+                        <br />the biggest impact, and then
+                        <br />you do it.</div>
                     </div>
                   </div>
                   <div class="col-3 text-center position-relative">
@@ -517,21 +495,29 @@ export default function About() {
                     </div>
                   </div>
                   <div class="position-relative m-auto" style={{ width: 565 }}>
-                    <a class="carousel-control-prev" href="#carouselBotAboutBanner" role="button" data-slide="prev">
+                    <div class="carousel-control-prev" role="button" data-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselBotAboutBanner" role="button" data-slide="next">
+                    </div>
+                    {/* <a class="carousel-control-prev" href="#carouselBotAboutBanner" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a> */}
+                    <div class="carousel-control-next" role="button" data-slide="next">
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="sr-only">Next</span>
-                    </a>
+                    </div>
+                    {/* <a class="carousel-control-next" href="#carouselBotAboutBanner" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a> */}
                   </div>
                 </div>
               </div>
               <div class="news-content-text d-flex flex-column py-5">
                 <div>
                   <button id="btn-rois">
-                    New in Rise of Immportals
+                    New in Rise of Immortals
                   </button>
                 </div>
                 <div id="text1">COMING SOON </div>

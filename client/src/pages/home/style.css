@@ -32,7 +32,7 @@
   font: 700 12px 'Barlow';
 }
 
-.homepage #hero-background .container{
+.homepage #hero-background .container {
   justify-content: left;
 }
 
@@ -426,24 +426,30 @@
   max-width: 460px;
 }
 
-.homepage #vision-container .carousel-inner {
-  border-radius: 20px;
-  background-color: #17222c;
-}
+.homepage #vision-container .carousel-inner {}
 
 .homepage #vision-container .carousel-item {
-
   text-align: left;
   font: 400 14px/20px 'Barlow';
   padding-bottom: 50px !important;
+  /* height: 350px; */
+}
+
+.homepage #vision-container .carousel-item-detail {
+  padding: 20px 18px 50px;
+  border-radius: 20px;
+  background-color: #17222c;
+  height: 180px;
 }
 
 .homepage #vision-container .carousel-item div {
   color: rgba(255, 255, 255, 0.79) !important;
+  display: flex;
+  align-items: center;
 }
 
 .homepage #vision-container .carousel-indicators {
-  bottom: -10px;
+  bottom: 40px;
 }
 
 .homepage #vision-container .carousel-indicators li {

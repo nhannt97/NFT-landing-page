@@ -96,7 +96,7 @@ export default function Home() {
           </div>
           <div id="lead-you-container">
             <div id="lead-you-left">
-              <div id="lead-you">Lead you Clan to the <br/> Victory</div>
+              <div id="lead-you">Lead you Clan to the <br /> Victory</div>
               <div id="hero-has-heard">Hero has heard our call! Join the war of the Heroes and conquer this battle through Rise of Immortals. Customize your army, build your defense, and crush your opponents. Using the power of the Heroes, strike your enemies and forge a legacy by conquering their lands and destroying their villages.</div>
             </div>
             <div id="lead-you-right">
@@ -213,18 +213,27 @@ export default function Home() {
           <div id="vision-container">
             <div class="d-flex justify-content-center align-items-center">
               <div id="vision-content">
-                <div id="vision-title">Vison</div>
                 <div id="carousel-vision-content" class="carousel slide mb-5" data-ride="carousel" data-interval="false">
                   <div class="carousel-inner">
-                    <div class="carousel-item active p-3">
-                      <div class="mb-3">RISE of IMMORTALS aims o catch the wave to follow the trends of
-                        <br /> tomorrow and do the right thing about P2E games.</div>
-                      <div>We aim to sick with our name and IMMORATLIZE our game to co-exist with other big names inside and outsite the crypto word.</div>
+                    <div class="carousel-item active">
+                      <div id="vision-title">Vison</div>
+                      <div class="carousel-item-detail">
+                        <div class="d-flex align-items-center">RISE of IMMORTALS aims o catch the wave to follow the trends of
+                          <br /> tomorrow and do the right thing about P2E games.
+                          <br />
+                          <br />
+                          We aim to sick with our name and IMMORATLIZE our game to co-exist with other big names inside and outsite the crypto word.</div>
+                      </div>
                     </div>
-                    <div class="carousel-item p-3">
-                      <div class="mb-3">RISE of IMMORTALS aims o catch the wave to follow the trends of
-                        <br /> tomorrow and do the right thing about P2E games.</div>
-                      <div>We aim to sick with our name and IMMORATLIZE our game to co-exist with other big names inside and outsite the crypto word.</div>
+                    <div class="carousel-item">
+                      <div id="vision-title">Mission</div>
+                      <div class="carousel-item-detail">
+                        <div class="d-flex align-items-center">
+                          We will revolutionize gaming industry and aim to build the best gaming experience to players all over the world.
+                          <br/>
+                          <br/>
+                           Satisfying your hunger for entertainment, fame and glory while rewarding you generous bounty through crypto industry.</div>
+                      </div>
                     </div>
                     {/* <a class="carousel-control-prev" href="#carousel-vision-content" role="button" data-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>

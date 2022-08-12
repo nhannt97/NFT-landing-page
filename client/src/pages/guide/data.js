@@ -237,7 +237,7 @@ export const data = [{
   }]
 },{
   // khoi 2
-  title: 'Village Defender',
+  title: 'Village Defenses',
   items: [{
     id: 'Scattershot',
     title: 'Scattershot',
