@@ -16,13 +16,23 @@
 }
 
 #about #banner-slide .sub-bg {
-  background: radial-gradient(closest-side, rgba(0, 0, 0, 1.00) 0%, rgba(1, 1, 1, 0.00) 100%);
+  background: radial-gradient(closest-side, rgba(0, 0, 0, 1.00) 0%, rgba(1, 1, 1, 0.05) 100%);
   border-radius: 50%;
-  width: 496.07px;
-  height: 520.63px;
+  width: 35%;
+  height: 60%;
   position: absolute;
-  right: 270px;
-  top: 126.75px;
+  right: 25%;
+  top: 20%;
+  z-index: -1;
+}
+#about #banner-slide .sub-bg-1 {
+  background: radial-gradient(closest-side, rgba(255, 0, 0, 1.00) 0%, rgba(255, 0, 0, 0.3) 100%);
+  border-radius: 50%;
+  width: 35%;
+  height: 70%;
+  position: absolute;
+  left: 23%;
+  top: 20%;
   z-index: -1;
 }
 
@@ -40,7 +50,10 @@
 #about #banner-slide .carousel-inner {
   padding: 0 0px;
 }
-
+#about #banner-slide .carousel-inner .bg {
+  background-color: rgba(255,255,255,0.6);
+  z-index: -1;
+}
 #about #banner-slide .carousel-control-next {
   background: black;
   height: 74px;
@@ -63,17 +76,24 @@
   transform: translateY(-50%);
 }
 
-#about .banner-text-container {
+#about .text-container {
   width: 403px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #about #carouselAboutBanner .carousel-inner {
-  padding-left: 95px;
 }
-
+#about #banner-slide .carousel-item>div.banner-text-container .container {
+  justify-content: unset !important;
+}
 #about #banner-slide .carousel-item>div.banner-text-container {
   top: 0;
   left: 0;
+}
+.text-container-left {
+  flex: 1
 }
 
 #about .aaa-hero-base-strategy-game {

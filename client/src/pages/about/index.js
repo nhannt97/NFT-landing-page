@@ -13,92 +13,102 @@ export default function About() {
     <div id="about">
       <div class="background-layer">
         <Header />
-        <div class="container d-block">
 
-          <div id="banner-slide">
-            <div id="carouselAboutBanner" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item position-relative active text-right">
-                  <div class="sub-bg"></div>
-                  <img width="55%" src="images/Zeus.png" alt="" />
-                  <div class="banner-text-container position-absolute d-flex flex-column justify-content-center text-left h-100">
-                    <div class="aaa-hero-base-strategy-game mb-2">
-                      Welcome to
-                      <br />Rise of Immortals
-                    </div>
-                    <div class="rise-of">
-                      <p>
-                        <div class="title-detail">
-                          Rise of Immortals
-                        </div>
-                        AAA hero-based strategy game powered by NFTs on the Ethereum blockchain.
-                      </p>
-                      <p>
-                        <div class="title-detail">
-                          Introduction
-                        </div>
-                        Rise of Immortals is an online massive multiplayer blockchain-integrated
-                        strategy game where players use their village and army units to grow stronger
-                        and conquer other players to earn cryptocurrency.
-                      </p>
-                      <p>
-                        Players earn thru various in-game activities such as completing challenges,
-                        winning a village attack, successful village defense, removing obstavles,
-                        wagered matches, collaborating bases with clan mates or in-game friends,
-                        staking, and most of all, achieving the highest rank on the leaderboards.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item position-relative text-right ">
-                  <div class="sub-bg"></div>
-                  <img width="55%" src="images/Hades.png" alt="" />
-                  <div class="banner-text-container position-absolute d-flex flex-column justify-content-center text-left h-100">
-                    <div class="aaa-hero-base-strategy-game mb-2">
-                      Welcome to
-                      <br />Rise of Immortals
-                    </div>
-                    <div class="rise-of">
-                      <div class="title-detail">
-                      Basics:
+        <div id="banner-slide">
+          <div id="carouselAboutBanner" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner postion-relative">
+              <div class="position-absolute w-100 h-100 bg"></div>
+              <div class="carousel-item position-relative active text-right">
+                <div class="sub-bg"></div>
+                <img width="55%" src="images/Zeus.png" alt="" />
+                <div class=" banner-text-container position-absolute w-100 h-100">
+                  <div class="container d-flex  text-left h-100">
+                    <div class="text-container">
+                      <div class="aaa-hero-base-strategy-game mb-2">
+                        Welcome to
+                        <br />Rise of Immortals
                       </div>
-                      <p>
-                        The game starts with Ancient Greece and evolves to Worldwide as players progress.
-                        <br />
-                        <br />
-                        As the Village Chief, the objective is to expand the village and upskill your army by using in-game resources gained from pillaging other players' villages.
-                        <br />
-                        <br />
-                        There are three main resources: Gold, Elixir, and Sapphire with Sapphire (SAP) as the main resource for every micro transaction. 
-                        <br />
-                        <br />
-                        SAP's use cases are TownHall/Hero/Statue NFT upgrades; Gold, Elixir, Skins & decoration purchases and speeding up upgrades.
-                      </p>
-                      <p>
-                        Players earn thru various in-game activities such as completing challenges,
-                        winning a village attack, successful village defense, removing obstavles,
-                        wagered matches, collaborating bases with clan mates or in-game friends,
-                        staking, and most of all, achieving the highest rank on the leaderboards.
-                      </p>
+                      <div class="rise-of">
+                        <p>
+                          <div class="title-detail">
+                            Rise of Immortals
+                          </div>
+                          AAA hero-based strategy game powered by NFTs on the Ethereum blockchain.
+                        </p>
+                        <p>
+                          <div class="title-detail">
+                            Introduction
+                          </div>
+                          Rise of Immortals is an online massive multiplayer blockchain-integrated
+                          strategy game where players use their village and army units to grow stronger
+                          and conquer other players to earn cryptocurrency.
+                        </p>
+                        <p>
+                          Players earn thru various in-game activities such as completing challenges,
+                          winning a village attack, successful village defense, removing obstavles,
+                          wagered matches, collaborating bases with clan mates or in-game friends,
+                          staking, and most of all, achieving the highest rank on the leaderboards.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carouselAboutBanner" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselAboutBanner" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-              <ol class="carousel-indicators">
-                <li data-target="#carouselAboutBanner" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselAboutBanner" data-slide-to="1"></li>
-                {/* <li data-target="#carouselAboutBanner" data-slide-to="2"></li> */}
-              </ol>
+              <div class="carousel-item position-relative text-left  ">
+                <div class="sub-bg-1"></div>
+                <img width="55%" src="images/Hades.png" class="text-left" alt="" />
+                <div class="banner-text-container position-absolute w-100 h-100">
+                  <div class="container d-flex  text-left h-100">
+                    <div class="text-container-left"></div>
+                    <div class="text-container">
+                      <div class="aaa-hero-base-strategy-game mb-2">
+                        Welcome to
+                        <br />Rise of Immortals
+                      </div>
+                      <div class="rise-of">
+                        <div class="title-detail">
+                          Basics:
+                        </div>
+                        <p>
+                          The game starts with Ancient Greece and evolves to Worldwide as players progress.
+                          <br />
+                          <br />
+                          As the Village Chief, the objective is to expand the village and upskill your army by using in-game resources gained from pillaging other players' villages.
+                          <br />
+                          <br />
+                          There are three main resources: Gold, Elixir, and Sapphire with Sapphire (SAP) as the main resource for every micro transaction.
+                          <br />
+                          <br />
+                          SAP's use cases are TownHall/Hero/Statue NFT upgrades; Gold, Elixir, Skins & decoration purchases and speeding up upgrades.
+                        </p>
+                        <p>
+                          Players earn thru various in-game activities such as completing challenges,
+                          winning a village attack, successful village defense, removing obstavles,
+                          wagered matches, collaborating bases with clan mates or in-game friends,
+                          staking, and most of all, achieving the highest rank on the leaderboards.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselAboutBanner" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselAboutBanner" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <ol class="carousel-indicators">
+              <li data-target="#carouselAboutBanner" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselAboutBanner" data-slide-to="1"></li>
+              {/* <li data-target="#carouselAboutBanner" data-slide-to="2"></li> */}
+            </ol>
           </div>
+        </div>
+        <div class="container d-block">
           <div id="believe-container">
             <div id="believe">
               <div id="content">
