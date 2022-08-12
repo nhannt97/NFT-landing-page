@@ -233,7 +233,7 @@ export default function About() {
             <Link id="the-gods-of-olympus-button" to="/guide">EXPLORE</Link>
           </div>
           <div id="zeus-hades-poseidon">
-            <OwlCarousel className='owl-theme' loop>
+            <OwlCarousel className='owl-theme' loop pullDrag={false}>
               <div id="element" class='item'>
                 <img src="images/Char_Zeus_front.png" alt="image error"></img>
                 <div class="title">Zeus</div>
@@ -424,13 +424,15 @@ export default function About() {
                     Ways to get on Rise of Immortals Whitelist:
                     <br />
                     <br />
-                    Subscribing to our social media networks — Low chance
-                    Taking part in our Art Gallery — Low chance
-                    Active participation in our community — Medium chance
-                    Attending AMA sessions — Medium chance
-                    Promotion of the project through personal social media networks — High chance
-                    Taking part and winning contests — High or 100% chance
-                    Suggesting ideas for project improvement — Average chance or 100% chance if your idea is used
+                    <div class="pl-4">
+                      Subscribing to our social media networks — Low chance<br />
+                      Taking part in our Art Gallery — Low chance<br />
+                      Active participation in our community — Medium chance<br />
+                      Attending AMA sessions — Medium chance<br />
+                      Promotion of the project through personal social media networks — High chance<br />
+                      Taking part and winning contests — High or 100% chance<br />
+                      Suggesting ideas for project improvement — Average chance or 100% chance if your idea is used
+                    </div>
                   </p>
                 </div>
               </div>
