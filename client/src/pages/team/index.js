@@ -23,27 +23,27 @@ export default function Team() {
           <div id="content-ourteam">
             <div class="content-ourteam-detail">
               <img src="images/Rectangle 143.png" alt="img error" />
-              <div id="name">Anika Curtis</div>
-              <div id="job-title">Job Title</div>
+              <div id="name">Johan P.</div>
+              <div id="job-title">CG Supervisor</div>
             </div>
             <div class="content-ourteam-detail">
               <img src="images/Rectangle 143-1.png" alt="img error" />
-              <div id="name">Jaylon Dokidis</div>
-              <div id="job-title">Job Title</div>
+              <div id="name">CuongCG</div>
+              <div id="job-title">Art Director</div>
             </div>
             <div class="content-ourteam-detail">
               <img src="images/Rectangle 143-2.png" alt="img error" />
-              <div id="name">Kaiya Siphron</div>
-              <div id="job-title">Job Title</div>
+              <div id="name">Zaire Donin</div>
+              <div id="job-title">Lead 3D Character</div>
             </div>
             <div class="content-ourteam-detail">
               <img src="images/Rectangle 143-3.png" alt="img error" />
-              <div id="name">Kadin Schleifer</div>
-              <div id="job-title">Job Title</div>
+              <div id="name">Edward S.</div>
+              <div id="job-title">Storyboard Artist</div>
             </div>
             <div class="content-ourteam-detail">
               <img src="images/Rectangle 143-4.png" alt="img error" />
-              <div id="name">Phillip Torff</div>
+              <div id="name">Kadin S.</div>
               <div id="job-title">Job Title</div>
             </div>
             <div class="content-ourteam-detail">
