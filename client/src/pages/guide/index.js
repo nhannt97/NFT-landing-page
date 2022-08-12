@@ -44,23 +44,23 @@ export default function Guide() {
           ))}
           <div class="mb-5">
             <div class="village-title">Heroes</div>
-            <div id="andMore">COMING SOON</div>
+            <div class="coming-soon">COMING SOON</div>
           </div>
           <div class="mb-5">
             <div class="village-title">Troops</div>
-            <div id="andMore">COMING SOON</div>
+            <div class="coming-soon">COMING SOON</div>
           </div>
           <div class="mb-5">
             <div class="village-title">Spells</div>
-            <div id="andMore">COMING SOON</div>
+            <div class="coming-soon">COMING SOON</div>
           </div>
           <div class="mb-5">
             <div class="village-title">Obstacles</div>
-            <div id="andMore">COMING SOON</div>
+            <div class="coming-soon">COMING SOON</div>
           </div>
           <div class="mb-5">
             <div class="village-title">Scenery</div>
-            <div id="andMore">COMING SOON</div>
+            <div class="coming-soon">COMING SOON</div>
           </div>
         </div>
         <Footer />

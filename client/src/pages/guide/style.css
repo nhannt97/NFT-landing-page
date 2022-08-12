@@ -54,7 +54,6 @@
 }
 
 #guide #search {
-  width: 1024px;
   border-radius: 18px;
   height: 55px;
   margin-top: 50px;
@@ -119,4 +118,9 @@
   display: inline;
   text-align: center;
   font: 400 italic 35px 'Barlow';
+}
+#guide  .coming-soon {
+  display: inline;
+  text-align: center;
+  font: 400 italic 70px 'Barlow';
 }
