@@ -234,6 +234,7 @@ a:hover {
   background-image: url('../../../public/images/graphic_engineer.png');
   width: 677px;
   height: 420px;
+  background-position: 50%;
 }
 
 #team #cg3d {
