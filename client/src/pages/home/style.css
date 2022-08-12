@@ -386,8 +386,18 @@
 .homepage #video-slide .video-upcomming {
   font: 400 italic 70px/44px 'Barlow';
   line-height: 80px;
+  position: absolute;
+  z-index: 1;
+  width: calc(100% - 6rem);
+  height: calc(100% - 6rem);
+  border-radius: 20px;
+  top: 3rem;
+  left: 3rem;
+  background-color: #17222c;
 }
-
+.homepage #video-slide .fake-video {
+  border-radius: 20px;
+}
 .homepage #vision-container {
   padding: 30px 0px;
 }
