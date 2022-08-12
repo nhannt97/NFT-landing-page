@@ -262,7 +262,7 @@ export default function Home() {
           <div id="register-container">
             <div id="register-content">
               <div id="register-left">
-                <img src="images/Char_Builder.png" width="400" alt="" />
+                <img src="images/Char_Builder.png" alt="" />
               </div>
               <div id="register-right">
                 <div id="register">
