@@ -262,7 +262,7 @@ export default function Home() {
           <div id="register-container">
             <div id="register-content">
               <div id="register-left">
-                <img src="images/NicePng_coc-troops-png_3623954 1.png" alt="" />
+                <img src="images/Char_Builder.png" width="400" alt="" />
               </div>
               <div id="register-right">
                 <div id="register">

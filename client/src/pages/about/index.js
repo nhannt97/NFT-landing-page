@@ -249,7 +249,7 @@ export default function About() {
                 <button class="button" type="button">COMING SOON </button>
               </div>
               <div id="element" class='item'>
-                <img src="images/Char_Zeus_front.png" alt="image error"></img>
+                <img src="images/Char_Perseus_front.png" alt="image error"></img>
                 <div class="title">Zeus</div>
                 <div class="content">
                   God of All Gods
@@ -257,7 +257,7 @@ export default function About() {
                 <button class="button" type="button">COMING SOON </button>
               </div>
               <div id="element" class='item'>
-                <img src="images/Char_Hades_front.png" alt="image error"></img>
+                <img src="images/Char_Phobos_front.png" alt="image error"></img>
                 <div class="title">Hades</div>
                 <div class="content">
                   God of the Underworld
@@ -265,7 +265,7 @@ export default function About() {
                 <button class="button" type="button">COMING SOON </button>
               </div>
               <div id="element" class='item'>
-                <img src="images/Char_Poseidon_front.png" alt="image error"></img>
+                <img src="images/Char_Thanatos_front.png" alt="image error"></img>
                 <div class="title">Poseidon</div>
                 <div class="content">
                   The God of the SEA
