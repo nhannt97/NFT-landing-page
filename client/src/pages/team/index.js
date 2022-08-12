@@ -22,45 +22,81 @@ export default function Team() {
           <div class="title">OUR TEAM</div>
           <div id="content-ourteam">
             <div class="content-ourteam-detail">
-              <img src="images/Rectangle 143.png" alt="img error" />
+              <img src="images/team/Rectangle 143.png" alt="img error" />
               <div id="name">Johan P.</div>
               <div id="job-title">CG Supervisor</div>
             </div>
             <div class="content-ourteam-detail">
-              <img src="images/Rectangle 143-1.png" alt="img error" />
+              <img src="images/team/Rectangle 143-1.png" alt="img error" />
               <div id="name">CuongCG</div>
               <div id="job-title">Art Director</div>
             </div>
             <div class="content-ourteam-detail">
-              <img src="images/Rectangle 143-2.png" alt="img error" />
+              <img src="images/team/Rectangle 143-2.png" alt="img error" />
               <div id="name">Zaire Donin</div>
               <div id="job-title">Lead 3D Character</div>
             </div>
             <div class="content-ourteam-detail">
-              <img src="images/Rectangle 143-3.png" alt="img error" />
+              <img src="images/team/Rectangle 143-3.png" alt="img error" />
               <div id="name">Edward S.</div>
               <div id="job-title">Storyboard Artist</div>
             </div>
             <div class="content-ourteam-detail">
-              <img src="images/Rectangle 143-4.png" alt="img error" />
+              <img src="images/team/Rectangle 143-4.png" alt="img error" />
               <div id="name">Kadin S.</div>
-              <div id="job-title">Job Title</div>
+              <div id="job-title">Lead 2D Environment</div>
             </div>
             <div class="content-ourteam-detail">
-              <img src="images/Rectangle 143-5.png" alt="img error" />
-              <div id="name">Zaire Donin</div>
-              <div id="job-title">Job Title</div>
+              <img src="images/team/Rectangle 143-5.png" alt="img error" />
+              <div id="name">Henry F.</div>
+              <div id="job-title">Lead Color</div>
             </div>
             <div class="content-ourteam-detail">
-              <img src="images/Rectangle 143-6.png" alt="img error" />
-              <div id="name">Corey Westervelt</div>
-              <div id="job-title">Job Title</div>
+              <img src="images/team/Rectangle 143-6.png" alt="img error" />
+              <div id="name">Toan Tr.</div>
+              <div id="job-title">Rigger</div>
             </div>
             <div class="content-ourteam-detail">
-              <img src="images/Rectangle 143-7.png" alt="img error" />
-              <div id="name">Desirae Bator</div>
-              <div id="job-title">Job Title</div>
+              <img src="images/team/Rectangle 143-7.png" alt="img error" />
+              <div id="name">Long Ng.</div>
+              <div id="job-title">Lead UI/UX</div>
             </div>
+            <div class="content-ourteam-detail">
+              <img src="images/team/Rectangle 143-8.png" alt="img error" />
+              <div id="name">Long Ng.</div>
+              <div id="job-title">Lead UI/UX</div>
+            </div>
+            <div class="content-ourteam-detail">
+              <img src="images/team/Group 128.png" alt="img error" />
+              <div id="name">Long Ng.</div>
+              <div id="job-title">Lead UI/UX</div>
+            </div>
+            <div class="content-ourteam-detail">
+              <img src="images/team/Group 127.png" alt="img error" />
+              <div id="name">Long Ng.</div>
+              <div id="job-title">Lead UI/UX</div>
+            </div>
+            <div class="content-ourteam-detail">
+              <img src="images/team/Group 129.png" alt="img error" />
+              <div id="name">Long Ng.</div>
+              <div id="job-title">Lead UI/UX</div>
+            </div>
+            <div class="content-ourteam-detail">
+              <img src="images/team/Rectangle 143-9.png" alt="img error" />
+              <div id="name">Long Ng.</div>
+              <div id="job-title">Lead UI/UX</div>
+            </div>
+            <div class="content-ourteam-detail">
+              <img src="images/team/Rectangle 143-10.png" alt="img error" />
+              <div id="name">Long Ng.</div>
+              <div id="job-title">Lead UI/UX</div>
+            </div>
+            <div class="content-ourteam-detail">
+              <img src="images/team/Rectangle 143-11.png" alt="img error" />
+              <div id="name">Long Ng.</div>
+              <div id="job-title">Lead UI/UX</div>
+            </div>
+            <div id="andMore">AND MORE...</div>
           </div>
           <div class="title">OUR ADVISORS</div>
           <div class="content-ourAdvisors">
@@ -127,25 +163,21 @@ export default function Team() {
             </div>
           </div> */}
           </div>
-          <div id="concept-art-by">CONCEPT ART BY</div>
+          <div id="concept-art-by">CONCEPT ARTISTS</div>
           <div id="content-concept-art-by">
             <div id="concept-art-by-image">
               <img src="images/Ellipse 24.png" alt="img error" />
-              <div id="culu-art-station">CULU ART STATION</div>
+              <div id="culu-art-station">CULU ARTWORK</div>
             </div>
             <div id="concept-art-by-text">
-              <div>We encourage artists to use their talents where they have the most impact.
-                In addition to helping us stay small, they may have the opportunity to
-                work on a project they weren't originally supposed to work with. Of course,
-                our artists always are consulted first and will take an active role in the decision-making processes.
-                As port of our main Concept artists, congratulations. We thank you for your invaluable contribution.
-                May these contributions pave the way for our game's success.
+              <div class="px-5 text-left">We encourage artists to use their talents where they have the most impact. In addition to helping us stay small, they may have the opportunity to work on a project they weren't originally supposed to work with. Of course, our artists always are consulted first and w ill take an active role in the decision-making processes. As part of our main Concept artists, congratulations. We thank you for your invaluable contribution. May these contributions pave the way for our game’s success.
                 <br></br>
                 <br></br>
-                Your colleagues will trust you to do what makes sense and is appropriate for Rise of Immortals.
+                Your colleagues trust you to do what is best and appropriate for our promising game, Rise of Immortals.
               </div>
-              <br />
-              <a id="some-of-the-products" target="_blank" href="https://www.artstation.com/tichvi">Some of the products we have made.</a>
+              <div class="pl-5 mt-4">
+                <a id="some-of-the-products" target="_blank" href="https://www.artstation.com/tichvi">Some of the products we have made.</a>
+              </div>
             </div>
           </div>
           <div id="graphic-engineer-container" class="d-flex">
@@ -193,7 +225,8 @@ export default function Team() {
                     </div>
                     <div id="content-right" class="pl-4">
                       <p class="cg3d-text">
-                        Our 3 design criteria: Good image quality, financial balance and crosschain-platform.
+                        Our 3 design criteria: Good image quality, financial balance and
+                        crosschain-platform.
                       </p>
                       <p class="cg3d-text">
                         We built the game around these fundamental values which we believe is
