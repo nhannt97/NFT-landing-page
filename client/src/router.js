@@ -15,6 +15,7 @@ import LoadingScreen from "./layouts/loading-screen";
 import DisClaim from "./pages/dis-claim";
 import Privacy from "./pages/privacy";
 import { useSelector } from "react-redux";
+import ScrollTop from "./layouts/scroll-top";
 
 export const routers = [{
   path: '/',
@@ -50,20 +51,25 @@ export default function RouterRender() {
   const { firstLoad } = useSelector((state) => state.app);
   return (
     <Router>
+      <ScrollTop />
+
       <Routes>
         {routers.map((router) => (
           <Route
             path={router.path}
             key={router.path}
             element={(
-              router.loadTime && firstLoad ? (<LoadingScreen time={router.loadTime}>
-                {router.component}
-              </LoadingScreen>) : (router.component)
+              router.loadTime && firstLoad ? (
+                <LoadingScreen time={router.loadTime}>
+                  {router.component}
+                </LoadingScreen>
+              ) : (
+                router.component
+              )
             )}
-          >
-          </Route>
+          />
         ))}
-      </Routes>
+      </Routes >
     </Router >
   );
 }
