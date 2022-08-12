@@ -16,7 +16,7 @@ export default function SlidePopup({ id, title, description, items, onClose }) {
             <div class="carousel-item active">
               <div class="d-flex slide-images-list  inner-ct" >
                 {items?.map((item) => (
-                  <div class="level-build d-flex flex-column justify-content-end">
+                  <div class="level-build d-flex flex-column justify-content-end" style={{ width: `calc(100% / ${items?.length})` }}>
                     <img src={item.img} alt="" />
                     <div class="img-title">{item.title1}</div>
                     <div class="img-title">{item.title2}</div>

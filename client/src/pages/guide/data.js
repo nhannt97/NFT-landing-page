@@ -30,7 +30,7 @@ export const data = [{
     id: 'Clan_Cascle',
     title: 'Clan Cascle',
     img: 'images/Guide/popup-slide/(10).png',
-    description: 'This is the heart of your village. Upgrading your Town Hall unlocks new defenses, buildings, traps and much more. Beware, your enemies will be trying to destroy your Town Hall too',
+    description: 'Join a Clan to participate in Clan events and win rewards. The Clan Castle houses our Treasury and any reinforcement troops or spells sent by your clanmates.',
     items: [{
       title1: 'Clan Cascle',
       title2: 'Level 1',
@@ -56,7 +56,7 @@ export const data = [{
     id: 'Dark_Elixir_Storage',
     title: 'Dark Elixir Storage',
     img: 'images/Guide/Dark_elixir_storage.png',
-    description: 'This is the heart of your village. Upgrading your Town Hall unlocks new defenses, buildings, traps and much more. Beware, your enemies will be trying to destroy your Town Hall too',
+    description: 'The power of Dark Elixir cannot be underestimated. Because it\'s five times stronger than the other Elixir.',
     items: [{
       title1: 'Dark Elixir Storage',
       title2: 'Level 1',
@@ -82,7 +82,7 @@ export const data = [{
     id: 'Elixir_Storage',
     title: 'Elixir Storage',
     img: 'images/Guide/popup-slide/(48).png',
-    description: 'This is the heart of your village. Upgrading your Town Hall unlocks new defenses, buildings, traps and much more. Beware, your enemies will be trying to destroy your Town Hall too',
+    description: 'Produces Elixir. Level up to increase production and storage space.',
     items: [{
       title1: 'Elixir Storage',
       title2: 'Level 1',
@@ -107,8 +107,8 @@ export const data = [{
   },{
     id: 'Gold_Storage',
     title: 'Gold Storage',
-    img: 'images/Guide/Build_Khovang 1.png',
-    description: 'This is the heart of your village. Upgrading your Town Hall unlocks new defenses, buildings, traps and much more. Beware, your enemies will be trying to destroy your Town Hall too',
+    img: 'images/Guide/popup-slide/(63).png',
+    description: 'All your precious gold is stored here. Don\'t let sneaky enemy anywhere near! Upgrade the storage to increase its capacity and durability against attack.',
     items: [{
       title1: 'Gold Storage',
       title2: 'Level 1',
@@ -133,106 +133,106 @@ export const data = [{
   },{
     id: 'Gold_Mine',
     title: 'Gold Mine',
-    img: 'images/Guide/Build_NhaDaoVang_Lv01 1.png',
-    description: 'This is the heart of your village. Upgrading your Town Hall unlocks new defenses, buildings, traps and much more. Beware, your enemies will be trying to destroy your Town Hall too',
+    img: 'images/Guide/popup-slide/(23).png',
+    description: 'The Gold Mine produces gold. Upgrade it to boost its production and gold storage capacity.',
     items: [{
       title1: 'Gold Mine',
       title2: 'Level 1',
-      img: 'images/Guide/popup-slide/Build_NhaDaoVang_Lv01.png'
+      img: 'images/Guide/popup-slide/(23).png'
     }, {
       title1: 'Gold Mine',
       title2: 'Level 2',
-      img: 'images/Guide/popup-slide/Build_NhaDaoVang_Lv02.png'
+      img: 'images/Guide/popup-slide/(24).png'
     }, {
       title1: 'Gold Mine',
       title2: 'Level 3',
-      img: 'images/Guide/popup-slide/Build_NhaDaoVang_Lv03.png'
+      img: 'images/Guide/popup-slide/(25).png'
     }, {
       title1: 'Gold Mine',
       title2: 'Level 4',
-      img: 'images/Guide/popup-slide/Build_NhaDaoVang_Lv04.png'
+      img: 'images/Guide/popup-slide/(26).png'
     }, {
       title1: 'Gold Mine',
       title2: 'Level 5',
-      img: 'images/Guide/popup-slide/Build_NhaDaoVang_Lv05.png'
+      img: 'images/Guide/popup-slide/(27).png'
     }]
   },{
     id: 'Elixir_Collector',
     title: 'Elixir Collector',
-    img: 'images/Guide/Build_Khodauden 5.png',
-    description: 'This is the heart of your village. Upgrading your Town Hall unlocks new defenses, buildings, traps and much more. Beware, your enemies will be trying to destroy your Town Hall too',
+    img: 'images/Guide/popup-slide/(53).png',
+    description: 'Elixir is pumped from coursing underneath your village. Upgrade your Elixir Collectors to maximize elixir production.',
     items: [{
       title1: 'Elixir Collector',
       title2: 'Level 1',
-      img: 'images/Guide/popup-slide/Exilir Collector-01.png'
+      img: 'images/Guide/popup-slide/(53).png'
     }, {
       title1: 'Elixir Collector',
       title2: 'Level 2',
-      img: 'images/Guide/popup-slide/Exilir Collector-02.png'
+      img: 'images/Guide/popup-slide/(54).png'
     }, {
       title1: 'Elixir Collector',
       title2: 'Level 3',
-      img: 'images/Guide/popup-slide/Exilir Collector-03.png'
+      img: 'images/Guide/popup-slide/(57).png'
     }, {
       title1: 'Elixir Collector',
       title2: 'Level 4',
-      img: 'images/Guide/popup-slide/Exilir Collector-04.png'
+      img: 'images/Guide/popup-slide/(55).png'
     }, {
       title1: 'Elixir Collector',
       title2: 'Level 5',
-      img: 'images/Guide/popup-slide/Exilir Collector-05.png'
+      img: 'images/Guide/popup-slide/(56).png'
     }]
   },{
     id: 'Spell_Factory',
     title: 'Spell Factory',
-    img: 'images/Guide/Build_Khodauden 9.png',
-    description: 'This is the heart of your village. Upgrading your Town Hall unlocks new defenses, buildings, traps and much more. Beware, your enemies will be trying to destroy your Town Hall too',
+    img: 'images/Guide/popup-slide/(73).png',
+    description: 'Coming soon',
     items: [{
       title1: 'Spell Factory',
       title2: 'Level 1',
-      img: 'images/Guide/popup-slide/Spell Factory-01.png'
+      img: 'images/Guide/popup-slide/(73).png'
     }, {
       title1: 'Spell Factory',
       title2: 'Level 2',
-      img: 'images/Guide/popup-slide/Spell Factory-02.png'
+      img: 'images/Guide/popup-slide/(74).png'
     }, {
       title1: 'Spell Factory',
       title2: 'Level 3',
-      img: 'images/Guide/popup-slide/Spell Factory-03.png'
+      img: 'images/Guide/popup-slide/(77).png'
     }, {
       title1: 'Spell Factory',
       title2: 'Level 4',
-      img: 'images/Guide/popup-slide/Spell Factory-04.png'
+      img: 'images/Guide/popup-slide/(75).png'
     }, {
       title1: 'Spell Factory',
       title2: 'Level 5',
-      img: 'images/Guide/popup-slide/Spell Factory-05.png'
+      img: 'images/Guide/popup-slide/(76).png'
     }]
   },{
     id: 'Barracks',
     title: 'Barracks',
-    img: 'images/Guide/SoldierHouse 1.png',
-    description: 'This is the heart of your village. Upgrading your Town Hall unlocks new defenses, buildings, traps and much more. Beware, your enemies will be trying to destroy your Town Hall too',
+    img: 'images/Guide/popup-slide/(68).png',
+    description: 'Join a Clan to participate in Clan events and win rewards. The Clan Castle houses your Treasury and any reinforement troop or spells sent by your clanmates.',
     items: [{
       title1: 'Barracks',
       title2: 'Level 1',
-      img: 'images/Guide/popup-slide/soldier base-01.png'
+      img: 'images/Guide/popup-slide/(68).png'
     }, {
       title1: 'Barracks',
       title2: 'Level 2',
-      img: 'images/Guide/popup-slide/soldier base-02.png'
+      img: 'images/Guide/popup-slide/(69).png'
     }, {
       title1: 'Barracks',
       title2: 'Level 3',
-      img: 'images/Guide/popup-slide/soldier base-03.png'
+      img: 'images/Guide/popup-slide/(72).png'
     }, {
       title1: 'Barracks',
       title2: 'Level 4',
-      img: 'images/Guide/popup-slide/soldier base-04.png'
+      img: 'images/Guide/popup-slide/(70).png'
     }, {
       title1: 'Barracks',
       title2: 'Level 5',
-      img: 'images/Guide/popup-slide/soldier base-05.png'
+      img: 'images/Guide/popup-slide/(71).png'
     }]
   }]
 },{
@@ -241,139 +241,159 @@ export const data = [{
   items: [{
     id: 'Scattershot',
     title: 'Scattershot',
-    img: 'images/Guide/Group 229.png',
+    img: 'images/Guide/popup-slide/(28).png',
     description:'The Scattershot heaves very heavy bundles of poorly tied together rocks at whoever happens to be closest. The bundles break apart on impact and deal additional damage to the troops behind.',
     items: [{
       title1: 'Catapult',
       title2: 'Level 1',
-      img: 'images/Guide/popup-slide/Catapult-01.png'
+      img: 'images/Guide/popup-slide/(28).png'
     }, {
       title1: 'Catapult',
       title2: 'Level 2',
-      img: 'images/Guide/popup-slide/Catapult-02.png'
+      img: 'images/Guide/popup-slide/(29).png'
     }, {
       title1: 'Catapult',
       title2: 'Level 3',
-      img: 'images/Guide/popup-slide/Catapult-03.png'
+      img: 'images/Guide/popup-slide/(32).png'
     }, {
       title1: 'Catapult',
       title2: 'Level 4',
-      img: 'images/Guide/popup-slide/Catapult-04.png'
+      img: 'images/Guide/popup-slide/(30).png'
     }, {
       title1: 'Catapult',
       title2: 'Level 5',
-      img: 'images/Guide/popup-slide/Catapult-05.png'
+      img: 'images/Guide/popup-slide/(31).png'
     }]
   },{
     id: 'Army Camps',
     title: 'Army Camps',
-    img: 'images/Guide/Build_Khodauden 1-1.png',
+    img: 'images/Guide/popup-slide/(5).png',
     escription:'Your troops are stationed in Army Camps. Build more camps and upgrade them to muster a powerful army',
     items: [{
       title1: 'Army Camps',
       title2: 'Level 1',
-      img: 'images/Guide/popup-slide/armycamp-01.png'
+      img: 'images/Guide/popup-slide/(5).png'
     }, {
       title1: 'Army Camps',
       title2: 'Level 2',
-      img: 'images/Guide/popup-slide/armycamp-02.png'
+      img: 'images/Guide/popup-slide/(6).png'
     }, {
       title1: 'Army Camps',
       title2: 'Level 3',
-      img: 'images/Guide/popup-slide/armycamp-03.png'
+      img: 'images/Guide/popup-slide/(9).png'
     }, {
       title1: 'Army Camps',
       title2: 'Level 4',
-      img: 'images/Guide/popup-slide/armycamp-04.png'
+      img: 'images/Guide/popup-slide/(7).png'
     }, {
       title1: 'Army Camps',
       title2: 'Level 5',
-      img: 'images/Guide/popup-slide/armycamp-05.png'
+      img: 'images/Guide/popup-slide/(8).png'
     }]
   },{
     id: 'Archer machine',
     title: 'Archer machine',
-    img: 'images/Guide/Dark_elixir_storage.png',
+    img: 'images/Guide/popup-slide/(33).png',
     description:'The Archer machineshoots mystical bolts with terrifying power. Load it with Elixir and the Archer machine works automagically. You can set it to target ground units at long ranges, or all targets at reduced range.',
     items: [{
       title1: 'Archer machine',
       title2: 'Level 1',
-      img: 'images/Guide/popup-slide/Crossbow-01.png'
+      img: 'images/Guide/popup-slide/(33).png'
     }, {
       title1: 'Archer machine',
       title2: 'Level 2',
-      img: 'images/Guide/popup-slide/Crossbow-02.png'
+      img: 'images/Guide/popup-slide/(34).png'
     }, {
       title1: 'Archer machine',
       title2: 'Level 3',
-      img: 'images/Guide/popup-slide/Crossbow-03.png'
+      img: 'images/Guide/popup-slide/(37).png'
     }, {
       title1: 'Archer machine',
       title2: 'Level 4',
-      img: 'images/Guide/popup-slide/Crossbow-04.png'
+      img: 'images/Guide/popup-slide/(35).png'
     }, {
       title1: 'Archer machine',
       title2: 'Level 5',
-      img: 'images/Guide/popup-slide/Crossbow-05.png'
+      img: 'images/Guide/popup-slide/(36).png'
     }]
   },{
     id: 'Archer Tower',
     title: 'Archer Tower',
-    img: 'images/Guide/Build_Khodauden 7.png',
+    img: 'images/Guide/popup-slide/(0).png',
     description:'Archer Towers have longer range than cannons, and unlike cannons they can attack flying enemies.',
     items: [{
       title1: 'Archer Tower',
       title2: 'Level 1',
-      img: 'images/Guide/popup-slide/archer tower-01.png'
+      img: 'images/Guide/popup-slide/(0).png'
     }, {
       title1: 'Archer Tower',
       title2: 'Level 2',
-      img: 'images/Guide/popup-slide/archer tower-02.png'
+      img: 'images/Guide/popup-slide/(1).png'
     }, {
       title1: 'Archer Tower',
       title2: 'Level 3',
-      img: 'images/Guide/popup-slide/archer tower-03.png'
+      img: 'images/Guide/popup-slide/(4).png'
     }, {
       title1: 'Archer Tower',
       title2: 'Level 4',
-      img: 'images/Guide/popup-slide/archer tower-04.png'
+      img: 'images/Guide/popup-slide/(2).png'
     }, {
       title1: 'Archer Tower',
       title2: 'Level 5',
-      img: 'images/Guide/popup-slide/archer tower-05.png'
+      img: 'images/Guide/popup-slide/(3).png'
     }]
   },{
     id: 'Hidden Electric',
     title: 'Hidden Electric',
-    img: 'images/Guide/Build_Khodauden 10.png',
+    img: 'images/Guide/popup-slide/(43).png',
     description:'COMING SOON ',
     items: [{
       title1: 'Hidden Electric',
       title2: 'Level 1',
-      img: 'images/Guide/popup-slide/electric tower-01.png'
+      img: 'images/Guide/popup-slide/(43).png'
     }, {
       title1: 'Hidden Electric',
       title2: 'Level 2',
-      img: 'images/Guide/popup-slide/electric tower-02.png'
+      img: 'images/Guide/popup-slide/(44).png'
     }, {
       title1: 'Hidden Electric',
       title2: 'Level 3',
-      img: 'images/Guide/popup-slide/electric tower-03.png'
+      img: 'images/Guide/popup-slide/(47).png'
     }, {
       title1: 'Hidden Electric',
       title2: 'Level 4',
-      img: 'images/Guide/popup-slide/electric tower-04.png'
+      img: 'images/Guide/popup-slide/(45).png'
     }, {
       title1: 'Hidden Electric',
       title2: 'Level 5',
-      img: 'images/Guide/popup-slide/electric tower-05.png'
+      img: 'images/Guide/popup-slide/(46).png'
     }]
   },{
     id: 'Wizard Tower',
     title: 'Wizard Tower',
-    img: 'images/Guide/Build_Khodauden 8.png',
+    img: 'images/Guide/popup-slide/(84).png',
     description:'COMING SOON ',
-    items: []
+    items: [{
+      title1: 'Fragments',
+      title2: 'Level 1',
+      img: 'images/Guide/popup-slide/(84).png'
+    }, {
+      title1: 'Fragments',
+      title2: 'Level 2',
+      img: 'images/Guide/popup-slide/(85).png'
+    }, {
+      title1: 'Fragments',
+      title2: 'Level 3',
+      img: 'images/Guide/popup-slide/(86).png'
+    }, {
+      title1: 'Fragments',
+      title2: 'Level 4',
+      img: 'images/Guide/popup-slide/(87).png'
+    }, {
+      title1: 'Fragments',
+      title2: 'Level 5',
+      img: 'images/Guide/popup-slide/(88).png'
+    }]
   },{
     id: 'Wall',
     title: 'Wall',
@@ -383,28 +403,28 @@ export const data = [{
   },{
     id: 'Fragments',
     title: 'Fragments',
-    img: 'images/Guide/Build_Khodauden 8-2.png',
-    description:'',
+    img: 'images/Guide/popup-slide/(58).png',
+    description:'Fragments will appear when your village is destroyed by the enemy and takes all its resources',
     items: [{
       title1: 'Fragments',
       title2: 'Level 1',
-      img: 'images/Guide/popup-slide/Fragment-01.png'
+      img: 'images/Guide/popup-slide/(58).png'
     }, {
       title1: 'Fragments',
       title2: 'Level 2',
-      img: 'images/Guide/popup-slide/Fragment-02.png'
+      img: 'images/Guide/popup-slide/(59).png'
     }, {
       title1: 'Fragments',
       title2: 'Level 3',
-      img: 'images/Guide/popup-slide/Fragment-03.png'
+      img: 'images/Guide/popup-slide/(60).png'
     }, {
       title1: 'Fragments',
       title2: 'Level 4',
-      img: 'images/Guide/popup-slide/Fragment-04.png'
+      img: 'images/Guide/popup-slide/(61).png'
     }, {
       title1: 'Fragments',
       title2: 'Level 5',
-      img: 'images/Guide/popup-slide/Fragment-05.png'
+      img: 'images/Guide/popup-slide/(62).png'
     }]
   }]
 },{

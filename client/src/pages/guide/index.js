@@ -7,7 +7,7 @@ import ListBuilding from "./ListBuilding";
 import { data } from './data';
 console.log(data);
 
-export default function MarketPlace() {
+export default function Guide() {
   return (
     <div id="guide">
       <div id="background-layer">

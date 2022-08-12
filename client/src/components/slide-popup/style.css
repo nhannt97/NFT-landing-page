@@ -17,7 +17,7 @@
   width: fit-content;
 }
 .modal-content .level-build {
-  width: calc(100% / 5);
+  /* width: calc(100% / 5); */
 }
 .modal-content .level-build img {
   max-width: 100%;
