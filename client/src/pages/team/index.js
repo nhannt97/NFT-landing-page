@@ -18,86 +18,105 @@ export default function Team() {
             </div>
           </div>
         </div>
-        <div class="container d-block">
-          <div class="title">OUR TEAM</div>
-          <div id="content-ourteam">
-            <div class="content-ourteam-detail">
-              <img src="images/team/Rectangle 143.png" alt="img error" />
-              <div id="name">Johan P.</div>
-              <div id="job-title">CG Supervisor</div>
+
+        <div class="title">OUR TEAM</div>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="content-ourteam">
+                <div class="content-ourteam-detail">
+                  <img src="images/team/Rectangle 143.png" alt="img error" />
+                  <div id="name">Johan P.</div>
+                  <div id="job-title">CG Supervisor</div>
+                </div>
+                <div class="content-ourteam-detail">
+                  <img src="images/team/Rectangle 143-1.png" alt="img error" />
+                  <div id="name">CuongCG</div>
+                  <div id="job-title">Art Director</div>
+                </div>
+                <div class="content-ourteam-detail">
+                  <img src="images/team/Rectangle 143-2.png" alt="img error" />
+                  <div id="name">Zaire Donin</div>
+                  <div id="job-title">Lead 3D Character</div>
+                </div>
+                <div class="content-ourteam-detail">
+                  <img src="images/team/Rectangle 143-3.png" alt="img error" />
+                  <div id="name">Edward S.</div>
+                  <div id="job-title">Storyboard Artist</div>
+                </div>
+                <div class="content-ourteam-detail">
+                  <img src="images/team/Rectangle 143-4.png" alt="img error" />
+                  <div id="name">Kadin S.</div>
+                  <div id="job-title">Lead 2D Environment</div>
+                </div>
+                <div class="content-ourteam-detail">
+                  <img src="images/team/Rectangle 143-5.png" alt="img error" />
+                  <div id="name">Henry F.</div>
+                  <div id="job-title">Lead Color</div>
+                </div>
+                <div class="content-ourteam-detail">
+                  <img src="images/team/Rectangle 143-6.png" alt="img error" />
+                  <div id="name">Toan Tr.</div>
+                  <div id="job-title">Rigger</div>
+                </div>
+                <div class="content-ourteam-detail">
+                  <img src="images/team/Rectangle 143-7.png" alt="img error" />
+                  <div id="name">Long Ng.</div>
+                  <div id="job-title">Lead UI/UX</div>
+                </div>
+              </div>
             </div>
-            <div class="content-ourteam-detail">
-              <img src="images/team/Rectangle 143-1.png" alt="img error" />
-              <div id="name">CuongCG</div>
-              <div id="job-title">Art Director</div>
+            <div class="carousel-item">
+              <div class="content-ourteam">
+                <div class="content-ourteam-detail">
+                  <img src="images/team/Rectangle 143-8.png" alt="img error" />
+                  <div id="name">Dung H.</div>
+                  <div id="job-title">FX</div>
+                </div>
+                <div class="content-ourteam-detail">
+                  <img src="images/team/Group 128.png" alt="img error" />
+                  <div id="name">Uyen V.</div>
+                  <div id="job-title">Concept Artist</div>
+                </div>
+                <div class="content-ourteam-detail">
+                  <img src="images/team/Group 127.png" alt="img error" />
+                  <div id="name">Nhung T.</div>
+                  <div id="job-title">Producer</div>
+                </div>
+                <div class="content-ourteam-detail">
+                  <img src="images/team/Group 129.png" alt="img error" />
+                  <div id="name">Dung Ng.</div>
+                  <div id="job-title">Layout</div>
+                </div>
+                <div class="content-ourteam-detail">
+                  <img src="images/team/Rectangle 143-9.png" alt="img error" />
+                  <div id="name">Thuan Ng.</div>
+                  <div id="job-title">Animator</div>
+                </div>
+                <div class="content-ourteam-detail">
+                  <img src="images/team/Rectangle 143-10.png" alt="img error" />
+                  <div id="name">Nhut Ng.</div>
+                  <div id="job-title">Enviroment Artist</div>
+                </div>
+                <div class="content-ourteam-detail">
+                  <img src="images/team/Rectangle 143-11.png" alt="img error" />
+                  <div id="name">Thang Duong</div>
+                  <div id="job-title">Character Artist</div>
+                </div>
+                <div id="andMore">AND MORE...</div>
+              </div>
             </div>
-            <div class="content-ourteam-detail">
-              <img src="images/team/Rectangle 143-2.png" alt="img error" />
-              <div id="name">Zaire Donin</div>
-              <div id="job-title">Lead 3D Character</div>
-            </div>
-            <div class="content-ourteam-detail">
-              <img src="images/team/Rectangle 143-3.png" alt="img error" />
-              <div id="name">Edward S.</div>
-              <div id="job-title">Storyboard Artist</div>
-            </div>
-            <div class="content-ourteam-detail">
-              <img src="images/team/Rectangle 143-4.png" alt="img error" />
-              <div id="name">Kadin S.</div>
-              <div id="job-title">Lead 2D Environment</div>
-            </div>
-            <div class="content-ourteam-detail">
-              <img src="images/team/Rectangle 143-5.png" alt="img error" />
-              <div id="name">Henry F.</div>
-              <div id="job-title">Lead Color</div>
-            </div>
-            <div class="content-ourteam-detail">
-              <img src="images/team/Rectangle 143-6.png" alt="img error" />
-              <div id="name">Toan Tr.</div>
-              <div id="job-title">Rigger</div>
-            </div>
-            <div class="content-ourteam-detail">
-              <img src="images/team/Rectangle 143-7.png" alt="img error" />
-              <div id="name">Long Ng.</div>
-              <div id="job-title">Lead UI/UX</div>
-            </div>
-            <div class="content-ourteam-detail">
-              <img src="images/team/Rectangle 143-8.png" alt="img error" />
-              <div id="name">Dung H.</div>
-              <div id="job-title">FX</div>
-            </div>
-            <div class="content-ourteam-detail">
-              <img src="images/team/Group 128.png" alt="img error" />
-              <div id="name">Uyen V.</div>
-              <div id="job-title">Concept Artist</div>
-            </div>
-            <div class="content-ourteam-detail">
-              <img src="images/team/Group 127.png" alt="img error" />
-              <div id="name">Nhung T.</div>
-              <div id="job-title">Producer</div>
-            </div>
-            <div class="content-ourteam-detail">
-              <img src="images/team/Group 129.png" alt="img error" />
-              <div id="name">Dung Ng.</div>
-              <div id="job-title">Layout</div>
-            </div>
-            <div class="content-ourteam-detail">
-              <img src="images/team/Rectangle 143-9.png" alt="img error" />
-              <div id="name">Thuan Ng.</div>
-              <div id="job-title">Animator</div>
-            </div>
-            <div class="content-ourteam-detail">
-              <img src="images/team/Rectangle 143-10.png" alt="img error" />
-              <div id="name">Nhut Ng.</div>
-              <div id="job-title">Enviroment Artist</div>
-            </div>
-            <div class="content-ourteam-detail">
-              <img src="images/team/Rectangle 143-11.png" alt="img error" />
-              <div id="name">Thang Duong</div>
-              <div id="job-title">Character Artist</div>
-            </div>
-            <div id="andMore">AND MORE...</div>
           </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="container d-block">
           <div class="title">OUR ADVISORS</div>
           <div class="content-ourAdvisors">
             <div id="carousel-advisor" class="carousel slide mb-5" data-ride="carousel" data-interval="false">

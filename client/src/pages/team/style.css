@@ -42,11 +42,39 @@
   font: 700 40px 'Barlow';
 }
 
-#team #content-ourteam {
+#team .content-ourteam {
   margin-top: 90px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+#team .carousel-control-next {
+  background: white;
+  height: 74px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  width: 85px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#team  .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+#team  .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+#team .carousel-control-prev {
+  background: white;
+  height: 74px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  width: 85px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #team .content-ourteam-detail {
@@ -126,7 +154,8 @@
 #team .content-ourAdvisors .content-ourAdvisors-detail .icon-content {
   margin-top: 50px;
 }
-#team #andMore{
+
+#team #andMore {
   display: inline;
   text-align: center;
   font: 400 italic 35px 'Barlow';
@@ -288,12 +317,15 @@ a:hover {
   top: 50%;
   transform: translateY(-50%);
 }
+
 #team #cg3d-container .carousel-indicators {
   bottom: -15px;
 }
+
 #team #content-left {
   width: 50%;
 }
+
 #team #content-right {
   flex: 1;
 }
