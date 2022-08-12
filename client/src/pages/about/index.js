@@ -260,27 +260,30 @@ export default function About() {
               </div>
               <div id="element" class='item'>
                 <img src="images/Char_Perseus_front.png" alt="image error"></img>
-                <div class="title">Zeus</div>
+                <div class="title">Perseus</div>
                 <div class="content">
-                  God of All Gods
+                  Warrior and rescuer of Andromeda
                 </div>
                 <button class="button" type="button">COMING SOON </button>
               </div>
               <div id="element" class='item'>
                 <img src="images/Char_Phobos_front.png" alt="image error"></img>
-                <div class="title">Hades</div>
+                <div class="title">Thanatos</div>
                 <div class="content">
-                  God of the Underworld
+                  God of death
                 </div>
                 <button class="button" type="button">COMING SOON </button>
               </div>
               <div id="element" class='item'>
                 <img src="images/Char_Thanatos_front.png" alt="image error"></img>
-                <div class="title">Poseidon</div>
+                <div class="title">Phobos</div>
                 <div class="content">
-                  The God of the SEA
+                  God of Fear
                 </div>
                 <button class="button" type="button">COMING SOON </button>
+              </div>
+              <div id="element" style={{ height: 406 }} class='item'>
+                <div class="title">COMING SOON</div>
               </div>
             </OwlCarousel>
           </div>
