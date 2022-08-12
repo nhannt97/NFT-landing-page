@@ -169,28 +169,33 @@ export default function Home() {
                     <div class="w-50 p-5">
                       <Video id="video-1" src="videos/Zeus_Clip10s.mp4" type="video/mp4" width="100%" loop />
                     </div>
-                    <div class="w-50 p-5 d-flex align-items-center">
-                      <div class="video-upcomming text-center">COMING SOON </div>
+                    <div class="w-50 p-5 position-relative">
+                      <Video class="fake-video" id="video-1" src="videos/Zeus_Clip10s.mp4" type="video/mp4" width="100%" loop />
+                      <div class="video-upcomming d-flex align-items-center">COMING SOON </div>
                     </div>
                   </div>
                 </div>
                 <div key="element" class={`carousel-item position-relative`}>
                   <div class="d-flex">
-                    <div class="w-50 p-5">
-                      <div class=" d-flex align-items-center video-upcomming text-center" style={{ height: 438.4 }}>COMING SOON </div>
+                    <div class="w-50 p-5 position-relative">
+                      <Video class="fake-video" id="video-1" src="videos/Zeus_Clip10s.mp4" type="video/mp4" width="100%" loop />
+                      <div class=" d-flex align-items-center video-upcomming text-center" >COMING SOON </div>
                     </div>
-                    <div class="w-50 p-5">
-                      <div class=" d-flex align-items-center video-upcomming text-center" style={{ height: 438.4 }}>COMING SOON </div>
+                    <div class="w-50 p-5 position-relative">
+                      <Video class="fake-video" id="video-1" src="videos/Zeus_Clip10s.mp4" type="video/mp4" width="100%" loop />
+                      <div class=" d-flex align-items-center video-upcomming text-center" >COMING SOON </div>
                     </div>
                   </div>
                 </div>
                 <div key="element" class={`carousel-item position-relative`}>
                   <div class="d-flex">
-                    <div class="w-50 p-5">
-                      <div class=" d-flex align-items-center video-upcomming text-center" style={{ height: 438.4 }}>COMING SOON </div>
+                    <div class="w-50 p-5 position-relative">
+                      <Video class="fake-video" id="video-1" src="videos/Zeus_Clip10s.mp4" type="video/mp4" width="100%" loop />
+                      <div class=" d-flex align-items-center video-upcomming text-center" >COMING SOON </div>
                     </div>
-                    <div class="w-50 p-5">
-                      <div class=" d-flex align-items-center video-upcomming text-center" style={{ height: 438.4 }}>COMING SOON </div>
+                    <div class="w-50 p-5 position-relative">
+                      <Video class="fake-video" id="video-1" src="videos/Zeus_Clip10s.mp4" type="video/mp4" width="100%" loop />
+                      <div class=" d-flex align-items-center video-upcomming text-center" >COMING SOON </div>
                     </div>
                   </div>
                 </div>
@@ -230,9 +235,9 @@ export default function Home() {
                       <div class="carousel-item-detail">
                         <div class="d-flex align-items-center">
                           We will revolutionize gaming industry and aim to build the best gaming experience to players all over the world.
-                          <br/>
-                          <br/>
-                           Satisfying your hunger for entertainment, fame and glory while rewarding you generous bounty through crypto industry.</div>
+                          <br />
+                          <br />
+                          Satisfying your hunger for entertainment, fame and glory while rewarding you generous bounty through crypto industry.</div>
                       </div>
                     </div>
                     {/* <a class="carousel-control-prev" href="#carousel-vision-content" role="button" data-slide="prev">
@@ -262,7 +267,7 @@ export default function Home() {
           <div id="register-container">
             <div id="register-content">
               <div id="register-left">
-                <img src="images/Char_Builder.png" width="400" alt="" />
+                <img src="images/Char_Builder.png" alt="" />
               </div>
               <div id="register-right">
                 <div id="register">
