@@ -557,16 +557,16 @@ export default function About() {
                 <div id="carouselBotAboutBanner" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
+                      <img src="images/Rectangle 146.png" alt="" />
+                    </div>
+                    {/* <div class="carousel-item">
                       <img src="images/Frame 112.png" alt="" />
                     </div>
                     <div class="carousel-item">
                       <img src="images/Frame 112.png" alt="" />
-                    </div>
-                    <div class="carousel-item">
-                      <img src="images/Frame 112.png" alt="" />
-                    </div>
+                    </div> */}
                   </div>
-                  <div class="position-relative m-auto" style={{ width: 565 }}>
+                  <div class="position-relative m-auto d-flex justify-content-center">
                     <div class="carousel-control-prev" role="button" data-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="sr-only">Previous</span>

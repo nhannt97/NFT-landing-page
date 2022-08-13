@@ -25,9 +25,12 @@
   top: 20%;
   z-index: -1;
 }
+
 #about #banner-slide img {
   max-width: 730px;
+  margin-top: -50px;
 }
+
 #about #banner-slide .sub-bg-1 {
   background: radial-gradient(closest-side, rgba(255, 0, 0, 1.00) 0%, rgba(255, 0, 0, 0.3) 100%);
   border-radius: 50%;
@@ -38,28 +41,32 @@
   top: 20%;
   z-index: -1;
 }
+
 @media screen and (min-width: 1480px) {
   #about #banner-slide .sub-bg {
     right: 388px;
     width: 480px;
   }
+
   #about #banner-slide .sub-bg-1 {
     left: 270px;
     width: 519px;
     height: 510px
   }
 }
+
 #about #banner-slide {
   width: 100%;
 }
 
-#about #slide-background1{
+#about #slide-background1 {
   background-image: url('../../../public/images/Zeus.png');
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: right;
 }
-#about #slide-background2{
+
+#about #slide-background2 {
   background-image: url('../../../public/images/Hades.png');
   background-size: 60%;
   background-repeat: no-repeat;
@@ -69,10 +76,12 @@
 #about #banner-slide .carousel-inner {
   padding: 0 0px;
 }
+
 #about #banner-slide .carousel-inner .bg {
   /* background-color: rgba(255,255,255,0.6);
   z-index: -1; */
 }
+
 #about #banner-slide .carousel-control-next {
   background: black;
   height: 74px;
@@ -102,15 +111,17 @@
   justify-content: center;
 }
 
-#about #carouselAboutBanner .carousel-inner {
-}
+#about #carouselAboutBanner .carousel-inner {}
+
 #about #banner-slide .carousel-item>div.banner-text-container .container {
   justify-content: unset !important;
 }
+
 #about #banner-slide .carousel-item>div.banner-text-container {
   top: 0;
   left: 0;
 }
+
 .text-container-left {
   flex: 1
 }
@@ -438,6 +449,7 @@
   margin-top: 20px;
 
 }
+
 #about #zeus-hades-poseidon .owl-dots {
   display: none;
 }
@@ -531,11 +543,13 @@
   color: white;
   left: 286px;
   top: -57px;
-  margin-top: 65px;
+  margin-top: 10px;
+  margin-left: 15px;
+  position: unset
 }
 
 #about #news .carousel-control-prev {
-  margin-top: 65px;
+  margin-top: 10px;
   background: black;
   height: 50px;
   border-radius: 25px;
@@ -543,6 +557,8 @@
   color: white;
   left: 186px;
   top: -57px;
+  margin-right: 15px;
+  position: unset
 }
 
 #about .hero-container *,
@@ -586,6 +602,7 @@
   box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
   box-sizing: unset !important;
 }
+
 #cms {
   height: 370px !important;
   padding-top: 0px !important;
