@@ -21,9 +21,12 @@
   width: 35%;
   height: 60%;
   position: absolute;
-  right: 25%;
+  right: 18%;
   top: 20%;
   z-index: -1;
+}
+#about #banner-slide img {
+  max-width: 730px;
 }
 #about #banner-slide .sub-bg-1 {
   background: radial-gradient(closest-side, rgba(255, 0, 0, 1.00) 0%, rgba(255, 0, 0, 0.3) 100%);
@@ -31,11 +34,21 @@
   width: 35%;
   height: 70%;
   position: absolute;
-  left: 23%;
+  left: 18%;
   top: 20%;
   z-index: -1;
 }
-
+@media screen and (min-width: 1480px) {
+  #about #banner-slide .sub-bg {
+    right: 388px;
+    width: 480px;
+  }
+  #about #banner-slide .sub-bg-1 {
+    left: 270px;
+    width: 519px;
+    height: 510px
+  }
+}
 #about #banner-slide {
   width: 100%;
 }
@@ -46,13 +59,19 @@
   background-repeat: no-repeat;
   background-position: right;
 }
+#about #slide-background2{
+  background-image: url('../../../public/images/Hades.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
 
 #about #banner-slide .carousel-inner {
   padding: 0 0px;
 }
 #about #banner-slide .carousel-inner .bg {
-  background-color: rgba(255,255,255,0.6);
-  z-index: -1;
+  /* background-color: rgba(255,255,255,0.6);
+  z-index: -1; */
 }
 #about #banner-slide .carousel-control-next {
   background: black;

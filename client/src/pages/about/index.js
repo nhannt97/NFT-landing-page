@@ -62,10 +62,9 @@ export default function About() {
         <div id="banner-slide">
           <div id="carouselAboutBanner" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner postion-relative">
-              <div class="position-absolute w-100 h-100 bg"></div>
               <div class="carousel-item position-relative active text-right">
                 <div class="sub-bg"></div>
-                <img width="55%" src="images/Zeus.png" alt="" />
+                <img width="50%" src="images/Zeus.png" alt="" />
                 <div class=" banner-text-container position-absolute w-100 h-100">
                   <div class="container d-flex  text-left h-100">
                     <div class="text-container">
@@ -99,9 +98,9 @@ export default function About() {
                   </div>
                 </div>
               </div>
-              <div class="carousel-item position-relative text-left  ">
+              <div class="carousel-item position-relative text-left ">
                 <div class="sub-bg-1"></div>
-                <img width="55%" src="images/Hades.png" class="text-left" alt="" />
+                <img width="50%" src="images/Hades.png" class="text-left" alt="" />
                 <div class="banner-text-container position-absolute w-100 h-100">
                   <div class="container d-flex  text-left h-100">
                     <div class="text-container-left"></div>
@@ -327,7 +326,7 @@ export default function About() {
                     God of death
                   </div>
                   <button class="button" type="button">COMING SOON </button>
-                  </div>
+                </div>
               </div>
               <div id="element" class='slide'>
                 <div class="ele">
@@ -337,7 +336,7 @@ export default function About() {
                     God of Fear
                   </div>
                   <button class="button" type="button">COMING SOON </button>
-                  </div>
+                </div>
               </div>
               <div id="element" style={{ height: 404 }} class='item'>
                 <div class="ele h-100" id="cms" >
